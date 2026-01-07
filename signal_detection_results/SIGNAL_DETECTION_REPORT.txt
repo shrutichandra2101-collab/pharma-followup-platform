@@ -1,0 +1,204 @@
+======================================================================
+GEOSPATIAL SIGNAL DETECTION SYSTEM - FINAL REPORT
+======================================================================
+
+Generated: 2026-01-07 17:51:11
+
+PIPELINE STATISTICS
+----------------------------------------------------------------------
+Total cases processed: 5000
+Total unique batches: 3139
+Total clusters identified: 21
+Clustered cases: 108
+Noise points (potential outliers): 4892
+
+CLUSTERING QUALITY METRICS
+----------------------------------------------------------------------
+Silhouette Coefficient: 0.8501
+  (Range: -1 to 1, closer to 1 indicates better defined clusters)
+Davies-Bouldin Index: 0.1984
+  (Lower is better, <1.5 indicates excellent separation)
+Calinski-Harabasz Index: 401.88
+  (Higher indicates stronger, more separated clusters)
+
+BATCH ANOMALY DETECTION
+----------------------------------------------------------------------
+Total unique batches: 3139
+Flagged as high-risk (≥0.5): 0 (0.0%)
+Flagged as critical (≥0.7): 0 (0.0%)
+
+OUTLIER/NOISE ANALYSIS
+----------------------------------------------------------------------
+Total noise points: 4892 (97.8%)
+Average noise severity: 1.50
+Noise severity distribution:
+  Mild: 1242
+  Severe: 1236
+  Life-threatening: 1217
+  Moderate: 1197
+
+TOP 10 HIGH-RISK BATCHES
+----------------------------------------------------------------------
+
+1. Batch: BATCH_Site_E_Brazil_504
+   Risk Score: 0.300 (MEDIUM)
+   Cases: 1
+   Location: South_America
+   Drug: Omeprazole
+   Primary Event: Allergic_Reaction
+   Geographic Concentration: 0.00
+   Temporal Concentration: 0.00
+   Event Similarity: 1.00
+   Size Anomaly: 0.00
+
+2. Batch: BATCH_Site_D_China_630
+   Risk Score: 0.300 (MEDIUM)
+   Cases: 1
+   Location: North_America
+   Drug: Levothyroxine
+   Primary Event: Rash
+   Geographic Concentration: 0.00
+   Temporal Concentration: 0.00
+   Event Similarity: 1.00
+   Size Anomaly: 0.00
+
+3. Batch: BATCH_Site_A_Germany_698
+   Risk Score: 0.300 (MEDIUM)
+   Cases: 1
+   Location: North_America
+   Drug: Omeprazole
+   Primary Event: Stomach_Pain
+   Geographic Concentration: 0.00
+   Temporal Concentration: 0.00
+   Event Similarity: 1.00
+   Size Anomaly: 0.00
+
+4. Batch: BATCH_Site_A_Germany_184
+   Risk Score: 0.300 (MEDIUM)
+   Cases: 1
+   Location: North_America
+   Drug: Ibuprofen
+   Primary Event: Dizziness
+   Geographic Concentration: 0.00
+   Temporal Concentration: 0.00
+   Event Similarity: 1.00
+   Size Anomaly: 0.00
+
+5. Batch: BATCH_Site_D_China_460
+   Risk Score: 0.300 (MEDIUM)
+   Cases: 1
+   Location: South_America
+   Drug: Amoxicillin
+   Primary Event: Joint_Pain
+   Geographic Concentration: 0.00
+   Temporal Concentration: 0.00
+   Event Similarity: 1.00
+   Size Anomaly: 0.00
+
+6. Batch: BATCH_Site_C_USA_570
+   Risk Score: 0.300 (MEDIUM)
+   Cases: 1
+   Location: North_America
+   Drug: Ibuprofen
+   Primary Event: Dizziness
+   Geographic Concentration: 0.00
+   Temporal Concentration: 0.00
+   Event Similarity: 1.00
+   Size Anomaly: 0.00
+
+7. Batch: BATCH_Site_D_China_156
+   Risk Score: 0.300 (MEDIUM)
+   Cases: 1
+   Location: South_America
+   Drug: Omeprazole
+   Primary Event: Allergic_Reaction
+   Geographic Concentration: 0.00
+   Temporal Concentration: 0.00
+   Event Similarity: 1.00
+   Size Anomaly: 0.00
+
+8. Batch: BATCH_Site_B_India_007
+   Risk Score: 0.300 (MEDIUM)
+   Cases: 1
+   Location: Africa
+   Drug: Amoxicillin
+   Primary Event: Joint_Pain
+   Geographic Concentration: 0.00
+   Temporal Concentration: 0.00
+   Event Similarity: 1.00
+   Size Anomaly: 0.00
+
+9. Batch: BATCH_Site_E_Brazil_708
+   Risk Score: 0.300 (MEDIUM)
+   Cases: 1
+   Location: North_America
+   Drug: Ibuprofen
+   Primary Event: Dizziness
+   Geographic Concentration: 0.00
+   Temporal Concentration: 0.00
+   Event Similarity: 1.00
+   Size Anomaly: 0.00
+
+10. Batch: BATCH_Site_C_USA_435
+   Risk Score: 0.300 (MEDIUM)
+   Cases: 1
+   Location: North_America
+   Drug: Ibuprofen
+   Primary Event: Dizziness
+   Geographic Concentration: 0.00
+   Temporal Concentration: 0.00
+   Event Similarity: 1.00
+   Size Anomaly: 0.00
+
+TEMPORAL ANALYSIS
+----------------------------------------------------------------------
+cluster_0_lead_time_days: 11.20 days (early detection potential)
+cluster_1_lead_time_days: 8.40 days (early detection potential)
+cluster_2_lead_time_days: 11.67 days (early detection potential)
+cluster_3_lead_time_days: 11.20 days (early detection potential)
+cluster_4_lead_time_days: 9.33 days (early detection potential)
+cluster_5_lead_time_days: 11.20 days (early detection potential)
+cluster_6_lead_time_days: 11.20 days (early detection potential)
+cluster_7_lead_time_days: 11.20 days (early detection potential)
+cluster_8_lead_time_days: 11.20 days (early detection potential)
+cluster_9_lead_time_days: 11.20 days (early detection potential)
+cluster_10_lead_time_days: 11.20 days (early detection potential)
+cluster_11_lead_time_days: 11.20 days (early detection potential)
+cluster_12_lead_time_days: 8.40 days (early detection potential)
+cluster_13_lead_time_days: 11.20 days (early detection potential)
+cluster_14_lead_time_days: 5.60 days (early detection potential)
+cluster_15_lead_time_days: 2.80 days (early detection potential)
+cluster_16_lead_time_days: 11.20 days (early detection potential)
+cluster_17_lead_time_days: 11.20 days (early detection potential)
+cluster_18_lead_time_days: 9.33 days (early detection potential)
+cluster_19_lead_time_days: 5.60 days (early detection potential)
+cluster_20_lead_time_days: 5.60 days (early detection potential)
+
+KEY FINDINGS & RECOMMENDATIONS
+----------------------------------------------------------------------
+
+1. ALERT SUMMARY
+   - 0 critical batches detected
+   - 0 high-risk batches detected
+   - Recommend immediate investigation of critical batches
+
+2. GEOGRAPHIC PATTERNS
+   - Highest risk concentration in: Africa
+   - Recommend regional regulatory outreach
+
+3. EVENT PATTERNS
+   - Most frequent event type: Allergic_Reaction
+   - Recommend clinical review for pattern analysis
+
+4. EARLY DETECTION
+   - System can detect signals 9.6 days earlier than baseline
+   - Enables proactive intervention and monitoring
+
+5. MONITORING RECOMMENDATIONS
+   - Implement continuous surveillance for high-risk batches
+   - Monitor geographic clusters in Africa closely
+   - Consider batch-level restrictions or additional oversight
+
+======================================================================
+End of Report
+======================================================================
