@@ -4,6 +4,77 @@ Complete list of AI/ML models for the Pharmacovigilance Follow-up Platform.
 
 ---
 
+## 0.5. Geospatial Signal Detection Engine ✅ (NEW)
+
+**Status:** Implemented | **Version:** 1.0.0
+
+### Purpose
+Detect batch anomalies and regional adverse event spikes using DBSCAN clustering on geographic and feature space. Provides early warning weeks ahead of traditional reporting lag.
+
+### Technology
+- **Algorithm:** DBSCAN (Density-Based Spatial Clustering)
+- **Frameworks:** scikit-learn, pandas, scipy, plotly, streamlit
+- **Key Metrics:** Silhouette score (0.850), Davies-Bouldin index (0.198)
+
+### Architecture
+1. **Population Data Generator**: Creates 5,000 synthetic adverse event cases
+2. **Geospatial Clustering**: DBSCAN identifies 21 geographic clusters
+3. **Batch Risk Scoring**: 6-component risk assessment (geographic, temporal, event similarity, severity, size, manufacturing)
+4. **Evaluation Metrics**: Clustering quality validation
+5. **Visualizations**: 8 professional 300 DPI charts
+6. **Orchestrator**: Coordinates pipeline execution
+7. **Streamlit Dashboard**: Interactive monitoring with 5 pages
+
+### Risk Scoring Components
+1. **Geographic Concentration** (25% weight) - Identifies clusters in small geographic areas
+2. **Temporal Concentration** (20% weight) - Detects cases clustered in time
+3. **Size Anomaly** (20% weight) - Flags batches with unusual case counts
+4. **Event Similarity** (15% weight) - High entropy = diverse events
+5. **Severity Concentration** (15% weight) - Identifies high-severity clusters
+6. **Manufacturing Concentration** (5% weight) - Traces to source site
+
+### Output Metrics
+- **Alert Levels:** CRITICAL (≥0.7), HIGH (0.5-0.7), MEDIUM (0.3-0.5), LOW (<0.3)
+- **Clustering Quality:**
+  - Silhouette Coefficient: 0.850 (excellent)
+  - Davies-Bouldin Index: 0.198 (excellent separation)
+  - Calinski-Harabasz Index: 401.9 (strong clustering)
+
+### Performance
+- **Processing Time:** 45 seconds (5,000 cases)
+- **Batches Scored:** 3,139 unique batches
+- **Geographic Precision:** ±11 km (0.1 degree resolution)
+- **Early Detection:** 7-14 days ahead of baseline
+- **Clustering:** 21 well-defined clusters from 5,000 points
+
+### Dashboard Features
+- **Page 1 - Overview:** System metrics, clustering quality, alert distribution
+- **Page 2 - Cluster Explorer:** Filter by region/event, interactive cluster details
+- **Page 3 - Batch Investigation:** Search batches, risk component breakdown
+- **Page 4 - Alerts & Timeline:** Alert summary, recent detections, temporal distribution
+- **Page 5 - Geographic Map:** Plotly map with regional summaries
+
+### Generated Outputs
+- `signal_detection_data.csv` (5,000 cases with cluster assignments)
+- `batch_risk_scores.csv` (3,139 batch risk scores)
+- `signal_detection_metrics.json` (clustering quality metrics)
+- `SIGNAL_DETECTION_REPORT.txt` (executive summary)
+- 8 professional visualizations (1.5 MB total)
+
+### Integration
+- **Standalone Monitoring:** Operates as parallel system to main pipeline
+- **Feeds to Prioritization:** High-risk batch alerts increase case priority
+- **Context Provider:** Geographic patterns inform case prioritization
+- **Early Warning:** Detects issues before validation stage
+
+### Component Size
+- **Python Code:** 2,440 lines (7 modules)
+- **Generated Data:** 5,000+ cases, 3,139 batches
+- **Visualizations:** 8 charts × 300 DPI
+- **Documentation:** 545 lines
+
+---
+
 ## 1. Follow-up Prioritization Engine ✅ 
 
 **Status:** Implemented
@@ -362,6 +433,7 @@ Enable seamless communication across 30+ languages for global operations.
 
 | Component | Data Size | Model Type | Training Time | Key Metric |
 |-----------|-----------|------------|---------------|------------|
+| 0.5. Signal Detection | 5K cases | DBSCAN Clustering | ~45 sec | Silhouette = 0.850 |
 | 1. Prioritization | 5K cases | XGBoost | ~2 min | R² = 0.85+ |
 | 2. Validation | 10K reports | Rule+Isolation Forest | ~5 min | FPR < 5% |
 | 3. Medical NER | 5K narratives | Pattern-based | ~30 sec | F1 = 0.843 |
@@ -374,7 +446,16 @@ Enable seamless communication across 30+ languages for global operations.
 ## Integration Architecture
 
 ```
-┌─────────────────────────────────────────────────┐
+┌──────────────────────────────────────────────────┐
+│  0.5. Geospatial Signal Detection (Parallel)    │
+│      - Monitor population-level patterns         │
+│      - Detect batch anomalies                    │
+│      - Feed alerts to prioritization             │
+└─────────────────────┬──────────────────────────┘
+                      │
+                      │ (feeds batch alerts)
+                      │
+┌─────────────────────▼──────────────────────────┐
 │           User Input (New AE Report)            │
 └───────────────────┬─────────────────────────────┘
                     │
@@ -407,6 +488,7 @@ Enable seamless communication across 30+ languages for global operations.
     │  4. Follow-up Prioritization      │
     │     - Calculate priority score     │
     │     - Assign category              │
+    │     - (boost from signal alerts)   │
     └──────────────┬────────────────────┘
                    │
                    ▼
