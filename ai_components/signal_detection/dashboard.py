@@ -142,34 +142,65 @@ def render_overview(df, batch_scores, metrics):
     with col1:
         st.subheader("Silhouette Coefficient")
         silhouette = metrics['clustering_quality']['silhouette_coefficient']
-        st.gauge(
+        
+        fig_sil = go.Figure(go.Indicator(
+            mode="gauge+number",
             value=silhouette,
-            min_value=-1.0,
-            max_value=1.0,
-            title=f"{silhouette:.3f}"
-        )
+            title={'text': f"{silhouette:.3f}"},
+            domain={'x': [0, 1], 'y': [0, 1]},
+            gauge={'axis': {'range': [-1, 1]},
+                   'bar': {'color': "darkblue"},
+                   'steps': [
+                       {'range': [-1, -0.5], 'color': "lightgray"},
+                       {'range': [-0.5, 0], 'color': "lightgray"},
+                       {'range': [0, 0.5], 'color': "yellow"},
+                       {'range': [0.5, 1], 'color': "green"}],
+                   'threshold': {'line': {'color': "red"}, 'thickness': 4, 'value': 0.85}}
+        ))
+        fig_sil.update_layout(height=300)
+        st.plotly_chart(fig_sil, use_container_width=True)
         st.caption("Higher is better (-1 to 1)")
     
     with col2:
         st.subheader("Davies-Bouldin Index")
         dbi = metrics['clustering_quality']['davies_bouldin_index']
-        st.gauge(
+        
+        fig_dbi = go.Figure(go.Indicator(
+            mode="gauge+number",
             value=min(dbi, 3),
-            min_value=0,
-            max_value=3,
-            title=f"{dbi:.3f}"
-        )
-        st.caption("Lower is better")
+            title={'text': f"{dbi:.3f}"},
+            domain={'x': [0, 1], 'y': [0, 1]},
+            gauge={'axis': {'range': [0, 3]},
+                   'bar': {'color': "darkblue"},
+                   'steps': [
+                       {'range': [0, 1], 'color': "green"},
+                       {'range': [1, 1.5], 'color': "yellow"},
+                       {'range': [1.5, 3], 'color': "lightgray"}],
+                   'threshold': {'line': {'color': "red"}, 'thickness': 4, 'value': 1.5}}
+        ))
+        fig_dbi.update_layout(height=300)
+        st.plotly_chart(fig_dbi, use_container_width=True)
+        st.caption("Lower is better (<1.5 excellent)")
     
     with col3:
         st.subheader("Calinski-Harabasz Index")
         chi = metrics['clustering_quality']['calinski_harabasz_index']
-        st.gauge(
-            value=min(chi / 500, 1.0),  # Normalized for display
-            min_value=0,
-            max_value=1,
-            title=f"{chi:.1f}"
-        )
+        
+        fig_chi = go.Figure(go.Indicator(
+            mode="gauge+number",
+            value=min(chi, 500),
+            title={'text': f"{chi:.1f}"},
+            domain={'x': [0, 1], 'y': [0, 1]},
+            gauge={'axis': {'range': [0, 500]},
+                   'bar': {'color': "darkblue"},
+                   'steps': [
+                       {'range': [0, 100], 'color': "lightgray"},
+                       {'range': [100, 300], 'color': "yellow"},
+                       {'range': [300, 500], 'color': "green"}],
+                   'threshold': {'line': {'color': "red"}, 'thickness': 4, 'value': 300}}
+        ))
+        fig_chi.update_layout(height=300)
+        st.plotly_chart(fig_chi, use_container_width=True)
         st.caption("Higher is better")
     
     st.divider()
