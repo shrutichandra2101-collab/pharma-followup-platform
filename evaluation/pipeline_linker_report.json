@@ -1,0 +1,69 @@
+{
+  "pipeline_name": "End-to-End Component Linker (1\u21922\u21923)",
+  "execution_date": "2026-01-07T16:31:05.591934",
+  "metrics": {
+    "stage_1_records_in": 1000,
+    "stage_1_records_out": 1000,
+    "stage_2_records_in": 1000,
+    "stage_2_records_out": 1000,
+    "total_records_processed": 1000,
+    "pipeline_duration_seconds": 0.031519,
+    "records_per_second": 31726.894888797236,
+    "timestamp": "2026-01-07T16:31:05.591167",
+    "avg_quality_score": 79.53878204934293,
+    "avg_completeness": 77.68479137673832,
+    "avg_questionnaire_priority": 0.0984,
+    "validation_status_distribution": {
+      "ACCEPT": 340,
+      "CONDITIONAL_ACCEPT": 260,
+      "REVIEW": 251,
+      "REJECT": 149
+    },
+    "questionnaire_type_distribution": {
+      "quick_verification": 340,
+      "targeted_followup": 260,
+      "comprehensive_followup": 251,
+      "detailed_investigation": 149
+    },
+    "difficulty_distribution": {
+      "Easy": 504,
+      "Medium": 496
+    },
+    "avg_expected_completion_minutes": 6.8366999999999996
+  },
+  "linker_schemas": {
+    "stage_1_output": {
+      "case_id": "str",
+      "priority_score": "float",
+      "follow_up_urgency": "float",
+      "estimated_response_time_hours": "float",
+      "reporter_reliability": "float",
+      "regional_significance": "float",
+      "regulatory_deadline": "date",
+      "prioritization_score": "float",
+      "requires_urgent_review": "int",
+      "validation_category": "str",
+      "validation_urgency": "float",
+      "source_component": "str",
+      "linker_timestamp": "datetime",
+      "linker_version": "str"
+    },
+    "stage_2_output": {
+      "case_id": "str",
+      "validation_status": "str",
+      "quality_score": "float",
+      "completeness_score": "float",
+      "missing_fields": "list",
+      "anomaly_risk": "str",
+      "anomaly_risk_numeric": "int",
+      "questionnaire_type": "str",
+      "fields_by_category": "dict",
+      "expected_difficulty": "str",
+      "expected_completion_minutes": "float",
+      "questionnaire_priority": "float",
+      "source_component": "str",
+      "linker_timestamp": "datetime",
+      "linker_version": "str"
+    }
+  }
+}
