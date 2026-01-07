@@ -1,0 +1,28 @@
+{
+  "validation_metrics": {
+    "precision": 1.0,
+    "recall": 0.8247803975959316,
+    "f1": 0.9039777045857613,
+    "accuracy": 0.9621,
+    "false_positive_rate": 0.0,
+    "true_positive_rate": 0.8247803975959316,
+    "confusion_matrix": [
+      [
+        7837,
+        0
+      ],
+      [
+        379,
+        1784
+      ]
+    ]
+  },
+  "anomaly_metrics": {
+    "precision": 0.9913793103448276,
+    "recall": 0.21266759130836801,
+    "f1": 0.35020936429387134,
+    "accuracy": 0.8293,
+    "false_positive_rate": 0.0005103993875207349,
+    "true_positive_rate": 0.21266759130836801
+  }
+}
