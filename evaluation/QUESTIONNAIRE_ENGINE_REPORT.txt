@@ -1,0 +1,61 @@
+SMART FOLLOW-UP QUESTIONNAIRE GENERATOR - REPORT
+======================================================================
+
+OVERVIEW
+----------------------------------------------------------------------
+Training Cases: 3200
+Test Cases: 800
+Total Questions in Bank: 39
+
+QUESTION BANK SUMMARY
+----------------------------------------------------------------------
+Patient Info        : 8 questions
+Safety              : 10 questions
+Medical History     : 4 questions
+Causality           : 3 questions
+Efficacy            : 5 questions
+Medication          : 9 questions
+
+FIELD COVERAGE RESULTS
+----------------------------------------------------------------------
+Average Field Coverage: 52.2%
+Full Coverage Rate: 24.6%
+
+RESPONSE QUALITY RESULTS
+----------------------------------------------------------------------
+Average Completion Rate: 70.2%
+Average Response Quality: 3.47/5
+Average Satisfaction: 3.47/5
+High Quality Rate: 49.2%
+
+ROI ANALYSIS
+----------------------------------------------------------------------
+Average ROI: 75.8
+High ROI Cases: 36.6%
+
+PERFORMANCE BY VALIDATION STATUS
+----------------------------------------------------------------------
+
+REJECT:
+  Count: 160
+  Avg Effectiveness: 69.9/100
+  Time to Complete: 7.1 min
+  Satisfaction: 3.46/5
+
+CONDITIONAL_ACCEPT:
+  Count: 160
+  Avg Effectiveness: 74.8/100
+  Time to Complete: 7.2 min
+  Satisfaction: 3.44/5
+
+ACCEPT:
+  Count: 288
+  Avg Effectiveness: 77.4/100
+  Time to Complete: 7.3 min
+  Satisfaction: 3.50/5
+
+REVIEW:
+  Count: 192
+  Avg Effectiveness: 70.2/100
+  Time to Complete: 7.0 min
+  Satisfaction: 3.44/5

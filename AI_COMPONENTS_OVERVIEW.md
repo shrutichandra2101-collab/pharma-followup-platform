@@ -99,7 +99,88 @@ Automatically identify missing, inconsistent, or anomalous information in advers
 
 ---
 
-## 3. Medical NER (Named Entity Recognition)
+## 3. Smart Follow-Up Questionnaire Generator ✅
+
+**Status:** Implementing
+
+### Purpose
+Generate adaptive, intelligent follow-up questionnaires based on validation gaps and anomalies detected in adverse event reports. Dynamically selects the most relevant questions to gather missing critical information.
+
+### Components
+
+#### 3.1 Question Bank
+- **Pre-defined Questions:** 100+ clinical questions across categories
+- **Organization:** By medical topic (Safety, Efficacy, Patient Info, Medical History)
+- **Metadata:** Difficulty level, time estimate, field targets, conditional logic
+- **Levels:** Basic (all users) vs Advanced (medical professionals)
+
+#### 3.2 Smart Selection Engine
+- **Decision Trees:** Map validation gaps → relevant questions
+- **Rule-based Logic:** IF missing_causality AND high_severity THEN include_causality_questions
+- **Relevance Scoring:** Logistic regression predicts question usefulness
+- **Priority Ranking:** Multi-factor scoring (information_value × clinical_importance × difficulty)
+
+#### 3.3 Questionnaire Builder
+- **Adaptive Branching:** Skip irrelevant sections based on case profile
+- **Context Embedding:** Include details from validation/prioritization results
+- **Time Estimation:** Predict completion time
+- **Language Support:** Integrate with translation pipeline
+
+#### 3.4 Response Quality Prediction
+- **Model:** Logistic regression on historical responses
+- **Features:** Question relevance, user expertise, case complexity
+- **Output:** Probability that question will yield useful information
+
+### Training Data
+- **Size:** 5,000 synthetic follow-up cases with questionnaire responses
+- **Features:**
+  - From validation: missing_fields, quality_score, anomaly_risk, error_types
+  - From prioritization: priority_score, severity_level
+  - Question attributes: topic, difficulty, field_targets, time_estimate
+  - Response data: was_answered, usefulness_score, clarity_feedback
+- **Ground Truth:** Effectiveness score (0-100) for each questionnaire
+
+### Target Variable
+- **Questions Effectiveness:** 0-100 (weighted by completeness of critical fields obtained)
+- **Response Quality:** 1-5 rating (1=unusable, 5=excellent data)
+- **Information Completeness:** % of critical data obtained from responses
+- **User Satisfaction:** Ease of understanding + time to complete
+
+### Performance Metrics
+- **Selection Accuracy:** Precision/Recall for predicting useful questions
+- **Coverage:** % of critical fields addressed by questionnaire
+- **Efficiency:** Information value vs estimated time cost (ROI)
+- **Response Rate:** % of questions answered (by question + by user type)
+- **Quality:** Average response quality rating
+
+### Technology
+- **Decision Trees:** scikit-learn DecisionTreeClassifier for gap mapping
+- **Logistic Regression:** Relevance scoring and response prediction
+- **K-Means Clustering:** Pattern recognition of case types
+- **Multi-factor Ranking:** Custom algorithm (information_value × clinical_importance × (1 - difficulty))
+
+### Output Files
+- `data/processed/questionnaire_train.csv` - Training cases with gaps
+- `data/processed/questionnaire_test.csv` - Test cases
+- `data/models/selector_decision_tree.pkl` - Question selection model
+- `data/models/relevance_scorer.pkl` - Relevance scoring model
+- `data/models/response_predictor.pkl` - Response quality model
+- `evaluation/questionnaire_metrics.json` - Performance metrics
+- `evaluation/questionnaire_visualizations/` - 8 PNG charts (300 DPI)
+
+### Visualizations
+1. **Question Coverage Heatmap** - Which questions cover which fields
+2. **Relevance Distribution** - Histogram of predicted relevance scores
+3. **Field-to-Question Network** - Network diagram of mappings
+4. **Effectiveness by Category** - Bar chart (Safety/Efficacy/Patient Info)
+5. **Response Rates** - Which questions get answered most
+6. **Time Distribution** - Histogram of completion times
+7. **Field Coverage** - % of cases where critical field gets addressed
+8. **ROI Analysis** - Information value vs time cost scatter plot
+
+---
+
+## 5. Medical NER (Named Entity Recognition)
 
 **Status:** To be implemented
 
@@ -151,7 +232,7 @@ Extract structured information from free-text narrative fields to auto-populate 
 
 ---
 
-## 4. Predictive Response Model
+## 6. Predictive Response Model
 
 **Status:** To be implemented
 
@@ -190,7 +271,7 @@ Optimize outreach strategy (email vs phone, timing, persistence level).
 
 ---
 
-## 5. Multilingual Translation Pipeline
+## 7. Multilingual Translation Pipeline
 
 **Status:** To be implemented
 
@@ -245,9 +326,10 @@ Enable seamless communication across 30+ languages for global operations.
 |-----------|-----------|------------|---------------|------------|
 | 1. Prioritization | 5K cases | XGBoost | ~2 min | R² = 0.85+ |
 | 2. Validation | 10K reports | Rule+Isolation Forest | ~5 min | FPR < 5% |
-| 3. Medical NER | 5K narratives | BioBERT fine-tune | ~2 hours (GPU) | F1 = 0.90+ |
-| 4. Response Prediction | 15K attempts | LightGBM | ~3 min | AUC = 0.75+ |
-| 5. Translation | N/A (API) | Cloud API | Real-time | BLEU > 0.40 |
+| 3. Questionnaire | 5K cases | Decision Tree+Logistic Reg | ~3 min | Coverage > 90% |
+| 4. Medical NER | 5K narratives | BioBERT fine-tune | ~2 hours (GPU) | F1 = 0.90+ |
+| 5. Response Prediction | 15K attempts | LightGBM | ~3 min | AUC = 0.75+ |
+| 6. Translation | N/A (API) | Cloud API | Real-time | BLEU > 0.40 |
 
 ---
 
@@ -268,28 +350,36 @@ Enable seamless communication across 30+ languages for global operations.
                    │
                    ▼
     ┌───────────────────────────────────┐
-    │  2. Medical NER (if free text)    │
+    │  2. Smart Questionnaire Generation│
+    │     - Identify gaps                │
+    │     - Select relevant questions    │
+    │     - Estimate completion time     │
+    └──────────────┬────────────────────┘
+                   │
+                   ▼
+    ┌───────────────────────────────────┐
+    │  3. Medical NER (if free text)    │
     │     - Extract entities             │
     │     - Auto-populate fields         │
     └──────────────┬────────────────────┘
                    │
                    ▼
     ┌───────────────────────────────────┐
-    │  3. Follow-up Prioritization      │
+    │  4. Follow-up Prioritization      │
     │     - Calculate priority score     │
     │     - Assign category              │
     └──────────────┬────────────────────┘
                    │
                    ▼
     ┌───────────────────────────────────┐
-    │  4. Response Prediction           │
+    │  5. Response Prediction           │
     │     - Estimate response likelihood │
     │     - Suggest contact strategy     │
     └──────────────┬────────────────────┘
                    │
                    ▼
     ┌───────────────────────────────────┐
-    │  5. Translation (if non-English)  │
+    │  6. Translation (if non-English)  │
     │     - Translate follow-up message  │
     │     - Preserve medical terms       │
     └──────────────┬────────────────────┘
@@ -326,12 +416,13 @@ Enable seamless communication across 30+ languages for global operations.
 ## Next Steps
 
 1. ✅ **Prioritization Engine** - Complete
-2. **Validation Engine** - Implement rule-based + anomaly detection
-3. **Medical NER** - Prepare annotated dataset, fine-tune BioBERT
-4. **Response Prediction** - Generate training data, train classifier
-5. **Unified Dashboard** - Streamlit app to visualize all model metrics
-6. **API Development** - FastAPI endpoints for production use
-7. **Testing & Validation** - End-to-end testing with synthetic cases
-8. **Documentation** - API docs, deployment guide
+2. ✅ **Validation Engine** - Complete
+3. **Questionnaire Generator** - Implementing
+4. **Medical NER** - Prepare annotated dataset, fine-tune BioBERT
+5. **Response Prediction** - Generate training data, train classifier
+6. **Unified Dashboard** - Streamlit app to visualize all model metrics
+7. **API Development** - FastAPI endpoints for production use
+8. **Testing & Validation** - End-to-end testing with synthetic cases
+9. **Documentation** - API docs, deployment guide
 
 Would you like to proceed with building the next component?

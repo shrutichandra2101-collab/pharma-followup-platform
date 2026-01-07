@@ -1,0 +1,126 @@
+{
+  "timestamp": "2026-01-07T16:10:52.819918",
+  "test_set_size": 800,
+  "num_profiles": 6,
+  "num_statuses": 4,
+  "overall_metrics": {
+    "effectiveness": {
+      "mean_absolute_error": 0.0,
+      "root_mean_squared_error": 0.0,
+      "accuracy_within_10": 1
+    },
+    "coverage": {
+      "average_field_coverage": 0.521558872305141,
+      "full_coverage_rate": 0.24625
+    },
+    "roi": {
+      "average_roi": 75.79155251166019,
+      "median_roi": 68.96629213483146,
+      "roi_std": 34.35183408357537,
+      "high_roi_percentage": 0.36625
+    },
+    "response_quality": {
+      "average_completion_rate": 0.70212375,
+      "average_response_quality": 3.4659874999999998,
+      "average_satisfaction": 3.4675,
+      "high_quality_percentage": 0.4925
+    },
+    "selection_precision": {
+      "selection_accuracy": 0.73665575,
+      "useful_question_rate": 0.28804211581850087
+    }
+  },
+  "analysis_by_profile": {
+    "Anomalous": {
+      "count": 73,
+      "avg_effectiveness": 71.78780821917807,
+      "avg_completion_rate": 0.567041095890411,
+      "avg_satisfaction": 3.5115068493150687,
+      "avg_time_minutes": 6.820776255707762,
+      "high_quality_rate": 0.0
+    },
+    "Missing_Multiple": {
+      "count": 114,
+      "avg_effectiveness": 71.06263157894736,
+      "avg_completion_rate": 0.5802280701754386,
+      "avg_satisfaction": 3.4794736842105265,
+      "avg_time_minutes": 6.96374269005848,
+      "high_quality_rate": 0.0
+    },
+    "Missing_Patient": {
+      "count": 125,
+      "avg_effectiveness": 82.65232000000002,
+      "avg_completion_rate": 0.733472,
+      "avg_satisfaction": 3.5831200000000005,
+      "avg_time_minutes": 7.267066666666667,
+      "high_quality_rate": 0.64
+    },
+    "Missing_Safety": {
+      "count": 176,
+      "avg_effectiveness": 72.87386363636364,
+      "avg_completion_rate": 0.7445624999999999,
+      "avg_satisfaction": 3.4473863636363635,
+      "avg_time_minutes": 7.1402462121212125,
+      "high_quality_rate": 0.625
+    },
+    "Missing_Efficacy": {
+      "count": 115,
+      "avg_effectiveness": 79.9564347826087,
+      "avg_completion_rate": 0.7400782608695652,
+      "avg_satisfaction": 3.4575652173913047,
+      "avg_time_minutes": 7.419420289855072,
+      "high_quality_rate": 0.6869565217391305
+    },
+    "Complete": {
+      "count": 197,
+      "avg_effectiveness": 67.20040609137057,
+      "avg_completion_rate": 0.742756345177665,
+      "avg_satisfaction": 3.3946700507614214,
+      "avg_time_minutes": 7.152030456852791,
+      "high_quality_rate": 0.6345177664974619
+    }
+  },
+  "analysis_by_status": {
+    "REJECT": {
+      "count": 160,
+      "avg_effectiveness": 69.9399375,
+      "avg_time_minutes": 7.0746875,
+      "avg_satisfaction": 3.4606875
+    },
+    "CONDITIONAL_ACCEPT": {
+      "count": 160,
+      "avg_effectiveness": 74.7803125,
+      "avg_time_minutes": 7.194895833333334,
+      "avg_satisfaction": 3.4409374999999995
+    },
+    "ACCEPT": {
+      "count": 288,
+      "avg_effectiveness": 77.41961805555555,
+      "avg_time_minutes": 7.285590277777778,
+      "avg_satisfaction": 3.503298611111111
+    },
+    "REVIEW": {
+      "count": 192,
+      "avg_effectiveness": 70.21026041666666,
+      "avg_time_minutes": 6.966927083333333,
+      "avg_satisfaction": 3.441614583333333
+    }
+  },
+  "analysis_by_difficulty": {
+    "2-3": {
+      "count": 208,
+      "avg_effectiveness": 78.17610576923076,
+      "avg_time_minutes": 7.231169871794872
+    },
+    "-0-2": {
+      "count": 410,
+      "avg_effectiveness": 70.36192682926828,
+      "avg_time_minutes": 7.122764227642277
+    },
+    "3-9": {
+      "count": 182,
+      "avg_effectiveness": 75.95296703296704,
+      "avg_time_minutes": 7.113278388278388
+    }
+  }
+}
