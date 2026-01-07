@@ -1,0 +1,145 @@
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║              PRIORITIZATION MODEL - PERFORMANCE REPORT                     ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+SUMMARY:
+--------
+This report contains comprehensive performance metrics and visualizations for
+the XGBoost-based Follow-up Prioritization Model.
+
+The model consists of two components:
+  1. REGRESSION: Predicts continuous priority scores (1-10)
+  2. CLASSIFICATION: Assigns priority categories (Low/Medium/High/Critical)
+
+KEY PERFORMANCE INDICATORS:
+---------------------------
+✓ Regression RMSE (Root Mean Squared Error): Lower is better (target: ≤ 0.50)
+✓ Regression MAE (Mean Absolute Error): Lower is better (target: ≤ 0.40)
+✓ Regression R² Score: Higher is better (target: ≥ 0.85)
+✓ Classification Accuracy: % of cases correctly categorized (target: ≥ 85%)
+✓ Macro F1-Score: Balanced performance across categories (target: ≥ 0.85)
+
+VISUALIZATIONS GENERATED:
+-------------------------
+1. prioritization_regression.png
+   - Actual vs Predicted scatter plot
+   - Residual plot
+
+2. prioritization_classification_confusion_matrix.png
+   - Confusion matrix for category predictions
+   - Shows which categories are most confused
+
+3. prioritization_feature_importance.png
+   - Top features driving the model
+   - Which factors matter most
+
+4. prioritization_metrics_table.png (NEW)
+   - Summary of all key metrics
+   - Easy reference table
+
+5. prioritization_per_category_metrics.png (NEW)
+   - Precision, Recall, F1 per category
+   - Support (sample count) per category
+
+6. prioritization_prediction_distribution.png (NEW)
+   - Histogram of actual scores
+   - Histogram of predicted scores
+   - Shows distribution overlap
+
+7. prioritization_error_analysis.png (NEW)
+   - Error by actual score
+   - Error distribution
+   - Cumulative errors
+   - Errors by priority range
+
+8. prioritization_category_distribution.png (NEW)
+   - Actual vs Predicted category counts
+   - Shows any systematic bias
+
+9. prioritization_calibration.png (NEW)
+   - Model calibration analysis
+   - Are predicted scores reliable?
+
+10. prioritization_top_features.png (NEW)
+    - Top 15 most important features
+    - Visual ranking of importance
+
+MODEL COMPONENTS:
+-----------------
+REGRESSION MODEL (Priority Score):
+  - Objective: Predict continuous priority score (1-10)
+  - Algorithm: XGBoost regression
+  - Hyperparameters: max_depth=6, learning_rate=0.1
+  - Early stopping: Enabled (20 rounds patience)
+
+CLASSIFICATION MODEL (Priority Category):
+  - Objective: Predict category (Low/Medium/High/Critical)
+  - Algorithm: XGBoost multi-class classification
+  - Classes: 4 (Low, Medium, High, Critical)
+  - Hyperparameters: max_depth=5, learning_rate=0.1
+
+INPUT FEATURES (13 TOTAL):
+---------------------------
+Medical & Clinical:
+  • is_serious: Whether case meets seriousness criteria
+  • seriousness_score: 1-10 scale of medical severity
+  • event_type: Category of adverse event (cardiac, GI, etc.)
+
+Data Quality:
+  • completeness_pct: % of mandatory fields filled
+
+Temporal:
+  • days_since_report: How long ago case was reported
+  • days_to_deadline: Days remaining until regulatory deadline
+
+Reporter Context:
+  • reporter_type: HCP, patient, pharmacist, etc.
+  • reporter_reliability: Historical accuracy score
+  • region: Geographic region
+  • regulatory_strictness: Regulatory environment strictness
+
+History & Baseline:
+  • num_followup_attempts: Previous follow-up attempts
+  • seriousness_type: Specific seriousness criterion
+  • historical_response_rate: Expected response rate
+
+OUTPUT TARGETS:
+----------------
+Primary Output (Regression):
+  • Priority Score: 1-10 continuous value
+    - 1-3: Low (can wait)
+    - 4-6: Medium (routine priority)
+    - 7-8: High (expedite)
+    - 9-10: Critical (immediate)
+
+Secondary Output (Classification):
+  • Priority Category: Discrete label
+    - Low / Medium / High / Critical
+
+RECOMMENDATIONS:
+-----------------
+1. Focus on High and Critical cases first (highest impact)
+2. Monitor performance drift over time
+3. Re-train model quarterly with new data
+4. Consider feature importance when collecting new data
+5. Use confidence scores for borderline cases
+
+FILES GENERATED:
+-----------------
+Model Files:
+  ✓ data/models/prioritization_regression.json
+  ✓ data/models/prioritization_classification.json
+  ✓ data/models/prioritization_encoders.pkl
+
+Data Files:
+  ✓ data/processed/prioritization_train.csv
+  ✓ data/processed/prioritization_test.csv
+
+Metrics & Visualizations:
+  ✓ evaluation/prioritization_metrics.json
+  ✓ evaluation/prioritization_*.png (10 visualization files)
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                    END OF PERFORMANCE REPORT                              ║
+╚════════════════════════════════════════════════════════════════════════════╝

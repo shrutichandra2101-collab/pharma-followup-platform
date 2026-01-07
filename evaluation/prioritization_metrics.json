@@ -1,0 +1,25 @@
+{
+  "regression": {
+    "rmse": 0.542364394921191,
+    "mae": 0.4357549095249176,
+    "r2": 0.8490211824437224
+  },
+  "classification": {
+    "accuracy": 0.828
+  },
+  "feature_importance": {
+    "is_serious": 11.23530865683049,
+    "seriousness_score": 42.15797827052583,
+    "completeness_pct": 27.920499136576233,
+    "days_since_report": 5.363267548760027,
+    "days_to_deadline": 12.387942038791032,
+    "reporter_reliability": 0.2509572827093153,
+    "regulatory_strictness": 0.006654497412487413,
+    "num_followup_attempts": 0.0,
+    "historical_response_rate": 0.08017258056735356,
+    "reporter_type_encoded": 0.0,
+    "region_encoded": 0.0,
+    "event_type_encoded": 0.2180913812010259,
+    "seriousness_type_encoded": 0.37912860662620823
+  }
+}

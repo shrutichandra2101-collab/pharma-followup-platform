@@ -1,0 +1,1001 @@
+case_id,is_serious,seriousness_type,seriousness_score,completeness_pct,days_since_report,days_to_deadline,reporter_type,reporter_reliability,region,regulatory_strictness,event_type,num_followup_attempts,historical_response_rate,priority_score,priority_category
+CASE-000001,1,Life-threatening,9,30.0,42,30,Consumer,0.584,North America,0.9,Gastrointestinal Disorders,2,0.726,6.35,High
+CASE-000002,0,Non-serious,3,50.0,64,41,Consumer,0.569,North America,0.9,Skin Disorders,3,0.744,2.76,Low
+CASE-000003,0,Non-serious,2,50.0,69,3,Healthcare Professional,0.774,Middle East,0.5,Cardiac Disorders,3,0.206,3.29,Low
+CASE-000004,0,Non-serious,2,70.0,64,42,Pharmacist,0.911,Asia-Pacific,0.7,Hepatic Disorders,2,0.403,1.63,Low
+CASE-000005,0,Non-serious,2,80.0,56,18,Consumer,0.31,Europe,0.95,Nervous System Disorders,0,0.568,3.56,Low
+CASE-000006,1,Disability,8,70.0,17,42,Healthcare Professional,0.707,Latin America,0.6,Psychiatric Disorders,1,0.765,2.32,Low
+CASE-000007,0,Non-serious,1,90.0,79,4,Pharmacist,0.915,Middle East,0.5,Blood Disorders,0,0.576,2.86,Low
+CASE-000008,1,Life-threatening,9,80.0,46,22,Consumer,0.392,North America,0.9,Respiratory Disorders,1,0.763,5.47,Medium
+CASE-000009,0,Non-serious,4,80.0,67,35,Patient,0.566,Europe,0.95,Hepatic Disorders,0,0.333,2.85,Low
+CASE-000010,1,Congenital Anomaly,8,50.0,28,39,Pharmacist,0.879,North America,0.9,Skin Disorders,0,0.754,4.44,Medium
+CASE-000011,0,Non-serious,4,50.0,35,11,Consumer,0.539,Europe,0.95,Gastrointestinal Disorders,0,0.225,4.36,Medium
+CASE-000012,0,Non-serious,4,30.0,47,22,Other HCP,0.618,Middle East,0.5,Blood Disorders,7,0.561,4.34,Medium
+CASE-000013,0,Non-serious,1,70.0,21,42,Other HCP,0.654,Middle East,0.5,Gastrointestinal Disorders,1,0.735,1.87,Low
+CASE-000014,1,Other Medically Important,6,40.0,62,19,Patient,0.658,Middle East,0.5,Respiratory Disorders,0,0.203,5.56,Medium
+CASE-000015,0,Non-serious,4,50.0,33,13,Consumer,0.389,North America,0.9,Cardiac Disorders,2,0.588,4.35,Medium
+CASE-000016,0,Non-serious,3,80.0,80,17,Consumer,0.323,North America,0.9,Cardiac Disorders,0,0.665,3.73,Low
+CASE-000017,1,Death,10,60.0,12,30,Other HCP,0.763,Asia-Pacific,0.7,Blood Disorders,2,0.214,4.82,Medium
+CASE-000018,1,Congenital Anomaly,8,60.0,38,26,Consumer,0.521,Africa,0.5,Renal Disorders,0,0.223,5.11,Medium
+CASE-000019,1,Disability,8,80.0,20,44,Pharmacist,0.756,Europe,0.95,Respiratory Disorders,2,0.402,3.7,Low
+CASE-000020,0,Non-serious,2,40.0,18,11,Pharmacist,0.792,North America,0.9,Other,3,0.659,2.85,Low
+CASE-000021,0,Non-serious,2,80.0,18,16,Healthcare Professional,0.904,Latin America,0.6,Gastrointestinal Disorders,1,0.643,1.94,Low
+CASE-000022,0,Non-serious,2,70.0,59,9,Pharmacist,0.907,Latin America,0.6,Blood Disorders,0,0.274,3.22,Low
+CASE-000023,1,Disability,8,30.0,68,7,Patient,0.405,Middle East,0.5,Other,1,0.4,6.16,High
+CASE-000024,0,Non-serious,3,70.0,48,17,Other HCP,0.607,Africa,0.5,Blood Disorders,1,0.263,3.9,Low
+CASE-000025,0,Non-serious,4,20.0,85,23,Patient,0.415,Asia-Pacific,0.7,Respiratory Disorders,2,0.564,5.77,Medium
+CASE-000026,0,Non-serious,3,90.0,19,2,Pharmacist,0.883,Middle East,0.5,Renal Disorders,2,0.304,2.7,Low
+CASE-000027,0,Non-serious,3,30.0,5,13,Other HCP,0.707,Asia-Pacific,0.7,Renal Disorders,1,0.293,4.47,Medium
+CASE-000028,0,Non-serious,4,80.0,5,42,Other HCP,0.783,Africa,0.5,Other,1,0.471,2.52,Low
+CASE-000029,0,Non-serious,1,50.0,85,1,Patient,0.528,Latin America,0.6,Cardiac Disorders,3,0.305,3.76,Low
+CASE-000030,0,Non-serious,4,50.0,70,3,Pharmacist,0.828,Asia-Pacific,0.7,Blood Disorders,1,0.207,4.14,Medium
+CASE-000031,1,Other Medically Important,6,70.0,63,38,Pharmacist,0.904,Europe,0.95,Respiratory Disorders,0,0.519,3.45,Low
+CASE-000032,0,Non-serious,3,20.0,69,5,Patient,0.445,Africa,0.5,Blood Disorders,1,0.483,4.9,Medium
+CASE-000033,1,Other Medically Important,6,90.0,41,11,Consumer,0.555,Europe,0.95,Psychiatric Disorders,2,0.493,3.17,Low
+CASE-000034,0,Non-serious,1,50.0,70,6,Patient,0.6,Latin America,0.6,Psychiatric Disorders,0,0.312,4.05,Medium
+CASE-000035,0,Non-serious,1,30.0,15,30,Patient,0.698,North America,0.9,Gastrointestinal Disorders,0,0.765,3.43,Low
+CASE-000036,0,Non-serious,4,70.0,77,29,Other HCP,0.839,Middle East,0.5,Cardiac Disorders,1,0.221,2.68,Low
+CASE-000037,0,Non-serious,4,50.0,11,12,Patient,0.422,Africa,0.5,Blood Disorders,4,0.292,4.8,Medium
+CASE-000038,1,Other Medically Important,6,20.0,40,33,Pharmacist,0.905,Asia-Pacific,0.7,Hepatic Disorders,2,0.611,4.98,Medium
+CASE-000039,1,Death,10,10.0,84,27,Consumer,0.508,North America,0.9,Blood Disorders,3,0.642,7.9,High
+CASE-000040,1,Other Medically Important,6,90.0,41,19,Other HCP,0.692,Europe,0.95,Nervous System Disorders,0,0.206,4.37,Medium
+CASE-000041,0,Non-serious,1,60.0,53,35,Other HCP,0.834,Africa,0.5,Hepatic Disorders,1,0.394,3.09,Low
+CASE-000042,1,Hospitalization,7,60.0,85,25,Consumer,0.385,Africa,0.5,Nervous System Disorders,3,0.286,4.69,Medium
+CASE-000043,1,Hospitalization,7,70.0,13,30,Other HCP,0.62,Africa,0.5,Gastrointestinal Disorders,1,0.58,4.51,Medium
+CASE-000044,1,Life-threatening,9,90.0,24,22,Patient,0.565,Asia-Pacific,0.7,Gastrointestinal Disorders,1,0.334,5.59,Medium
+CASE-000045,1,Congenital Anomaly,8,40.0,54,25,Patient,0.571,Middle East,0.5,Gastrointestinal Disorders,3,0.391,6.24,High
+CASE-000046,0,Non-serious,2,20.0,40,34,Healthcare Professional,0.757,Latin America,0.6,Respiratory Disorders,1,0.446,4.19,Medium
+CASE-000047,0,Non-serious,4,40.0,34,18,Other HCP,0.618,Asia-Pacific,0.7,Skin Disorders,0,0.24,3.56,Low
+CASE-000048,0,Non-serious,3,60.0,13,23,Consumer,0.545,Africa,0.5,Blood Disorders,3,0.306,2.68,Low
+CASE-000049,0,Non-serious,1,90.0,19,36,Healthcare Professional,0.775,Latin America,0.6,Respiratory Disorders,1,0.326,1.54,Low
+CASE-000050,0,Non-serious,4,80.0,9,18,Healthcare Professional,0.903,Asia-Pacific,0.7,Skin Disorders,2,0.675,3.02,Low
+CASE-000051,1,Life-threatening,9,70.0,18,19,Pharmacist,0.767,North America,0.9,Skin Disorders,0,0.687,5.4,Medium
+CASE-000052,0,Non-serious,2,70.0,27,35,Other HCP,0.685,Middle East,0.5,Psychiatric Disorders,3,0.798,2.74,Low
+CASE-000053,1,Congenital Anomaly,8,70.0,24,1,Pharmacist,0.821,Asia-Pacific,0.7,Skin Disorders,3,0.614,5.27,Medium
+CASE-000054,1,Hospitalization,7,60.0,55,2,Pharmacist,0.86,Middle East,0.5,Nervous System Disorders,2,0.694,4.27,Medium
+CASE-000055,0,Non-serious,2,60.0,67,44,Consumer,0.557,Africa,0.5,Other,1,0.249,2.78,Low
+CASE-000056,0,Non-serious,4,80.0,51,38,Other HCP,0.633,North America,0.9,Cardiac Disorders,2,0.235,3.23,Low
+CASE-000057,0,Non-serious,2,70.0,35,2,Healthcare Professional,0.863,North America,0.9,Skin Disorders,1,0.25,2.16,Low
+CASE-000058,0,Non-serious,4,40.0,27,44,Pharmacist,0.757,Middle East,0.5,Hepatic Disorders,0,0.525,4.19,Medium
+CASE-000059,0,Non-serious,2,50.0,71,10,Patient,0.495,Europe,0.95,Gastrointestinal Disorders,0,0.485,4.06,Medium
+CASE-000060,0,Non-serious,1,50.0,44,18,Other HCP,0.717,Latin America,0.6,Nervous System Disorders,2,0.416,3.88,Low
+CASE-000061,1,Hospitalization,7,50.0,10,27,Patient,0.491,Middle East,0.5,Nervous System Disorders,1,0.39,4.95,Medium
+CASE-000062,1,Life-threatening,9,50.0,11,21,Other HCP,0.785,Europe,0.95,Gastrointestinal Disorders,0,0.319,5.19,Medium
+CASE-000063,0,Non-serious,1,40.0,39,19,Healthcare Professional,0.808,Latin America,0.6,Skin Disorders,1,0.579,3.14,Low
+CASE-000064,0,Non-serious,4,60.0,0,35,Other HCP,0.652,Asia-Pacific,0.7,Psychiatric Disorders,1,0.343,3.17,Low
+CASE-000065,0,Non-serious,1,40.0,26,19,Healthcare Professional,0.817,Middle East,0.5,Respiratory Disorders,3,0.513,3.6,Low
+CASE-000066,0,Non-serious,3,60.0,9,35,Pharmacist,0.833,Asia-Pacific,0.7,Respiratory Disorders,3,0.566,2.66,Low
+CASE-000067,0,Non-serious,1,50.0,53,37,Pharmacist,0.934,Africa,0.5,Other,2,0.777,2.71,Low
+CASE-000068,1,Other Medically Important,6,60.0,79,13,Healthcare Professional,0.849,Latin America,0.6,Hepatic Disorders,1,0.784,5.22,Medium
+CASE-000069,1,Hospitalization,7,90.0,46,33,Other HCP,0.727,Middle East,0.5,Gastrointestinal Disorders,4,0.723,4.49,Medium
+CASE-000070,0,Non-serious,2,50.0,60,42,Patient,0.413,Middle East,0.5,Other,1,0.722,3.04,Low
+CASE-000071,0,Non-serious,4,60.0,3,4,Healthcare Professional,0.941,Latin America,0.6,Respiratory Disorders,2,0.767,3.84,Low
+CASE-000072,0,Non-serious,4,40.0,84,16,Healthcare Professional,0.94,Asia-Pacific,0.7,Hepatic Disorders,1,0.201,5.08,Medium
+CASE-000073,0,Non-serious,1,90.0,42,33,Consumer,0.507,Middle East,0.5,Blood Disorders,2,0.449,1.37,Low
+CASE-000074,1,Death,10,90.0,65,26,Other HCP,0.734,Europe,0.95,Nervous System Disorders,0,0.594,5.27,Medium
+CASE-000075,0,Non-serious,2,80.0,33,1,Pharmacist,0.889,Africa,0.5,Other,2,0.327,3.39,Low
+CASE-000076,1,Other Medically Important,6,50.0,56,11,Healthcare Professional,0.778,Africa,0.5,Blood Disorders,0,0.326,4.64,Medium
+CASE-000077,0,Non-serious,4,70.0,15,10,Patient,0.66,Middle East,0.5,Renal Disorders,1,0.785,3.35,Low
+CASE-000078,0,Non-serious,1,70.0,58,15,Pharmacist,0.936,Middle East,0.5,Respiratory Disorders,3,0.275,2.02,Low
+CASE-000079,1,Life-threatening,9,40.0,49,7,Healthcare Professional,0.805,Latin America,0.6,Respiratory Disorders,0,0.649,6.56,High
+CASE-000080,0,Non-serious,3,60.0,64,4,Healthcare Professional,0.745,North America,0.9,Gastrointestinal Disorders,1,0.493,2.85,Low
+CASE-000081,1,Congenital Anomaly,8,70.0,45,37,Consumer,0.522,North America,0.9,Other,3,0.301,3.89,Low
+CASE-000082,1,Congenital Anomaly,8,100.0,65,8,Consumer,0.49,Africa,0.5,Psychiatric Disorders,2,0.329,4.98,Medium
+CASE-000083,0,Non-serious,2,100.0,82,21,Consumer,0.434,Middle East,0.5,Hepatic Disorders,1,0.307,1.95,Low
+CASE-000084,0,Non-serious,4,70.0,60,9,Pharmacist,0.872,Asia-Pacific,0.7,Nervous System Disorders,1,0.526,3.65,Low
+CASE-000085,1,Death,10,60.0,50,19,Consumer,0.54,Europe,0.95,Other,1,0.441,6.21,High
+CASE-000086,1,Congenital Anomaly,8,20.0,24,12,Other HCP,0.839,North America,0.9,Renal Disorders,1,0.302,7.86,High
+CASE-000087,0,Non-serious,2,80.0,35,10,Other HCP,0.77,Europe,0.95,Respiratory Disorders,1,0.291,3.28,Low
+CASE-000088,0,Non-serious,4,20.0,73,40,Patient,0.559,Asia-Pacific,0.7,Respiratory Disorders,1,0.252,4.09,Medium
+CASE-000089,1,Disability,8,0.0,65,26,Pharmacist,0.789,Europe,0.95,Gastrointestinal Disorders,1,0.379,7.57,High
+CASE-000090,0,Non-serious,4,80.0,54,18,Patient,0.428,North America,0.9,Respiratory Disorders,4,0.315,3.31,Low
+CASE-000091,0,Non-serious,3,90.0,19,34,Pharmacist,0.822,Middle East,0.5,Psychiatric Disorders,4,0.329,2.66,Low
+CASE-000092,1,Disability,8,50.0,54,12,Pharmacist,0.828,Latin America,0.6,Blood Disorders,1,0.507,6.01,High
+CASE-000093,1,Congenital Anomaly,8,50.0,11,21,Consumer,0.312,Asia-Pacific,0.7,Hepatic Disorders,1,0.72,4.93,Medium
+CASE-000094,1,Disability,8,80.0,53,23,Other HCP,0.675,Europe,0.95,Psychiatric Disorders,3,0.253,4.95,Medium
+CASE-000095,1,Disability,8,40.0,39,2,Patient,0.451,Africa,0.5,Cardiac Disorders,3,0.565,5.09,Medium
+CASE-000096,0,Non-serious,3,70.0,58,5,Other HCP,0.837,Europe,0.95,Other,1,0.632,4.26,Medium
+CASE-000097,0,Non-serious,2,80.0,72,17,Pharmacist,0.804,Africa,0.5,Skin Disorders,1,0.705,3.01,Low
+CASE-000098,1,Life-threatening,9,20.0,63,10,Healthcare Professional,0.744,Asia-Pacific,0.7,Gastrointestinal Disorders,1,0.34,6.36,High
+CASE-000099,1,Hospitalization,7,30.0,13,10,Other HCP,0.83,Middle East,0.5,Gastrointestinal Disorders,2,0.615,5.97,Medium
+CASE-000100,0,Non-serious,3,100.0,55,3,Pharmacist,0.808,Asia-Pacific,0.7,Skin Disorders,1,0.355,2.53,Low
+CASE-000101,1,Disability,8,100.0,1,37,Other HCP,0.831,Latin America,0.6,Cardiac Disorders,2,0.562,3.72,Low
+CASE-000102,0,Non-serious,3,60.0,38,23,Other HCP,0.677,Latin America,0.6,Blood Disorders,2,0.553,2.79,Low
+CASE-000103,1,Death,10,50.0,46,41,Healthcare Professional,0.795,Europe,0.95,Skin Disorders,1,0.586,6.22,High
+CASE-000104,0,Non-serious,3,20.0,63,30,Other HCP,0.711,Africa,0.5,Cardiac Disorders,1,0.645,3.77,Low
+CASE-000105,0,Non-serious,1,90.0,43,37,Pharmacist,0.778,Europe,0.95,Respiratory Disorders,0,0.26,1.22,Low
+CASE-000106,1,Disability,8,80.0,59,38,Consumer,0.345,Africa,0.5,Cardiac Disorders,1,0.298,3.99,Low
+CASE-000107,0,Non-serious,3,30.0,3,26,Other HCP,0.817,Middle East,0.5,Nervous System Disorders,0,0.656,3.91,Low
+CASE-000108,1,Disability,8,0.0,68,1,Other HCP,0.672,North America,0.9,Respiratory Disorders,2,0.529,7.29,High
+CASE-000109,0,Non-serious,2,60.0,39,27,Consumer,0.477,Latin America,0.6,Renal Disorders,1,0.643,2.76,Low
+CASE-000110,1,Life-threatening,9,100.0,69,30,Consumer,0.505,Middle East,0.5,Hepatic Disorders,1,0.562,3.31,Low
+CASE-000111,1,Death,10,100.0,32,28,Other HCP,0.741,Asia-Pacific,0.7,Skin Disorders,4,0.258,5.83,Medium
+CASE-000112,0,Non-serious,2,20.0,20,27,Other HCP,0.687,Africa,0.5,Hepatic Disorders,1,0.207,2.91,Low
+CASE-000113,1,Life-threatening,9,60.0,55,4,Healthcare Professional,0.717,North America,0.9,Renal Disorders,1,0.374,5.89,Medium
+CASE-000114,1,Congenital Anomaly,8,70.0,13,7,Patient,0.487,Middle East,0.5,Nervous System Disorders,1,0.31,5.0,Medium
+CASE-000115,1,Life-threatening,9,80.0,73,9,Pharmacist,0.918,Africa,0.5,Other,1,0.349,5.71,Medium
+CASE-000116,0,Non-serious,4,40.0,47,23,Consumer,0.513,Asia-Pacific,0.7,Other,2,0.672,4.26,Medium
+CASE-000117,0,Non-serious,2,50.0,2,22,Patient,0.463,Europe,0.95,Psychiatric Disorders,2,0.725,2.83,Low
+CASE-000118,1,Death,10,30.0,71,7,Patient,0.682,Africa,0.5,Other,0,0.254,7.77,High
+CASE-000119,1,Other Medically Important,6,80.0,5,3,Other HCP,0.612,Latin America,0.6,Cardiac Disorders,2,0.58,5.33,Medium
+CASE-000120,0,Non-serious,2,70.0,6,40,Patient,0.46,Latin America,0.6,Hepatic Disorders,0,0.267,1.97,Low
+CASE-000121,1,Death,10,40.0,71,2,Healthcare Professional,0.705,Europe,0.95,Other,1,0.56,7.81,High
+CASE-000122,0,Non-serious,4,50.0,6,42,Pharmacist,0.89,Europe,0.95,Blood Disorders,1,0.511,3.48,Low
+CASE-000123,0,Non-serious,3,100.0,23,18,Patient,0.654,Latin America,0.6,Hepatic Disorders,3,0.587,3.56,Low
+CASE-000124,1,Congenital Anomaly,8,50.0,71,16,Consumer,0.347,Asia-Pacific,0.7,Other,0,0.379,6.29,High
+CASE-000125,0,Non-serious,2,90.0,29,8,Other HCP,0.622,Latin America,0.6,Gastrointestinal Disorders,1,0.228,2.45,Low
+CASE-000126,0,Non-serious,3,90.0,40,31,Consumer,0.493,North America,0.9,Cardiac Disorders,2,0.711,3.2,Low
+CASE-000127,1,Hospitalization,7,60.0,53,36,Pharmacist,0.821,Middle East,0.5,Other,1,0.52,4.4,Medium
+CASE-000128,0,Non-serious,4,50.0,77,18,Pharmacist,0.854,Middle East,0.5,Respiratory Disorders,1,0.607,4.94,Medium
+CASE-000129,0,Non-serious,4,30.0,51,34,Pharmacist,0.911,North America,0.9,Psychiatric Disorders,0,0.704,4.12,Medium
+CASE-000130,0,Non-serious,2,60.0,45,20,Other HCP,0.802,Africa,0.5,Hepatic Disorders,1,0.573,2.91,Low
+CASE-000131,0,Non-serious,2,40.0,72,3,Consumer,0.355,Asia-Pacific,0.7,Nervous System Disorders,4,0.219,3.98,Low
+CASE-000132,1,Disability,8,40.0,85,11,Patient,0.465,Asia-Pacific,0.7,Blood Disorders,2,0.537,5.63,Medium
+CASE-000133,1,Life-threatening,9,100.0,8,28,Pharmacist,0.819,Europe,0.95,Other,4,0.253,3.76,Low
+CASE-000134,0,Non-serious,1,70.0,56,6,Healthcare Professional,0.843,Middle East,0.5,Hepatic Disorders,3,0.414,3.19,Low
+CASE-000135,0,Non-serious,1,20.0,15,25,Consumer,0.363,Europe,0.95,Psychiatric Disorders,1,0.364,3.23,Low
+CASE-000136,0,Non-serious,4,50.0,80,15,Other HCP,0.666,Europe,0.95,Other,2,0.628,4.11,Medium
+CASE-000137,1,Death,10,30.0,47,25,Healthcare Professional,0.739,Africa,0.5,Cardiac Disorders,1,0.316,6.04,High
+CASE-000138,1,Congenital Anomaly,8,90.0,48,43,Patient,0.608,North America,0.9,Other,0,0.583,3.56,Low
+CASE-000139,1,Other Medically Important,6,60.0,12,24,Other HCP,0.671,Middle East,0.5,Hepatic Disorders,1,0.346,4.41,Medium
+CASE-000140,0,Non-serious,1,80.0,17,5,Patient,0.613,North America,0.9,Blood Disorders,0,0.743,1.99,Low
+CASE-000141,0,Non-serious,3,20.0,2,27,Consumer,0.498,Middle East,0.5,Gastrointestinal Disorders,4,0.585,3.34,Low
+CASE-000142,0,Non-serious,2,40.0,64,42,Other HCP,0.804,Latin America,0.6,Skin Disorders,2,0.777,3.13,Low
+CASE-000143,1,Life-threatening,9,70.0,79,19,Patient,0.479,Asia-Pacific,0.7,Respiratory Disorders,0,0.733,5.79,Medium
+CASE-000144,0,Non-serious,4,0.0,11,2,Healthcare Professional,0.73,Middle East,0.5,Other,0,0.42,4.77,Medium
+CASE-000145,1,Disability,8,90.0,11,25,Healthcare Professional,0.927,North America,0.9,Nervous System Disorders,1,0.693,3.53,Low
+CASE-000146,0,Non-serious,1,70.0,5,41,Healthcare Professional,0.888,Middle East,0.5,Psychiatric Disorders,2,0.657,1.17,Low
+CASE-000147,1,Other Medically Important,6,50.0,34,36,Healthcare Professional,0.805,Middle East,0.5,Hepatic Disorders,0,0.344,4.39,Medium
+CASE-000148,1,Disability,8,70.0,25,5,Pharmacist,0.8,North America,0.9,Psychiatric Disorders,1,0.669,5.75,Medium
+CASE-000149,0,Non-serious,2,100.0,53,7,Healthcare Professional,0.799,Asia-Pacific,0.7,Gastrointestinal Disorders,0,0.672,2.25,Low
+CASE-000150,1,Hospitalization,7,80.0,70,35,Other HCP,0.752,Middle East,0.5,Cardiac Disorders,1,0.321,3.84,Low
+CASE-000151,0,Non-serious,3,20.0,9,26,Other HCP,0.657,North America,0.9,Blood Disorders,1,0.495,3.71,Low
+CASE-000152,0,Non-serious,1,60.0,8,31,Consumer,0.458,North America,0.9,Nervous System Disorders,4,0.204,2.0,Low
+CASE-000153,0,Non-serious,1,50.0,79,35,Pharmacist,0.855,Europe,0.95,Renal Disorders,0,0.23,1.98,Low
+CASE-000154,1,Congenital Anomaly,8,40.0,19,2,Other HCP,0.737,Africa,0.5,Cardiac Disorders,4,0.671,6.56,High
+CASE-000155,0,Non-serious,3,30.0,64,44,Healthcare Professional,0.885,North America,0.9,Other,0,0.209,3.76,Low
+CASE-000156,0,Non-serious,3,70.0,75,20,Pharmacist,0.897,North America,0.9,Respiratory Disorders,0,0.288,4.46,Medium
+CASE-000157,0,Non-serious,2,50.0,41,12,Patient,0.591,North America,0.9,Gastrointestinal Disorders,0,0.358,4.1,Medium
+CASE-000158,1,Disability,8,70.0,21,2,Consumer,0.33,Middle East,0.5,Other,0,0.72,5.17,Medium
+CASE-000159,0,Non-serious,2,30.0,21,4,Other HCP,0.849,Africa,0.5,Respiratory Disorders,1,0.385,3.28,Low
+CASE-000160,0,Non-serious,3,50.0,2,20,Consumer,0.546,Africa,0.5,Hepatic Disorders,0,0.292,3.2,Low
+CASE-000161,0,Non-serious,4,30.0,0,20,Pharmacist,0.752,Europe,0.95,Gastrointestinal Disorders,3,0.274,3.8,Low
+CASE-000162,0,Non-serious,3,60.0,84,38,Pharmacist,0.815,Africa,0.5,Other,0,0.718,2.85,Low
+CASE-000163,1,Hospitalization,7,80.0,56,27,Pharmacist,0.808,Middle East,0.5,Respiratory Disorders,0,0.758,4.38,Medium
+CASE-000164,0,Non-serious,1,70.0,11,42,Healthcare Professional,0.747,North America,0.9,Renal Disorders,1,0.555,1.79,Low
+CASE-000165,1,Life-threatening,9,50.0,1,12,Pharmacist,0.846,Middle East,0.5,Respiratory Disorders,0,0.381,5.48,Medium
+CASE-000166,1,Death,10,60.0,17,16,Other HCP,0.601,Asia-Pacific,0.7,Other,0,0.215,4.93,Medium
+CASE-000167,0,Non-serious,1,40.0,58,10,Other HCP,0.83,Asia-Pacific,0.7,Blood Disorders,0,0.309,3.57,Low
+CASE-000168,0,Non-serious,4,10.0,81,17,Pharmacist,0.765,North America,0.9,Blood Disorders,2,0.317,5.23,Medium
+CASE-000169,1,Life-threatening,9,0.0,28,3,Pharmacist,0.824,Middle East,0.5,Nervous System Disorders,1,0.365,7.66,High
+CASE-000170,1,Disability,8,80.0,23,36,Healthcare Professional,0.741,Middle East,0.5,Blood Disorders,0,0.281,4.19,Medium
+CASE-000171,0,Non-serious,1,90.0,4,10,Consumer,0.42,Middle East,0.5,Nervous System Disorders,4,0.51,2.22,Low
+CASE-000172,1,Congenital Anomaly,8,50.0,83,23,Other HCP,0.8,Middle East,0.5,Gastrointestinal Disorders,0,0.705,5.74,Medium
+CASE-000173,1,Death,10,50.0,40,36,Pharmacist,0.875,Middle East,0.5,Psychiatric Disorders,1,0.612,5.79,Medium
+CASE-000174,0,Non-serious,4,90.0,19,15,Healthcare Professional,0.817,Asia-Pacific,0.7,Renal Disorders,0,0.435,3.61,Low
+CASE-000175,1,Life-threatening,9,40.0,75,13,Pharmacist,0.95,Latin America,0.6,Renal Disorders,1,0.753,6.02,High
+CASE-000176,0,Non-serious,4,70.0,60,44,Patient,0.429,Asia-Pacific,0.7,Respiratory Disorders,1,0.453,3.54,Low
+CASE-000177,0,Non-serious,4,50.0,4,13,Pharmacist,0.819,Latin America,0.6,Other,3,0.427,3.3,Low
+CASE-000178,1,Disability,8,40.0,64,12,Patient,0.526,Latin America,0.6,Blood Disorders,2,0.351,6.07,High
+CASE-000179,0,Non-serious,2,100.0,21,5,Other HCP,0.696,North America,0.9,Gastrointestinal Disorders,2,0.757,2.98,Low
+CASE-000180,1,Other Medically Important,6,50.0,74,20,Healthcare Professional,0.868,Africa,0.5,Respiratory Disorders,0,0.49,4.56,Medium
+CASE-000181,0,Non-serious,2,70.0,10,10,Consumer,0.426,Middle East,0.5,Cardiac Disorders,3,0.37,2.83,Low
+CASE-000182,0,Non-serious,3,50.0,18,19,Healthcare Professional,0.818,Latin America,0.6,Cardiac Disorders,1,0.251,3.54,Low
+CASE-000183,0,Non-serious,2,60.0,64,43,Healthcare Professional,0.91,Europe,0.95,Psychiatric Disorders,2,0.451,2.0,Low
+CASE-000184,0,Non-serious,4,90.0,39,15,Consumer,0.551,Latin America,0.6,Blood Disorders,0,0.56,3.65,Low
+CASE-000185,0,Non-serious,3,80.0,66,8,Pharmacist,0.848,Middle East,0.5,Skin Disorders,1,0.759,3.92,Low
+CASE-000186,0,Non-serious,1,80.0,20,17,Consumer,0.404,Europe,0.95,Renal Disorders,0,0.496,1.5,Low
+CASE-000187,0,Non-serious,1,50.0,10,26,Consumer,0.483,North America,0.9,Respiratory Disorders,1,0.572,2.44,Low
+CASE-000188,1,Hospitalization,7,20.0,41,27,Pharmacist,0.784,Asia-Pacific,0.7,Blood Disorders,0,0.304,5.42,Medium
+CASE-000189,0,Non-serious,3,30.0,57,4,Pharmacist,0.913,Asia-Pacific,0.7,Psychiatric Disorders,1,0.604,5.68,Medium
+CASE-000190,0,Non-serious,4,40.0,38,4,Healthcare Professional,0.769,Latin America,0.6,Gastrointestinal Disorders,2,0.746,4.76,Medium
+CASE-000191,1,Other Medically Important,6,40.0,6,12,Other HCP,0.83,Middle East,0.5,Other,1,0.351,5.3,Medium
+CASE-000192,1,Congenital Anomaly,8,40.0,70,40,Consumer,0.476,Africa,0.5,Hepatic Disorders,3,0.255,5.1,Medium
+CASE-000193,1,Disability,8,30.0,23,19,Patient,0.465,Europe,0.95,Other,4,0.486,5.96,Medium
+CASE-000194,1,Death,10,40.0,33,39,Other HCP,0.615,Middle East,0.5,Renal Disorders,2,0.57,6.76,High
+CASE-000195,0,Non-serious,2,40.0,35,22,Patient,0.533,Latin America,0.6,Psychiatric Disorders,2,0.718,3.67,Low
+CASE-000196,1,Life-threatening,9,60.0,73,7,Pharmacist,0.757,Africa,0.5,Nervous System Disorders,4,0.739,6.02,High
+CASE-000197,0,Non-serious,4,30.0,80,26,Pharmacist,0.842,Africa,0.5,Respiratory Disorders,2,0.638,4.08,Medium
+CASE-000198,0,Non-serious,3,10.0,19,13,Pharmacist,0.916,Africa,0.5,Hepatic Disorders,1,0.648,4.85,Medium
+CASE-000199,0,Non-serious,2,100.0,44,43,Other HCP,0.771,Africa,0.5,Cardiac Disorders,3,0.556,1.2,Low
+CASE-000200,1,Other Medically Important,6,30.0,26,7,Pharmacist,0.873,Middle East,0.5,Respiratory Disorders,1,0.777,6.07,High
+CASE-000201,1,Other Medically Important,6,70.0,3,39,Consumer,0.353,North America,0.9,Cardiac Disorders,1,0.32,3.14,Low
+CASE-000202,0,Non-serious,4,100.0,85,27,Patient,0.5,Latin America,0.6,Cardiac Disorders,2,0.22,3.21,Low
+CASE-000203,0,Non-serious,2,30.0,56,35,Pharmacist,0.911,Europe,0.95,Psychiatric Disorders,3,0.663,3.18,Low
+CASE-000204,0,Non-serious,4,70.0,55,41,Pharmacist,0.922,Asia-Pacific,0.7,Skin Disorders,3,0.277,2.89,Low
+CASE-000205,1,Other Medically Important,6,40.0,70,18,Healthcare Professional,0.902,Middle East,0.5,Nervous System Disorders,0,0.514,5.61,Medium
+CASE-000206,1,Death,10,30.0,16,24,Healthcare Professional,0.736,Europe,0.95,Skin Disorders,2,0.666,6.21,High
+CASE-000207,1,Death,10,100.0,80,15,Patient,0.467,Asia-Pacific,0.7,Psychiatric Disorders,1,0.226,5.48,Medium
+CASE-000208,0,Non-serious,1,60.0,22,23,Other HCP,0.759,Middle East,0.5,Cardiac Disorders,3,0.304,2.47,Low
+CASE-000209,0,Non-serious,2,90.0,12,28,Healthcare Professional,0.746,North America,0.9,Gastrointestinal Disorders,2,0.501,1.85,Low
+CASE-000210,0,Non-serious,3,30.0,40,29,Pharmacist,0.846,Middle East,0.5,Hepatic Disorders,2,0.741,3.58,Low
+CASE-000211,0,Non-serious,2,60.0,45,19,Pharmacist,0.853,North America,0.9,Cardiac Disorders,1,0.213,3.2,Low
+CASE-000212,1,Disability,8,40.0,29,31,Consumer,0.445,Middle East,0.5,Other,1,0.616,5.53,Medium
+CASE-000213,0,Non-serious,3,50.0,51,7,Pharmacist,0.806,Latin America,0.6,Nervous System Disorders,1,0.571,4.75,Medium
+CASE-000214,1,Life-threatening,9,70.0,30,5,Other HCP,0.608,Middle East,0.5,Respiratory Disorders,2,0.78,5.51,Medium
+CASE-000215,0,Non-serious,1,80.0,14,39,Patient,0.501,Middle East,0.5,Gastrointestinal Disorders,1,0.361,1.49,Low
+CASE-000216,1,Hospitalization,7,70.0,46,37,Patient,0.427,Middle East,0.5,Blood Disorders,0,0.613,5.29,Medium
+CASE-000217,1,Congenital Anomaly,8,80.0,4,42,Other HCP,0.665,Africa,0.5,Cardiac Disorders,1,0.354,3.38,Low
+CASE-000218,0,Non-serious,4,40.0,24,15,Pharmacist,0.84,Africa,0.5,Hepatic Disorders,3,0.239,3.57,Low
+CASE-000219,1,Life-threatening,9,40.0,34,35,Consumer,0.42,North America,0.9,Psychiatric Disorders,1,0.653,6.25,High
+CASE-000220,1,Disability,8,70.0,77,22,Pharmacist,0.859,Asia-Pacific,0.7,Renal Disorders,2,0.71,5.43,Medium
+CASE-000221,1,Congenital Anomaly,8,80.0,62,15,Consumer,0.413,Asia-Pacific,0.7,Respiratory Disorders,0,0.587,4.08,Medium
+CASE-000222,1,Congenital Anomaly,8,90.0,74,1,Healthcare Professional,0.813,Asia-Pacific,0.7,Skin Disorders,2,0.253,5.13,Medium
+CASE-000223,0,Non-serious,4,40.0,14,31,Pharmacist,0.908,North America,0.9,Renal Disorders,1,0.758,3.16,Low
+CASE-000224,0,Non-serious,4,90.0,0,32,Patient,0.635,Africa,0.5,Gastrointestinal Disorders,0,0.656,2.16,Low
+CASE-000225,1,Disability,8,40.0,1,41,Other HCP,0.709,Latin America,0.6,Cardiac Disorders,0,0.694,4.46,Medium
+CASE-000226,0,Non-serious,4,20.0,4,43,Other HCP,0.768,North America,0.9,Skin Disorders,0,0.3,3.56,Low
+CASE-000227,0,Non-serious,2,100.0,27,27,Pharmacist,0.901,Europe,0.95,Respiratory Disorders,1,0.675,1.32,Low
+CASE-000228,0,Non-serious,4,70.0,56,33,Consumer,0.416,Europe,0.95,Other,4,0.236,3.1,Low
+CASE-000229,0,Non-serious,4,100.0,82,7,Other HCP,0.737,North America,0.9,Hepatic Disorders,1,0.532,3.22,Low
+CASE-000230,0,Non-serious,3,50.0,44,29,Other HCP,0.83,Middle East,0.5,Psychiatric Disorders,1,0.65,3.19,Low
+CASE-000231,1,Other Medically Important,6,50.0,1,42,Consumer,0.383,Asia-Pacific,0.7,Hepatic Disorders,1,0.435,3.39,Low
+CASE-000232,0,Non-serious,2,50.0,45,15,Patient,0.431,Europe,0.95,Hepatic Disorders,2,0.299,4.31,Medium
+CASE-000233,0,Non-serious,3,50.0,11,5,Other HCP,0.677,Middle East,0.5,Respiratory Disorders,3,0.579,4.19,Medium
+CASE-000234,1,Congenital Anomaly,8,50.0,36,15,Other HCP,0.788,Asia-Pacific,0.7,Hepatic Disorders,5,0.722,6.55,High
+CASE-000235,1,Hospitalization,7,50.0,69,30,Healthcare Professional,0.815,Africa,0.5,Renal Disorders,3,0.214,4.48,Medium
+CASE-000236,1,Congenital Anomaly,8,90.0,0,28,Consumer,0.35,Middle East,0.5,Other,1,0.391,3.08,Low
+CASE-000237,0,Non-serious,2,90.0,85,14,Consumer,0.311,Middle East,0.5,Other,1,0.275,1.87,Low
+CASE-000238,1,Disability,8,40.0,28,7,Patient,0.456,North America,0.9,Gastrointestinal Disorders,3,0.569,5.71,Medium
+CASE-000239,0,Non-serious,3,70.0,85,22,Healthcare Professional,0.871,Middle East,0.5,Other,3,0.38,3.88,Low
+CASE-000240,0,Non-serious,4,10.0,88,37,Patient,0.466,Middle East,0.5,Psychiatric Disorders,1,0.285,4.61,Medium
+CASE-000241,0,Non-serious,1,40.0,1,22,Healthcare Professional,0.902,Asia-Pacific,0.7,Gastrointestinal Disorders,3,0.4,2.2,Low
+CASE-000242,1,Other Medically Important,6,60.0,3,31,Other HCP,0.77,Europe,0.95,Gastrointestinal Disorders,0,0.492,3.14,Low
+CASE-000243,0,Non-serious,2,20.0,32,14,Pharmacist,0.889,Asia-Pacific,0.7,Psychiatric Disorders,1,0.541,4.25,Medium
+CASE-000244,1,Other Medically Important,6,50.0,64,8,Pharmacist,0.894,North America,0.9,Skin Disorders,3,0.487,5.8,Medium
+CASE-000245,0,Non-serious,1,80.0,36,40,Patient,0.571,Latin America,0.6,Cardiac Disorders,2,0.626,1.98,Low
+CASE-000246,1,Life-threatening,9,80.0,84,20,Other HCP,0.817,Middle East,0.5,Other,2,0.447,5.34,Medium
+CASE-000247,1,Disability,8,60.0,57,38,Healthcare Professional,0.881,Africa,0.5,Skin Disorders,2,0.584,4.78,Medium
+CASE-000248,0,Non-serious,4,30.0,8,22,Patient,0.417,Asia-Pacific,0.7,Gastrointestinal Disorders,1,0.717,3.62,Low
+CASE-000249,1,Life-threatening,9,50.0,59,31,Pharmacist,0.945,North America,0.9,Other,1,0.635,5.67,Medium
+CASE-000250,0,Non-serious,2,70.0,23,29,Patient,0.561,Middle East,0.5,Psychiatric Disorders,1,0.69,2.53,Low
+CASE-000251,0,Non-serious,3,80.0,65,2,Patient,0.622,Middle East,0.5,Respiratory Disorders,4,0.505,2.72,Low
+CASE-000252,1,Hospitalization,7,40.0,46,9,Patient,0.6,Latin America,0.6,Other,5,0.502,5.97,Medium
+CASE-000253,1,Other Medically Important,6,70.0,18,32,Patient,0.479,Middle East,0.5,Cardiac Disorders,0,0.304,3.87,Low
+CASE-000254,1,Other Medically Important,6,60.0,13,7,Consumer,0.388,North America,0.9,Psychiatric Disorders,2,0.264,4.15,Medium
+CASE-000255,0,Non-serious,4,30.0,47,37,Consumer,0.351,Latin America,0.6,Respiratory Disorders,3,0.568,3.72,Low
+CASE-000256,0,Non-serious,1,40.0,56,13,Pharmacist,0.844,Latin America,0.6,Renal Disorders,2,0.335,3.78,Low
+CASE-000257,1,Other Medically Important,6,50.0,72,33,Other HCP,0.659,Latin America,0.6,Blood Disorders,0,0.724,3.97,Low
+CASE-000258,0,Non-serious,3,40.0,0,41,Other HCP,0.712,Middle East,0.5,Cardiac Disorders,0,0.515,2.61,Low
+CASE-000259,0,Non-serious,1,50.0,34,20,Patient,0.585,Africa,0.5,Other,3,0.63,2.85,Low
+CASE-000260,1,Hospitalization,7,60.0,25,28,Other HCP,0.652,Asia-Pacific,0.7,Cardiac Disorders,0,0.635,3.92,Low
+CASE-000261,1,Hospitalization,7,60.0,38,6,Healthcare Professional,0.826,North America,0.9,Psychiatric Disorders,1,0.481,5.32,Medium
+CASE-000262,1,Congenital Anomaly,8,60.0,32,43,Pharmacist,0.809,North America,0.9,Blood Disorders,1,0.683,5.07,Medium
+CASE-000263,0,Non-serious,1,50.0,56,14,Pharmacist,0.831,Middle East,0.5,Renal Disorders,0,0.643,3.01,Low
+CASE-000264,1,Congenital Anomaly,8,80.0,39,3,Patient,0.655,Europe,0.95,Other,1,0.56,4.61,Medium
+CASE-000265,0,Non-serious,3,100.0,55,2,Pharmacist,0.777,North America,0.9,Gastrointestinal Disorders,2,0.543,3.72,Low
+CASE-000266,1,Other Medically Important,6,10.0,42,18,Consumer,0.536,Africa,0.5,Renal Disorders,3,0.205,6.27,High
+CASE-000267,1,Disability,8,60.0,88,13,Healthcare Professional,0.78,Europe,0.95,Nervous System Disorders,0,0.663,6.28,High
+CASE-000268,0,Non-serious,1,30.0,13,39,Healthcare Professional,0.854,North America,0.9,Other,1,0.356,3.58,Low
+CASE-000269,0,Non-serious,2,100.0,30,24,Healthcare Professional,0.779,Middle East,0.5,Skin Disorders,4,0.231,1.9,Low
+CASE-000270,0,Non-serious,1,90.0,40,38,Healthcare Professional,0.826,Middle East,0.5,Skin Disorders,2,0.392,1.3,Low
+CASE-000271,1,Hospitalization,7,60.0,14,6,Patient,0.446,Middle East,0.5,Nervous System Disorders,1,0.783,5.57,Medium
+CASE-000272,0,Non-serious,3,20.0,18,42,Pharmacist,0.841,Europe,0.95,Other,0,0.252,3.55,Low
+CASE-000273,1,Hospitalization,7,80.0,74,24,Healthcare Professional,0.787,Africa,0.5,Psychiatric Disorders,2,0.792,4.07,Medium
+CASE-000274,0,Non-serious,3,60.0,45,29,Healthcare Professional,0.949,Asia-Pacific,0.7,Skin Disorders,5,0.77,3.11,Low
+CASE-000275,0,Non-serious,2,60.0,9,28,Healthcare Professional,0.722,Latin America,0.6,Blood Disorders,0,0.765,1.93,Low
+CASE-000276,0,Non-serious,1,80.0,37,1,Patient,0.475,Latin America,0.6,Psychiatric Disorders,3,0.759,2.68,Low
+CASE-000277,0,Non-serious,2,20.0,6,2,Healthcare Professional,0.807,Middle East,0.5,Respiratory Disorders,4,0.511,5.13,Medium
+CASE-000278,1,Death,10,30.0,35,2,Patient,0.421,Middle East,0.5,Other,0,0.479,5.97,Medium
+CASE-000279,0,Non-serious,1,40.0,79,4,Consumer,0.332,Europe,0.95,Skin Disorders,0,0.744,3.6,Low
+CASE-000280,1,Life-threatening,9,80.0,80,33,Patient,0.447,Africa,0.5,Nervous System Disorders,1,0.434,5.32,Medium
+CASE-000281,1,Death,10,70.0,27,20,Healthcare Professional,0.79,Asia-Pacific,0.7,Gastrointestinal Disorders,1,0.277,5.18,Medium
+CASE-000282,1,Congenital Anomaly,8,50.0,50,9,Patient,0.515,North America,0.9,Respiratory Disorders,1,0.468,5.68,Medium
+CASE-000283,1,Other Medically Important,6,60.0,24,18,Pharmacist,0.8,Europe,0.95,Hepatic Disorders,1,0.783,4.37,Medium
+CASE-000284,1,Disability,8,60.0,63,4,Consumer,0.561,North America,0.9,Blood Disorders,1,0.483,6.28,High
+CASE-000285,0,Non-serious,3,100.0,24,22,Other HCP,0.698,North America,0.9,Gastrointestinal Disorders,0,0.775,2.26,Low
+CASE-000286,0,Non-serious,3,90.0,66,40,Other HCP,0.634,Asia-Pacific,0.7,Nervous System Disorders,3,0.761,3.12,Low
+CASE-000287,0,Non-serious,4,70.0,19,11,Other HCP,0.614,Middle East,0.5,Renal Disorders,0,0.498,3.39,Low
+CASE-000288,1,Other Medically Important,6,70.0,22,26,Pharmacist,0.897,Europe,0.95,Respiratory Disorders,2,0.29,3.31,Low
+CASE-000289,1,Other Medically Important,6,40.0,46,29,Healthcare Professional,0.857,Latin America,0.6,Respiratory Disorders,3,0.758,4.88,Medium
+CASE-000290,1,Hospitalization,7,60.0,47,31,Consumer,0.416,Europe,0.95,Skin Disorders,2,0.745,4.91,Medium
+CASE-000291,0,Non-serious,3,90.0,48,33,Pharmacist,0.922,Latin America,0.6,Blood Disorders,1,0.772,3.06,Low
+CASE-000292,1,Congenital Anomaly,8,70.0,16,5,Patient,0.564,Europe,0.95,Psychiatric Disorders,2,0.434,4.79,Medium
+CASE-000293,0,Non-serious,1,80.0,11,8,Pharmacist,0.754,North America,0.9,Nervous System Disorders,5,0.526,2.1,Low
+CASE-000294,1,Life-threatening,9,40.0,22,30,Pharmacist,0.779,Asia-Pacific,0.7,Psychiatric Disorders,3,0.468,5.9,Medium
+CASE-000295,1,Life-threatening,9,70.0,56,3,Pharmacist,0.811,Asia-Pacific,0.7,Psychiatric Disorders,1,0.466,5.95,Medium
+CASE-000296,0,Non-serious,1,30.0,44,18,Consumer,0.552,Europe,0.95,Cardiac Disorders,2,0.642,3.56,Low
+CASE-000297,0,Non-serious,1,100.0,5,2,Healthcare Professional,0.829,Africa,0.5,Blood Disorders,1,0.689,1.96,Low
+CASE-000298,1,Other Medically Important,6,60.0,12,30,Patient,0.438,Europe,0.95,Skin Disorders,1,0.636,4.06,Medium
+CASE-000299,1,Death,10,50.0,41,41,Healthcare Professional,0.927,Asia-Pacific,0.7,Other,2,0.349,6.28,High
+CASE-000300,0,Non-serious,4,50.0,80,27,Healthcare Professional,0.746,Asia-Pacific,0.7,Nervous System Disorders,2,0.237,3.23,Low
+CASE-000301,1,Hospitalization,7,80.0,52,43,Healthcare Professional,0.948,Europe,0.95,Blood Disorders,1,0.518,4.4,Medium
+CASE-000302,0,Non-serious,2,80.0,28,33,Other HCP,0.738,Latin America,0.6,Cardiac Disorders,1,0.675,2.17,Low
+CASE-000303,0,Non-serious,3,40.0,33,5,Consumer,0.33,Europe,0.95,Psychiatric Disorders,0,0.701,4.61,Medium
+CASE-000304,1,Disability,8,90.0,37,16,Healthcare Professional,0.884,Africa,0.5,Psychiatric Disorders,1,0.634,5.72,Medium
+CASE-000305,0,Non-serious,2,30.0,37,19,Patient,0.415,Africa,0.5,Respiratory Disorders,1,0.78,4.34,Medium
+CASE-000306,0,Non-serious,1,100.0,74,32,Consumer,0.436,Latin America,0.6,Nervous System Disorders,0,0.609,1.6,Low
+CASE-000307,1,Disability,8,80.0,26,15,Other HCP,0.764,North America,0.9,Respiratory Disorders,1,0.476,4.12,Medium
+CASE-000308,1,Other Medically Important,6,60.0,54,3,Pharmacist,0.759,Middle East,0.5,Skin Disorders,2,0.279,5.21,Medium
+CASE-000309,0,Non-serious,4,30.0,36,5,Pharmacist,0.809,Europe,0.95,Nervous System Disorders,2,0.483,5.14,Medium
+CASE-000310,0,Non-serious,1,50.0,20,32,Pharmacist,0.755,Europe,0.95,Psychiatric Disorders,1,0.34,1.89,Low
+CASE-000311,1,Life-threatening,9,40.0,0,39,Healthcare Professional,0.718,Latin America,0.6,Cardiac Disorders,5,0.207,4.55,Medium
+CASE-000312,1,Congenital Anomaly,8,60.0,72,14,Consumer,0.421,Asia-Pacific,0.7,Skin Disorders,0,0.44,5.34,Medium
+CASE-000313,0,Non-serious,4,60.0,61,28,Patient,0.555,Asia-Pacific,0.7,Blood Disorders,3,0.708,3.22,Low
+CASE-000314,1,Other Medically Important,6,30.0,76,30,Consumer,0.539,Africa,0.5,Blood Disorders,3,0.206,5.46,Medium
+CASE-000315,1,Congenital Anomaly,8,40.0,88,8,Patient,0.461,North America,0.9,Skin Disorders,0,0.202,6.04,High
+CASE-000316,1,Life-threatening,9,60.0,41,33,Consumer,0.465,Latin America,0.6,Psychiatric Disorders,2,0.747,4.97,Medium
+CASE-000317,0,Non-serious,1,70.0,75,20,Consumer,0.506,Latin America,0.6,Nervous System Disorders,1,0.594,2.85,Low
+CASE-000318,0,Non-serious,4,30.0,31,15,Pharmacist,0.78,Europe,0.95,Cardiac Disorders,0,0.215,5.84,Medium
+CASE-000319,0,Non-serious,1,80.0,6,41,Pharmacist,0.919,Asia-Pacific,0.7,Nervous System Disorders,1,0.515,1.0,Low
+CASE-000320,0,Non-serious,2,60.0,83,42,Other HCP,0.815,North America,0.9,Other,3,0.754,2.9,Low
+CASE-000321,1,Death,10,50.0,79,5,Patient,0.479,Europe,0.95,Nervous System Disorders,2,0.356,7.22,High
+CASE-000322,1,Hospitalization,7,60.0,34,13,Pharmacist,0.902,Latin America,0.6,Renal Disorders,0,0.254,5.06,Medium
+CASE-000323,0,Non-serious,1,30.0,87,31,Consumer,0.532,Africa,0.5,Nervous System Disorders,1,0.755,3.29,Low
+CASE-000324,1,Disability,8,40.0,74,12,Pharmacist,0.813,Africa,0.5,Gastrointestinal Disorders,1,0.436,6.21,High
+CASE-000325,0,Non-serious,1,20.0,58,9,Other HCP,0.695,North America,0.9,Skin Disorders,1,0.432,5.25,Medium
+CASE-000326,1,Death,10,90.0,44,29,Other HCP,0.836,Europe,0.95,Skin Disorders,4,0.288,4.8,Medium
+CASE-000327,0,Non-serious,1,30.0,70,21,Consumer,0.345,Middle East,0.5,Psychiatric Disorders,3,0.471,3.93,Low
+CASE-000328,0,Non-serious,2,80.0,42,7,Healthcare Professional,0.932,North America,0.9,Other,1,0.749,3.23,Low
+CASE-000329,1,Life-threatening,9,90.0,50,16,Healthcare Professional,0.933,North America,0.9,Renal Disorders,1,0.713,4.29,Medium
+CASE-000330,1,Disability,8,80.0,57,27,Patient,0.504,North America,0.9,Other,0,0.348,5.17,Medium
+CASE-000331,0,Non-serious,3,90.0,18,10,Pharmacist,0.806,Africa,0.5,Gastrointestinal Disorders,1,0.371,2.35,Low
+CASE-000332,0,Non-serious,2,20.0,17,5,Patient,0.536,Africa,0.5,Nervous System Disorders,2,0.653,4.93,Medium
+CASE-000333,0,Non-serious,1,60.0,82,21,Healthcare Professional,0.871,Middle East,0.5,Other,2,0.665,3.4,Low
+CASE-000334,0,Non-serious,4,90.0,20,41,Pharmacist,0.776,Asia-Pacific,0.7,Renal Disorders,2,0.493,2.62,Low
+CASE-000335,0,Non-serious,1,80.0,22,9,Pharmacist,0.914,Asia-Pacific,0.7,Respiratory Disorders,1,0.65,2.28,Low
+CASE-000336,0,Non-serious,3,10.0,63,9,Pharmacist,0.774,Middle East,0.5,Skin Disorders,0,0.43,4.58,Medium
+CASE-000337,0,Non-serious,1,90.0,17,17,Healthcare Professional,0.912,Europe,0.95,Respiratory Disorders,0,0.296,1.73,Low
+CASE-000338,0,Non-serious,2,60.0,61,39,Healthcare Professional,0.742,North America,0.9,Other,1,0.349,2.64,Low
+CASE-000339,1,Death,10,0.0,77,11,Consumer,0.309,Asia-Pacific,0.7,Nervous System Disorders,0,0.541,8.61,Critical
+CASE-000340,0,Non-serious,2,90.0,74,8,Patient,0.628,Europe,0.95,Blood Disorders,1,0.684,3.57,Low
+CASE-000341,0,Non-serious,4,70.0,43,3,Pharmacist,0.918,Europe,0.95,Renal Disorders,0,0.4,4.38,Medium
+CASE-000342,0,Non-serious,4,100.0,12,21,Pharmacist,0.947,Middle East,0.5,Psychiatric Disorders,2,0.53,2.69,Low
+CASE-000343,1,Life-threatening,9,60.0,37,35,Patient,0.466,Middle East,0.5,Gastrointestinal Disorders,0,0.227,5.3,Medium
+CASE-000344,0,Non-serious,2,90.0,62,31,Consumer,0.352,Latin America,0.6,Skin Disorders,4,0.243,2.47,Low
+CASE-000345,0,Non-serious,3,50.0,12,24,Pharmacist,0.901,North America,0.9,Renal Disorders,1,0.54,2.95,Low
+CASE-000346,0,Non-serious,4,90.0,86,41,Other HCP,0.645,Latin America,0.6,Other,0,0.642,2.46,Low
+CASE-000347,0,Non-serious,4,80.0,1,29,Pharmacist,0.821,Middle East,0.5,Respiratory Disorders,3,0.451,3.9,Low
+CASE-000348,0,Non-serious,2,80.0,27,40,Consumer,0.532,Africa,0.5,Skin Disorders,4,0.376,2.93,Low
+CASE-000349,1,Congenital Anomaly,8,50.0,60,31,Healthcare Professional,0.713,Europe,0.95,Respiratory Disorders,1,0.69,6.51,High
+CASE-000350,0,Non-serious,3,80.0,21,21,Other HCP,0.686,Latin America,0.6,Gastrointestinal Disorders,3,0.418,2.39,Low
+CASE-000351,0,Non-serious,4,20.0,87,2,Patient,0.453,Middle East,0.5,Skin Disorders,3,0.733,5.8,Medium
+CASE-000352,0,Non-serious,4,60.0,40,1,Patient,0.692,Asia-Pacific,0.7,Hepatic Disorders,1,0.59,5.25,Medium
+CASE-000353,0,Non-serious,2,20.0,13,41,Consumer,0.343,Africa,0.5,Other,3,0.645,2.91,Low
+CASE-000354,0,Non-serious,3,40.0,8,14,Other HCP,0.681,Africa,0.5,Cardiac Disorders,2,0.728,2.77,Low
+CASE-000355,0,Non-serious,1,60.0,62,29,Healthcare Professional,0.732,Latin America,0.6,Other,3,0.517,3.28,Low
+CASE-000356,0,Non-serious,3,20.0,45,14,Patient,0.671,Middle East,0.5,Nervous System Disorders,0,0.782,4.33,Medium
+CASE-000357,1,Life-threatening,9,90.0,63,15,Healthcare Professional,0.796,North America,0.9,Blood Disorders,2,0.712,6.0,Medium
+CASE-000358,0,Non-serious,3,40.0,82,23,Healthcare Professional,0.742,Middle East,0.5,Gastrointestinal Disorders,2,0.46,3.74,Low
+CASE-000359,1,Hospitalization,7,50.0,89,11,Healthcare Professional,0.847,Middle East,0.5,Hepatic Disorders,1,0.294,6.53,High
+CASE-000360,1,Hospitalization,7,40.0,10,6,Consumer,0.325,Middle East,0.5,Gastrointestinal Disorders,0,0.489,5.28,Medium
+CASE-000361,0,Non-serious,3,70.0,79,42,Patient,0.68,Middle East,0.5,Cardiac Disorders,0,0.333,2.67,Low
+CASE-000362,1,Death,10,60.0,13,17,Pharmacist,0.845,Africa,0.5,Gastrointestinal Disorders,3,0.498,5.02,Medium
+CASE-000363,1,Hospitalization,7,60.0,27,31,Consumer,0.314,North America,0.9,Other,2,0.623,4.27,Medium
+CASE-000364,0,Non-serious,4,60.0,20,18,Other HCP,0.691,Africa,0.5,Cardiac Disorders,1,0.307,3.87,Low
+CASE-000365,0,Non-serious,2,70.0,43,24,Pharmacist,0.89,Europe,0.95,Gastrointestinal Disorders,2,0.733,3.65,Low
+CASE-000366,0,Non-serious,4,60.0,80,29,Pharmacist,0.949,Europe,0.95,Respiratory Disorders,1,0.761,3.33,Low
+CASE-000367,0,Non-serious,3,30.0,53,21,Other HCP,0.794,Asia-Pacific,0.7,Renal Disorders,1,0.416,4.9,Medium
+CASE-000368,1,Congenital Anomaly,8,60.0,29,2,Other HCP,0.805,Middle East,0.5,Respiratory Disorders,0,0.735,4.95,Medium
+CASE-000369,0,Non-serious,1,100.0,43,41,Healthcare Professional,0.705,Asia-Pacific,0.7,Renal Disorders,2,0.6,1.23,Low
+CASE-000370,1,Life-threatening,9,80.0,13,14,Other HCP,0.793,Africa,0.5,Cardiac Disorders,1,0.561,4.69,Medium
+CASE-000371,0,Non-serious,1,80.0,12,11,Pharmacist,0.903,Africa,0.5,Nervous System Disorders,1,0.431,1.9,Low
+CASE-000372,0,Non-serious,4,50.0,89,44,Pharmacist,0.753,North America,0.9,Respiratory Disorders,1,0.319,3.45,Low
+CASE-000373,1,Death,10,20.0,12,44,Patient,0.621,North America,0.9,Skin Disorders,2,0.221,5.06,Medium
+CASE-000374,0,Non-serious,3,70.0,18,2,Pharmacist,0.764,Middle East,0.5,Renal Disorders,1,0.385,2.62,Low
+CASE-000375,0,Non-serious,2,90.0,48,42,Consumer,0.323,Middle East,0.5,Hepatic Disorders,2,0.699,1.53,Low
+CASE-000376,0,Non-serious,3,70.0,83,20,Healthcare Professional,0.946,Asia-Pacific,0.7,Blood Disorders,0,0.357,2.15,Low
+CASE-000377,1,Life-threatening,9,90.0,33,11,Consumer,0.398,North America,0.9,Other,1,0.33,4.31,Medium
+CASE-000378,1,Death,10,40.0,63,27,Healthcare Professional,0.872,Africa,0.5,Hepatic Disorders,2,0.546,6.44,High
+CASE-000379,0,Non-serious,1,70.0,18,11,Healthcare Professional,0.786,Asia-Pacific,0.7,Nervous System Disorders,3,0.43,2.71,Low
+CASE-000380,1,Hospitalization,7,60.0,73,10,Healthcare Professional,0.902,Africa,0.5,Nervous System Disorders,1,0.582,5.24,Medium
+CASE-000381,0,Non-serious,3,70.0,2,15,Other HCP,0.687,Africa,0.5,Respiratory Disorders,2,0.739,2.96,Low
+CASE-000382,1,Other Medically Important,6,90.0,37,11,Healthcare Professional,0.763,North America,0.9,Blood Disorders,0,0.391,3.83,Low
+CASE-000383,1,Hospitalization,7,70.0,22,22,Other HCP,0.667,Latin America,0.6,Gastrointestinal Disorders,2,0.487,4.94,Medium
+CASE-000384,0,Non-serious,1,10.0,24,41,Patient,0.656,Africa,0.5,Renal Disorders,0,0.426,3.33,Low
+CASE-000385,0,Non-serious,4,30.0,31,1,Patient,0.469,Europe,0.95,Other,1,0.489,5.52,Medium
+CASE-000386,1,Death,10,50.0,74,24,Other HCP,0.695,Latin America,0.6,Other,1,0.424,6.17,High
+CASE-000387,0,Non-serious,2,50.0,80,12,Patient,0.406,North America,0.9,Skin Disorders,2,0.329,4.47,Medium
+CASE-000388,0,Non-serious,3,50.0,23,22,Healthcare Professional,0.916,Africa,0.5,Blood Disorders,2,0.283,3.05,Low
+CASE-000389,0,Non-serious,4,40.0,37,44,Healthcare Professional,0.924,Latin America,0.6,Skin Disorders,2,0.443,2.38,Low
+CASE-000390,1,Congenital Anomaly,8,60.0,60,20,Consumer,0.341,Africa,0.5,Nervous System Disorders,1,0.262,4.92,Medium
+CASE-000391,0,Non-serious,3,80.0,11,8,Other HCP,0.642,North America,0.9,Cardiac Disorders,1,0.484,4.42,Medium
+CASE-000392,0,Non-serious,3,100.0,1,20,Other HCP,0.709,Asia-Pacific,0.7,Respiratory Disorders,3,0.365,2.15,Low
+CASE-000393,0,Non-serious,1,50.0,48,14,Patient,0.615,North America,0.9,Hepatic Disorders,2,0.749,3.61,Low
+CASE-000394,0,Non-serious,4,50.0,38,11,Consumer,0.468,North America,0.9,Skin Disorders,2,0.629,4.72,Medium
+CASE-000395,1,Congenital Anomaly,8,50.0,84,3,Pharmacist,0.85,Latin America,0.6,Respiratory Disorders,2,0.585,5.35,Medium
+CASE-000396,0,Non-serious,1,60.0,30,14,Other HCP,0.776,Latin America,0.6,Hepatic Disorders,1,0.64,3.4,Low
+CASE-000397,1,Disability,8,40.0,64,15,Pharmacist,0.865,Latin America,0.6,Skin Disorders,1,0.693,6.41,High
+CASE-000398,0,Non-serious,4,50.0,49,29,Patient,0.628,Africa,0.5,Other,0,0.42,2.79,Low
+CASE-000399,1,Death,10,60.0,45,18,Consumer,0.301,Europe,0.95,Blood Disorders,0,0.376,6.22,High
+CASE-000400,0,Non-serious,4,80.0,0,41,Pharmacist,0.794,Latin America,0.6,Skin Disorders,2,0.323,2.09,Low
+CASE-000401,1,Congenital Anomaly,8,90.0,70,16,Consumer,0.476,Asia-Pacific,0.7,Blood Disorders,0,0.221,4.97,Medium
+CASE-000402,0,Non-serious,4,60.0,63,25,Pharmacist,0.931,Europe,0.95,Skin Disorders,1,0.783,3.13,Low
+CASE-000403,1,Other Medically Important,6,80.0,22,25,Pharmacist,0.765,Africa,0.5,Skin Disorders,1,0.588,3.6,Low
+CASE-000404,1,Congenital Anomaly,8,80.0,56,38,Healthcare Professional,0.946,Europe,0.95,Other,1,0.406,3.64,Low
+CASE-000405,0,Non-serious,2,80.0,88,10,Pharmacist,0.855,Asia-Pacific,0.7,Psychiatric Disorders,1,0.792,3.04,Low
+CASE-000406,0,Non-serious,3,70.0,12,10,Consumer,0.595,Asia-Pacific,0.7,Psychiatric Disorders,4,0.787,3.83,Low
+CASE-000407,0,Non-serious,4,90.0,8,40,Patient,0.556,Middle East,0.5,Blood Disorders,2,0.295,2.88,Low
+CASE-000408,0,Non-serious,1,60.0,32,43,Pharmacist,0.883,North America,0.9,Other,1,0.564,2.49,Low
+CASE-000409,0,Non-serious,1,50.0,48,16,Other HCP,0.685,North America,0.9,Skin Disorders,2,0.249,3.41,Low
+CASE-000410,1,Hospitalization,7,50.0,55,31,Other HCP,0.637,North America,0.9,Nervous System Disorders,1,0.435,4.61,Medium
+CASE-000411,0,Non-serious,4,40.0,39,30,Healthcare Professional,0.724,Asia-Pacific,0.7,Renal Disorders,1,0.681,4.93,Medium
+CASE-000412,1,Hospitalization,7,70.0,17,22,Pharmacist,0.86,North America,0.9,Psychiatric Disorders,0,0.645,4.52,Medium
+CASE-000413,1,Death,10,50.0,30,6,Healthcare Professional,0.783,Middle East,0.5,Other,3,0.685,7.5,High
+CASE-000414,1,Life-threatening,9,80.0,73,10,Healthcare Professional,0.775,Middle East,0.5,Psychiatric Disorders,3,0.317,5.5,Medium
+CASE-000415,1,Congenital Anomaly,8,100.0,70,8,Patient,0.547,Middle East,0.5,Cardiac Disorders,2,0.776,4.72,Medium
+CASE-000416,0,Non-serious,2,70.0,8,31,Healthcare Professional,0.922,Middle East,0.5,Skin Disorders,1,0.795,1.93,Low
+CASE-000417,1,Life-threatening,9,20.0,19,5,Healthcare Professional,0.815,North America,0.9,Cardiac Disorders,1,0.386,6.91,High
+CASE-000418,0,Non-serious,4,80.0,61,9,Pharmacist,0.903,Asia-Pacific,0.7,Skin Disorders,1,0.61,4.23,Medium
+CASE-000419,1,Disability,8,30.0,76,8,Consumer,0.503,Middle East,0.5,Skin Disorders,1,0.241,6.28,High
+CASE-000420,0,Non-serious,3,80.0,30,32,Healthcare Professional,0.912,Latin America,0.6,Psychiatric Disorders,0,0.316,2.24,Low
+CASE-000421,1,Hospitalization,7,100.0,57,9,Pharmacist,0.755,Latin America,0.6,Psychiatric Disorders,4,0.279,4.11,Medium
+CASE-000422,1,Congenital Anomaly,8,90.0,50,44,Pharmacist,0.806,North America,0.9,Cardiac Disorders,3,0.458,3.94,Low
+CASE-000423,1,Disability,8,40.0,84,43,Consumer,0.562,Latin America,0.6,Cardiac Disorders,0,0.618,4.66,Medium
+CASE-000424,0,Non-serious,4,40.0,0,13,Healthcare Professional,0.929,Africa,0.5,Hepatic Disorders,1,0.268,4.2,Medium
+CASE-000425,0,Non-serious,1,90.0,46,20,Healthcare Professional,0.786,Asia-Pacific,0.7,Psychiatric Disorders,1,0.543,1.71,Low
+CASE-000426,0,Non-serious,4,60.0,51,25,Healthcare Professional,0.852,Europe,0.95,Hepatic Disorders,3,0.358,4.12,Medium
+CASE-000427,0,Non-serious,3,10.0,34,7,Healthcare Professional,0.79,Latin America,0.6,Psychiatric Disorders,2,0.322,5.33,Medium
+CASE-000428,0,Non-serious,1,60.0,49,9,Consumer,0.481,Asia-Pacific,0.7,Renal Disorders,3,0.796,3.7,Low
+CASE-000429,0,Non-serious,3,40.0,52,16,Pharmacist,0.782,Asia-Pacific,0.7,Cardiac Disorders,2,0.613,4.11,Medium
+CASE-000430,0,Non-serious,1,80.0,75,4,Consumer,0.504,Europe,0.95,Nervous System Disorders,3,0.502,3.25,Low
+CASE-000431,0,Non-serious,2,60.0,19,10,Consumer,0.448,Asia-Pacific,0.7,Other,2,0.67,2.85,Low
+CASE-000432,0,Non-serious,3,90.0,80,30,Pharmacist,0.904,North America,0.9,Gastrointestinal Disorders,2,0.312,2.37,Low
+CASE-000433,0,Non-serious,3,80.0,87,30,Other HCP,0.661,North America,0.9,Cardiac Disorders,2,0.484,3.01,Low
+CASE-000434,1,Death,10,70.0,8,35,Healthcare Professional,0.885,Middle East,0.5,Cardiac Disorders,1,0.493,4.74,Medium
+CASE-000435,1,Hospitalization,7,10.0,32,15,Consumer,0.359,Middle East,0.5,Blood Disorders,0,0.418,5.54,Medium
+CASE-000436,0,Non-serious,2,50.0,83,22,Healthcare Professional,0.799,North America,0.9,Other,1,0.34,3.47,Low
+CASE-000437,0,Non-serious,2,90.0,88,21,Other HCP,0.611,North America,0.9,Respiratory Disorders,2,0.777,2.94,Low
+CASE-000438,0,Non-serious,2,20.0,1,12,Patient,0.534,Latin America,0.6,Hepatic Disorders,3,0.377,4.14,Medium
+CASE-000439,1,Hospitalization,7,30.0,33,41,Pharmacist,0.896,North America,0.9,Skin Disorders,3,0.641,5.09,Medium
+CASE-000440,1,Life-threatening,9,40.0,89,34,Pharmacist,0.92,North America,0.9,Renal Disorders,2,0.287,5.83,Medium
+CASE-000441,0,Non-serious,1,90.0,87,20,Consumer,0.384,North America,0.9,Hepatic Disorders,0,0.637,2.64,Low
+CASE-000442,0,Non-serious,4,30.0,57,27,Patient,0.551,Latin America,0.6,Cardiac Disorders,0,0.705,3.21,Low
+CASE-000443,0,Non-serious,1,30.0,4,37,Other HCP,0.742,Europe,0.95,Renal Disorders,0,0.58,2.4,Low
+CASE-000444,0,Non-serious,1,90.0,58,26,Healthcare Professional,0.819,North America,0.9,Respiratory Disorders,0,0.314,1.96,Low
+CASE-000445,0,Non-serious,4,80.0,45,9,Patient,0.512,Middle East,0.5,Hepatic Disorders,1,0.24,4.11,Medium
+CASE-000446,0,Non-serious,3,50.0,12,20,Pharmacist,0.932,Latin America,0.6,Other,0,0.297,3.9,Low
+CASE-000447,0,Non-serious,2,60.0,19,1,Other HCP,0.715,Asia-Pacific,0.7,Skin Disorders,1,0.736,3.75,Low
+CASE-000448,0,Non-serious,3,80.0,6,39,Consumer,0.398,Latin America,0.6,Gastrointestinal Disorders,0,0.636,1.52,Low
+CASE-000449,1,Hospitalization,7,100.0,52,20,Healthcare Professional,0.713,Latin America,0.6,Cardiac Disorders,4,0.408,3.45,Low
+CASE-000450,0,Non-serious,3,90.0,31,1,Patient,0.61,Middle East,0.5,Cardiac Disorders,0,0.295,4.31,Medium
+CASE-000451,0,Non-serious,3,40.0,61,39,Pharmacist,0.918,North America,0.9,Respiratory Disorders,1,0.204,3.36,Low
+CASE-000452,0,Non-serious,2,100.0,0,34,Consumer,0.567,Latin America,0.6,Blood Disorders,1,0.615,1.0,Low
+CASE-000453,1,Death,10,20.0,49,23,Other HCP,0.836,Africa,0.5,Skin Disorders,2,0.22,6.86,High
+CASE-000454,1,Hospitalization,7,70.0,47,18,Pharmacist,0.808,Asia-Pacific,0.7,Psychiatric Disorders,2,0.779,4.75,Medium
+CASE-000455,0,Non-serious,3,90.0,63,11,Patient,0.549,Europe,0.95,Psychiatric Disorders,2,0.292,3.38,Low
+CASE-000456,0,Non-serious,4,60.0,13,10,Patient,0.64,North America,0.9,Hepatic Disorders,2,0.246,3.96,Low
+CASE-000457,0,Non-serious,1,60.0,60,21,Consumer,0.471,Middle East,0.5,Cardiac Disorders,1,0.609,2.86,Low
+CASE-000458,0,Non-serious,2,70.0,16,7,Patient,0.553,Europe,0.95,Psychiatric Disorders,3,0.68,4.53,Medium
+CASE-000459,0,Non-serious,1,70.0,3,36,Consumer,0.488,North America,0.9,Cardiac Disorders,1,0.613,1.74,Low
+CASE-000460,1,Hospitalization,7,60.0,3,25,Consumer,0.524,Middle East,0.5,Hepatic Disorders,2,0.669,4.12,Medium
+CASE-000461,1,Other Medically Important,6,70.0,20,15,Patient,0.635,Europe,0.95,Blood Disorders,1,0.596,3.97,Low
+CASE-000462,1,Hospitalization,7,30.0,68,8,Healthcare Professional,0.882,Europe,0.95,Blood Disorders,1,0.593,6.09,High
+CASE-000463,1,Disability,8,90.0,51,10,Consumer,0.598,Latin America,0.6,Renal Disorders,1,0.681,6.14,High
+CASE-000464,0,Non-serious,4,90.0,12,16,Consumer,0.377,Africa,0.5,Nervous System Disorders,0,0.555,2.46,Low
+CASE-000465,0,Non-serious,2,60.0,14,27,Patient,0.612,Europe,0.95,Psychiatric Disorders,0,0.601,3.74,Low
+CASE-000466,0,Non-serious,1,80.0,80,40,Pharmacist,0.757,North America,0.9,Cardiac Disorders,1,0.714,1.48,Low
+CASE-000467,0,Non-serious,4,80.0,32,5,Healthcare Professional,0.774,Europe,0.95,Renal Disorders,1,0.208,3.63,Low
+CASE-000468,1,Death,10,70.0,4,37,Consumer,0.329,North America,0.9,Skin Disorders,1,0.742,4.76,Medium
+CASE-000469,1,Congenital Anomaly,8,100.0,87,9,Pharmacist,0.891,Asia-Pacific,0.7,Cardiac Disorders,0,0.799,5.22,Medium
+CASE-000470,0,Non-serious,1,50.0,50,37,Pharmacist,0.882,North America,0.9,Psychiatric Disorders,2,0.304,2.54,Low
+CASE-000471,0,Non-serious,4,80.0,31,1,Other HCP,0.676,Latin America,0.6,Other,2,0.424,2.55,Low
+CASE-000472,0,Non-serious,1,40.0,35,33,Healthcare Professional,0.817,Asia-Pacific,0.7,Skin Disorders,1,0.367,2.8,Low
+CASE-000473,1,Death,10,60.0,88,17,Pharmacist,0.769,Africa,0.5,Other,1,0.453,5.49,Medium
+CASE-000474,0,Non-serious,2,100.0,42,12,Pharmacist,0.837,North America,0.9,Nervous System Disorders,0,0.547,1.94,Low
+CASE-000475,0,Non-serious,1,100.0,86,29,Pharmacist,0.762,Africa,0.5,Respiratory Disorders,0,0.611,1.49,Low
+CASE-000476,0,Non-serious,4,20.0,28,36,Other HCP,0.842,Latin America,0.6,Gastrointestinal Disorders,2,0.457,4.46,Medium
+CASE-000477,1,Hospitalization,7,50.0,8,12,Consumer,0.438,Middle East,0.5,Cardiac Disorders,1,0.415,4.7,Medium
+CASE-000478,0,Non-serious,2,40.0,60,5,Healthcare Professional,0.741,Asia-Pacific,0.7,Gastrointestinal Disorders,0,0.759,3.98,Low
+CASE-000479,1,Other Medically Important,6,70.0,67,26,Patient,0.411,Middle East,0.5,Blood Disorders,1,0.75,4.15,Medium
+CASE-000480,1,Disability,8,90.0,27,21,Pharmacist,0.794,Asia-Pacific,0.7,Nervous System Disorders,1,0.266,4.02,Medium
+CASE-000481,1,Disability,8,80.0,13,15,Patient,0.419,Europe,0.95,Psychiatric Disorders,3,0.473,5.46,Medium
+CASE-000482,0,Non-serious,2,100.0,25,10,Consumer,0.547,Africa,0.5,Other,1,0.272,2.17,Low
+CASE-000483,0,Non-serious,2,70.0,66,44,Consumer,0.571,Latin America,0.6,Respiratory Disorders,4,0.454,2.08,Low
+CASE-000484,0,Non-serious,4,90.0,37,39,Healthcare Professional,0.776,Europe,0.95,Respiratory Disorders,1,0.258,2.95,Low
+CASE-000485,0,Non-serious,1,30.0,71,23,Pharmacist,0.777,Middle East,0.5,Nervous System Disorders,2,0.376,3.48,Low
+CASE-000486,0,Non-serious,1,70.0,81,6,Consumer,0.307,Africa,0.5,Other,3,0.387,3.91,Low
+CASE-000487,1,Death,10,30.0,74,16,Healthcare Professional,0.865,Asia-Pacific,0.7,Nervous System Disorders,2,0.506,7.16,High
+CASE-000488,1,Death,10,70.0,16,23,Patient,0.556,Europe,0.95,Cardiac Disorders,1,0.49,4.96,Medium
+CASE-000489,0,Non-serious,1,80.0,1,35,Healthcare Professional,0.781,Europe,0.95,Cardiac Disorders,4,0.473,1.0,Low
+CASE-000490,0,Non-serious,3,40.0,28,22,Consumer,0.433,Asia-Pacific,0.7,Other,1,0.381,3.68,Low
+CASE-000491,1,Hospitalization,7,90.0,32,35,Other HCP,0.781,Middle East,0.5,Skin Disorders,0,0.409,2.83,Low
+CASE-000492,1,Death,10,50.0,6,20,Pharmacist,0.906,Middle East,0.5,Respiratory Disorders,0,0.565,6.14,High
+CASE-000493,0,Non-serious,3,70.0,89,36,Consumer,0.558,Africa,0.5,Blood Disorders,2,0.489,3.43,Low
+CASE-000494,0,Non-serious,2,70.0,8,5,Pharmacist,0.806,Africa,0.5,Respiratory Disorders,2,0.573,2.26,Low
+CASE-000495,0,Non-serious,1,80.0,44,40,Other HCP,0.621,North America,0.9,Skin Disorders,0,0.609,2.35,Low
+CASE-000496,0,Non-serious,2,60.0,37,11,Healthcare Professional,0.899,Africa,0.5,Hepatic Disorders,3,0.581,3.24,Low
+CASE-000497,0,Non-serious,4,40.0,21,4,Patient,0.651,Middle East,0.5,Gastrointestinal Disorders,1,0.55,4.81,Medium
+CASE-000498,1,Disability,8,20.0,35,34,Consumer,0.599,Latin America,0.6,Cardiac Disorders,4,0.465,6.4,High
+CASE-000499,1,Life-threatening,9,40.0,82,34,Patient,0.672,Latin America,0.6,Psychiatric Disorders,4,0.701,7.01,High
+CASE-000500,1,Congenital Anomaly,8,60.0,11,15,Pharmacist,0.878,Middle East,0.5,Blood Disorders,2,0.687,5.11,Medium
+CASE-000501,0,Non-serious,2,40.0,22,7,Consumer,0.389,Asia-Pacific,0.7,Blood Disorders,1,0.477,3.55,Low
+CASE-000502,0,Non-serious,1,50.0,80,40,Consumer,0.59,Africa,0.5,Gastrointestinal Disorders,0,0.749,2.42,Low
+CASE-000503,1,Disability,8,70.0,67,40,Consumer,0.554,North America,0.9,Other,0,0.505,4.91,Medium
+CASE-000504,0,Non-serious,4,90.0,19,13,Healthcare Professional,0.79,Europe,0.95,Psychiatric Disorders,4,0.466,3.45,Low
+CASE-000505,0,Non-serious,2,30.0,49,25,Patient,0.5,Europe,0.95,Cardiac Disorders,3,0.598,3.09,Low
+CASE-000506,0,Non-serious,2,90.0,43,40,Other HCP,0.831,Africa,0.5,Skin Disorders,3,0.468,1.08,Low
+CASE-000507,0,Non-serious,3,100.0,40,6,Other HCP,0.619,Middle East,0.5,Respiratory Disorders,1,0.584,4.18,Medium
+CASE-000508,1,Death,10,90.0,79,33,Consumer,0.441,Asia-Pacific,0.7,Blood Disorders,3,0.772,5.56,Medium
+CASE-000509,1,Death,10,50.0,5,15,Other HCP,0.689,Middle East,0.5,Respiratory Disorders,0,0.733,5.55,Medium
+CASE-000510,0,Non-serious,2,80.0,21,38,Healthcare Professional,0.702,Middle East,0.5,Renal Disorders,0,0.569,1.62,Low
+CASE-000511,1,Life-threatening,9,90.0,15,18,Healthcare Professional,0.928,Europe,0.95,Hepatic Disorders,4,0.603,5.72,Medium
+CASE-000512,0,Non-serious,4,50.0,85,14,Healthcare Professional,0.901,Europe,0.95,Nervous System Disorders,0,0.289,4.61,Medium
+CASE-000513,0,Non-serious,2,50.0,74,34,Healthcare Professional,0.846,Asia-Pacific,0.7,Cardiac Disorders,3,0.228,3.49,Low
+CASE-000514,0,Non-serious,4,70.0,72,39,Other HCP,0.737,Asia-Pacific,0.7,Other,2,0.713,3.13,Low
+CASE-000515,1,Disability,8,50.0,75,26,Consumer,0.356,Middle East,0.5,Cardiac Disorders,0,0.326,5.42,Medium
+CASE-000516,1,Congenital Anomaly,8,60.0,15,44,Patient,0.438,Europe,0.95,Renal Disorders,2,0.675,4.02,Medium
+CASE-000517,0,Non-serious,1,20.0,28,12,Consumer,0.571,Africa,0.5,Gastrointestinal Disorders,0,0.288,3.32,Low
+CASE-000518,1,Other Medically Important,6,30.0,84,17,Pharmacist,0.833,Latin America,0.6,Skin Disorders,0,0.329,6.11,High
+CASE-000519,0,Non-serious,2,50.0,75,40,Healthcare Professional,0.93,Middle East,0.5,Other,2,0.6,3.12,Low
+CASE-000520,0,Non-serious,4,100.0,35,25,Consumer,0.478,Latin America,0.6,Blood Disorders,4,0.251,1.81,Low
+CASE-000521,0,Non-serious,1,60.0,82,4,Healthcare Professional,0.844,Africa,0.5,Gastrointestinal Disorders,2,0.282,3.03,Low
+CASE-000522,0,Non-serious,3,80.0,56,7,Patient,0.491,Latin America,0.6,Hepatic Disorders,1,0.41,3.66,Low
+CASE-000523,0,Non-serious,4,50.0,63,43,Pharmacist,0.865,Europe,0.95,Cardiac Disorders,4,0.593,2.61,Low
+CASE-000524,0,Non-serious,2,80.0,17,27,Consumer,0.594,Middle East,0.5,Gastrointestinal Disorders,1,0.434,2.29,Low
+CASE-000525,0,Non-serious,4,60.0,50,4,Healthcare Professional,0.75,Middle East,0.5,Renal Disorders,2,0.35,3.62,Low
+CASE-000526,0,Non-serious,1,80.0,2,13,Patient,0.458,North America,0.9,Psychiatric Disorders,1,0.53,2.15,Low
+CASE-000527,0,Non-serious,4,30.0,72,26,Other HCP,0.82,Europe,0.95,Hepatic Disorders,3,0.701,3.89,Low
+CASE-000528,0,Non-serious,3,60.0,58,34,Healthcare Professional,0.864,Asia-Pacific,0.7,Respiratory Disorders,3,0.466,3.31,Low
+CASE-000529,1,Congenital Anomaly,8,90.0,15,21,Pharmacist,0.847,Middle East,0.5,Gastrointestinal Disorders,2,0.256,3.52,Low
+CASE-000530,1,Disability,8,70.0,56,12,Pharmacist,0.84,Latin America,0.6,Respiratory Disorders,3,0.412,6.19,High
+CASE-000531,0,Non-serious,3,70.0,43,13,Other HCP,0.673,Europe,0.95,Respiratory Disorders,3,0.746,4.07,Medium
+CASE-000532,1,Congenital Anomaly,8,20.0,42,11,Patient,0.474,Latin America,0.6,Respiratory Disorders,3,0.334,7.4,High
+CASE-000533,0,Non-serious,4,50.0,19,13,Healthcare Professional,0.727,Asia-Pacific,0.7,Hepatic Disorders,1,0.209,3.89,Low
+CASE-000534,0,Non-serious,4,80.0,7,3,Healthcare Professional,0.769,Europe,0.95,Nervous System Disorders,2,0.545,4.38,Medium
+CASE-000535,1,Congenital Anomaly,8,60.0,24,34,Consumer,0.536,Africa,0.5,Other,1,0.243,3.9,Low
+CASE-000536,1,Disability,8,70.0,83,6,Other HCP,0.827,Latin America,0.6,Nervous System Disorders,3,0.687,4.89,Medium
+CASE-000537,0,Non-serious,2,70.0,40,11,Patient,0.697,Asia-Pacific,0.7,Skin Disorders,1,0.311,3.51,Low
+CASE-000538,0,Non-serious,3,70.0,28,38,Healthcare Professional,0.818,Africa,0.5,Renal Disorders,2,0.556,2.49,Low
+CASE-000539,0,Non-serious,1,40.0,47,2,Healthcare Professional,0.784,North America,0.9,Gastrointestinal Disorders,0,0.254,3.77,Low
+CASE-000540,0,Non-serious,4,60.0,64,12,Consumer,0.391,Africa,0.5,Psychiatric Disorders,1,0.372,5.3,Medium
+CASE-000541,1,Life-threatening,9,30.0,27,31,Healthcare Professional,0.946,North America,0.9,Blood Disorders,3,0.795,6.06,High
+CASE-000542,0,Non-serious,4,80.0,25,13,Healthcare Professional,0.746,Latin America,0.6,Renal Disorders,0,0.43,3.8,Low
+CASE-000543,1,Congenital Anomaly,8,60.0,14,44,Other HCP,0.77,Latin America,0.6,Psychiatric Disorders,1,0.697,4.65,Medium
+CASE-000544,0,Non-serious,4,70.0,6,36,Patient,0.674,Middle East,0.5,Hepatic Disorders,2,0.46,2.12,Low
+CASE-000545,0,Non-serious,3,50.0,50,32,Patient,0.693,Latin America,0.6,Psychiatric Disorders,2,0.794,2.79,Low
+CASE-000546,0,Non-serious,3,60.0,20,18,Other HCP,0.79,Europe,0.95,Blood Disorders,2,0.269,2.6,Low
+CASE-000547,1,Death,10,90.0,68,17,Other HCP,0.719,Africa,0.5,Renal Disorders,2,0.734,5.52,Medium
+CASE-000548,0,Non-serious,2,50.0,59,25,Pharmacist,0.837,Middle East,0.5,Cardiac Disorders,1,0.317,3.97,Low
+CASE-000549,0,Non-serious,4,30.0,17,42,Healthcare Professional,0.724,Africa,0.5,Nervous System Disorders,2,0.253,4.09,Medium
+CASE-000550,0,Non-serious,4,60.0,20,29,Other HCP,0.78,Asia-Pacific,0.7,Blood Disorders,0,0.775,3.89,Low
+CASE-000551,0,Non-serious,2,30.0,87,4,Consumer,0.485,Europe,0.95,Other,4,0.51,4.68,Medium
+CASE-000552,1,Death,10,40.0,16,1,Consumer,0.529,Europe,0.95,Psychiatric Disorders,0,0.767,6.91,High
+CASE-000553,1,Other Medically Important,6,30.0,76,11,Pharmacist,0.817,Africa,0.5,Other,2,0.362,5.32,Medium
+CASE-000554,0,Non-serious,1,90.0,1,9,Other HCP,0.683,Asia-Pacific,0.7,Renal Disorders,0,0.413,2.43,Low
+CASE-000555,0,Non-serious,1,40.0,87,13,Other HCP,0.636,Asia-Pacific,0.7,Blood Disorders,1,0.449,4.77,Medium
+CASE-000556,0,Non-serious,4,60.0,57,25,Consumer,0.515,Middle East,0.5,Nervous System Disorders,3,0.236,3.49,Low
+CASE-000557,0,Non-serious,2,50.0,87,24,Other HCP,0.817,Latin America,0.6,Gastrointestinal Disorders,0,0.744,4.05,Medium
+CASE-000558,0,Non-serious,3,80.0,11,27,Consumer,0.347,Latin America,0.6,Skin Disorders,0,0.682,3.54,Low
+CASE-000559,0,Non-serious,2,50.0,65,27,Pharmacist,0.875,Middle East,0.5,Nervous System Disorders,1,0.571,3.57,Low
+CASE-000560,1,Death,10,70.0,58,5,Pharmacist,0.877,Asia-Pacific,0.7,Cardiac Disorders,5,0.674,6.56,High
+CASE-000561,1,Other Medically Important,6,60.0,69,11,Patient,0.549,Europe,0.95,Hepatic Disorders,2,0.472,5.72,Medium
+CASE-000562,0,Non-serious,4,60.0,18,44,Consumer,0.386,Middle East,0.5,Hepatic Disorders,1,0.593,1.71,Low
+CASE-000563,0,Non-serious,3,70.0,83,39,Healthcare Professional,0.803,Africa,0.5,Hepatic Disorders,0,0.336,2.52,Low
+CASE-000564,0,Non-serious,3,60.0,67,5,Healthcare Professional,0.715,Middle East,0.5,Hepatic Disorders,4,0.35,3.31,Low
+CASE-000565,0,Non-serious,3,50.0,23,23,Patient,0.599,Europe,0.95,Skin Disorders,0,0.233,4.21,Medium
+CASE-000566,0,Non-serious,4,90.0,1,12,Healthcare Professional,0.834,Asia-Pacific,0.7,Skin Disorders,0,0.62,3.64,Low
+CASE-000567,1,Congenital Anomaly,8,60.0,87,39,Healthcare Professional,0.887,North America,0.9,Blood Disorders,3,0.495,5.17,Medium
+CASE-000568,0,Non-serious,4,40.0,77,18,Other HCP,0.803,North America,0.9,Gastrointestinal Disorders,1,0.341,4.97,Medium
+CASE-000569,1,Other Medically Important,6,20.0,67,3,Healthcare Professional,0.814,Latin America,0.6,Gastrointestinal Disorders,0,0.647,6.05,High
+CASE-000570,1,Death,10,60.0,3,33,Patient,0.464,North America,0.9,Psychiatric Disorders,1,0.768,4.54,Medium
+CASE-000571,0,Non-serious,1,60.0,14,13,Pharmacist,0.809,North America,0.9,Psychiatric Disorders,2,0.266,3.43,Low
+CASE-000572,0,Non-serious,4,50.0,64,8,Healthcare Professional,0.75,Africa,0.5,Cardiac Disorders,3,0.246,5.04,Medium
+CASE-000573,0,Non-serious,2,80.0,76,23,Patient,0.625,Asia-Pacific,0.7,Nervous System Disorders,0,0.743,2.93,Low
+CASE-000574,1,Life-threatening,9,50.0,25,41,Pharmacist,0.931,Europe,0.95,Renal Disorders,0,0.464,4.73,Medium
+CASE-000575,0,Non-serious,2,60.0,85,3,Patient,0.44,Africa,0.5,Hepatic Disorders,1,0.725,4.44,Medium
+CASE-000576,0,Non-serious,1,100.0,19,13,Pharmacist,0.754,North America,0.9,Gastrointestinal Disorders,2,0.497,1.64,Low
+CASE-000577,0,Non-serious,4,100.0,84,29,Patient,0.689,North America,0.9,Nervous System Disorders,0,0.318,3.49,Low
+CASE-000578,1,Life-threatening,9,50.0,12,6,Other HCP,0.812,Europe,0.95,Skin Disorders,1,0.565,6.14,High
+CASE-000579,0,Non-serious,2,30.0,85,27,Pharmacist,0.802,Middle East,0.5,Psychiatric Disorders,5,0.497,4.3,Medium
+CASE-000580,0,Non-serious,4,70.0,14,19,Pharmacist,0.907,Middle East,0.5,Other,3,0.581,2.79,Low
+CASE-000581,0,Non-serious,3,60.0,63,44,Patient,0.687,Africa,0.5,Other,2,0.357,2.92,Low
+CASE-000582,0,Non-serious,1,80.0,15,27,Patient,0.696,Middle East,0.5,Renal Disorders,1,0.655,1.17,Low
+CASE-000583,1,Congenital Anomaly,8,50.0,44,12,Patient,0.681,Europe,0.95,Hepatic Disorders,2,0.593,6.66,High
+CASE-000584,0,Non-serious,2,100.0,70,35,Patient,0.554,Middle East,0.5,Other,2,0.668,2.58,Low
+CASE-000585,1,Other Medically Important,6,50.0,67,16,Pharmacist,0.815,Asia-Pacific,0.7,Psychiatric Disorders,1,0.366,4.96,Medium
+CASE-000586,0,Non-serious,2,70.0,8,14,Patient,0.509,Africa,0.5,Respiratory Disorders,2,0.455,2.82,Low
+CASE-000587,0,Non-serious,2,50.0,36,42,Pharmacist,0.897,Latin America,0.6,Gastrointestinal Disorders,1,0.667,2.57,Low
+CASE-000588,1,Congenital Anomaly,8,70.0,81,41,Consumer,0.421,North America,0.9,Gastrointestinal Disorders,1,0.547,4.72,Medium
+CASE-000589,0,Non-serious,3,90.0,85,29,Pharmacist,0.798,Africa,0.5,Skin Disorders,0,0.285,2.32,Low
+CASE-000590,0,Non-serious,2,70.0,76,25,Pharmacist,0.817,Asia-Pacific,0.7,Respiratory Disorders,0,0.625,3.49,Low
+CASE-000591,1,Other Medically Important,6,80.0,56,11,Pharmacist,0.926,Africa,0.5,Renal Disorders,1,0.701,4.25,Medium
+CASE-000592,1,Other Medically Important,6,60.0,22,24,Other HCP,0.672,Middle East,0.5,Hepatic Disorders,2,0.408,4.52,Medium
+CASE-000593,0,Non-serious,4,70.0,22,28,Pharmacist,0.805,North America,0.9,Skin Disorders,2,0.668,3.09,Low
+CASE-000594,1,Disability,8,60.0,12,1,Pharmacist,0.944,Latin America,0.6,Skin Disorders,4,0.773,4.87,Medium
+CASE-000595,1,Congenital Anomaly,8,80.0,33,36,Pharmacist,0.937,Africa,0.5,Skin Disorders,1,0.434,4.24,Medium
+CASE-000596,1,Death,10,70.0,52,1,Consumer,0.408,Asia-Pacific,0.7,Psychiatric Disorders,0,0.382,5.92,Medium
+CASE-000597,0,Non-serious,3,80.0,40,41,Patient,0.639,Asia-Pacific,0.7,Other,1,0.795,1.8,Low
+CASE-000598,0,Non-serious,1,80.0,10,1,Patient,0.612,Europe,0.95,Psychiatric Disorders,1,0.329,2.46,Low
+CASE-000599,0,Non-serious,2,50.0,27,29,Healthcare Professional,0.711,North America,0.9,Psychiatric Disorders,0,0.381,2.44,Low
+CASE-000600,1,Disability,8,60.0,31,14,Consumer,0.318,Asia-Pacific,0.7,Cardiac Disorders,1,0.381,5.73,Medium
+CASE-000601,0,Non-serious,3,20.0,26,28,Healthcare Professional,0.92,Europe,0.95,Gastrointestinal Disorders,0,0.736,3.53,Low
+CASE-000602,1,Congenital Anomaly,8,10.0,15,22,Other HCP,0.829,Latin America,0.6,Gastrointestinal Disorders,1,0.436,6.41,High
+CASE-000603,0,Non-serious,3,50.0,86,28,Healthcare Professional,0.85,Africa,0.5,Respiratory Disorders,2,0.636,3.16,Low
+CASE-000604,1,Death,10,100.0,27,20,Patient,0.593,North America,0.9,Blood Disorders,1,0.408,5.04,Medium
+CASE-000605,0,Non-serious,1,80.0,37,41,Pharmacist,0.788,North America,0.9,Other,1,0.503,2.04,Low
+CASE-000606,1,Congenital Anomaly,8,70.0,17,5,Consumer,0.493,Africa,0.5,Skin Disorders,2,0.328,5.95,Medium
+CASE-000607,1,Hospitalization,7,60.0,69,4,Healthcare Professional,0.806,Latin America,0.6,Respiratory Disorders,4,0.668,5.79,Medium
+CASE-000608,0,Non-serious,2,50.0,55,4,Other HCP,0.705,North America,0.9,Renal Disorders,1,0.51,4.14,Medium
+CASE-000609,0,Non-serious,2,70.0,45,40,Other HCP,0.804,Middle East,0.5,Respiratory Disorders,0,0.483,3.44,Low
+CASE-000610,0,Non-serious,2,70.0,77,13,Other HCP,0.804,Latin America,0.6,Renal Disorders,2,0.587,3.78,Low
+CASE-000611,1,Other Medically Important,6,30.0,86,10,Patient,0.664,Europe,0.95,Renal Disorders,0,0.64,5.53,Medium
+CASE-000612,0,Non-serious,2,30.0,54,42,Patient,0.578,Middle East,0.5,Cardiac Disorders,3,0.688,4.01,Medium
+CASE-000613,1,Hospitalization,7,90.0,27,42,Patient,0.56,Africa,0.5,Other,0,0.502,4.55,Medium
+CASE-000614,0,Non-serious,1,20.0,59,20,Patient,0.407,Asia-Pacific,0.7,Hepatic Disorders,1,0.531,4.36,Medium
+CASE-000615,0,Non-serious,2,50.0,85,12,Consumer,0.337,Latin America,0.6,Psychiatric Disorders,2,0.473,3.85,Low
+CASE-000616,1,Disability,8,60.0,18,7,Other HCP,0.797,Middle East,0.5,Renal Disorders,3,0.322,5.28,Medium
+CASE-000617,0,Non-serious,1,90.0,7,38,Patient,0.619,North America,0.9,Renal Disorders,2,0.711,1.33,Low
+CASE-000618,0,Non-serious,1,80.0,52,34,Consumer,0.511,Africa,0.5,Blood Disorders,1,0.794,1.87,Low
+CASE-000619,1,Other Medically Important,6,40.0,8,44,Healthcare Professional,0.788,Latin America,0.6,Blood Disorders,2,0.444,3.34,Low
+CASE-000620,0,Non-serious,3,90.0,83,28,Pharmacist,0.798,North America,0.9,Blood Disorders,2,0.529,3.58,Low
+CASE-000621,0,Non-serious,3,10.0,40,23,Other HCP,0.832,Africa,0.5,Blood Disorders,0,0.797,4.12,Medium
+CASE-000622,1,Disability,8,30.0,66,15,Consumer,0.409,Europe,0.95,Respiratory Disorders,1,0.695,6.33,High
+CASE-000623,0,Non-serious,4,60.0,77,3,Pharmacist,0.915,Middle East,0.5,Gastrointestinal Disorders,1,0.607,3.67,Low
+CASE-000624,0,Non-serious,1,60.0,51,15,Pharmacist,0.844,Middle East,0.5,Hepatic Disorders,1,0.29,3.63,Low
+CASE-000625,0,Non-serious,1,70.0,4,40,Pharmacist,0.948,Latin America,0.6,Respiratory Disorders,0,0.302,1.47,Low
+CASE-000626,1,Life-threatening,9,80.0,54,19,Pharmacist,0.753,Latin America,0.6,Nervous System Disorders,1,0.625,5.01,Medium
+CASE-000627,0,Non-serious,1,40.0,31,6,Consumer,0.498,Europe,0.95,Gastrointestinal Disorders,1,0.776,4.0,Low
+CASE-000628,0,Non-serious,1,70.0,53,29,Healthcare Professional,0.709,Middle East,0.5,Hepatic Disorders,1,0.485,2.2,Low
+CASE-000629,0,Non-serious,2,60.0,62,39,Patient,0.539,North America,0.9,Cardiac Disorders,3,0.355,2.94,Low
+CASE-000630,0,Non-serious,1,50.0,0,11,Consumer,0.317,Europe,0.95,Respiratory Disorders,3,0.455,3.12,Low
+CASE-000631,1,Disability,8,70.0,87,20,Pharmacist,0.758,Africa,0.5,Blood Disorders,1,0.442,5.26,Medium
+CASE-000632,1,Disability,8,100.0,3,19,Consumer,0.542,Middle East,0.5,Cardiac Disorders,1,0.712,3.41,Low
+CASE-000633,1,Death,10,20.0,72,28,Patient,0.54,Asia-Pacific,0.7,Blood Disorders,1,0.517,7.76,High
+CASE-000634,0,Non-serious,4,70.0,50,26,Other HCP,0.829,Latin America,0.6,Blood Disorders,1,0.404,4.15,Medium
+CASE-000635,0,Non-serious,1,80.0,70,35,Consumer,0.366,Asia-Pacific,0.7,Hepatic Disorders,1,0.34,1.74,Low
+CASE-000636,0,Non-serious,2,70.0,4,21,Pharmacist,0.815,Middle East,0.5,Renal Disorders,0,0.6,1.81,Low
+CASE-000637,0,Non-serious,1,60.0,73,6,Pharmacist,0.868,Middle East,0.5,Nervous System Disorders,0,0.385,3.12,Low
+CASE-000638,0,Non-serious,3,50.0,82,44,Healthcare Professional,0.75,Africa,0.5,Hepatic Disorders,1,0.643,3.54,Low
+CASE-000639,0,Non-serious,1,90.0,78,29,Other HCP,0.792,Europe,0.95,Psychiatric Disorders,2,0.33,2.36,Low
+CASE-000640,0,Non-serious,2,60.0,20,24,Healthcare Professional,0.814,Africa,0.5,Nervous System Disorders,0,0.407,2.46,Low
+CASE-000641,1,Hospitalization,7,50.0,73,36,Patient,0.494,Asia-Pacific,0.7,Nervous System Disorders,3,0.763,5.11,Medium
+CASE-000642,0,Non-serious,3,90.0,50,17,Other HCP,0.764,Europe,0.95,Nervous System Disorders,1,0.392,4.05,Medium
+CASE-000643,0,Non-serious,3,50.0,0,14,Other HCP,0.625,Asia-Pacific,0.7,Gastrointestinal Disorders,2,0.751,3.33,Low
+CASE-000644,0,Non-serious,4,20.0,61,42,Pharmacist,0.925,Middle East,0.5,Other,1,0.285,4.17,Medium
+CASE-000645,0,Non-serious,1,70.0,13,3,Consumer,0.427,Africa,0.5,Skin Disorders,1,0.6,2.77,Low
+CASE-000646,1,Disability,8,80.0,22,14,Healthcare Professional,0.863,Asia-Pacific,0.7,Gastrointestinal Disorders,1,0.735,4.65,Medium
+CASE-000647,0,Non-serious,1,60.0,78,23,Healthcare Professional,0.783,Europe,0.95,Hepatic Disorders,2,0.628,2.76,Low
+CASE-000648,0,Non-serious,3,40.0,83,44,Other HCP,0.837,Latin America,0.6,Other,2,0.362,2.51,Low
+CASE-000649,1,Congenital Anomaly,8,80.0,14,4,Pharmacist,0.827,North America,0.9,Renal Disorders,1,0.682,4.21,Medium
+CASE-000650,0,Non-serious,3,90.0,46,38,Other HCP,0.722,Latin America,0.6,Gastrointestinal Disorders,5,0.412,1.47,Low
+CASE-000651,0,Non-serious,4,60.0,64,23,Consumer,0.468,Middle East,0.5,Nervous System Disorders,2,0.592,4.3,Medium
+CASE-000652,0,Non-serious,4,80.0,79,16,Patient,0.589,Europe,0.95,Gastrointestinal Disorders,2,0.433,3.98,Low
+CASE-000653,0,Non-serious,1,60.0,51,26,Healthcare Professional,0.702,Europe,0.95,Hepatic Disorders,0,0.239,2.57,Low
+CASE-000654,0,Non-serious,4,70.0,69,42,Consumer,0.368,Latin America,0.6,Renal Disorders,1,0.445,3.79,Low
+CASE-000655,0,Non-serious,4,20.0,19,29,Other HCP,0.606,Africa,0.5,Cardiac Disorders,2,0.375,4.0,Low
+CASE-000656,0,Non-serious,3,50.0,32,18,Pharmacist,0.816,Asia-Pacific,0.7,Cardiac Disorders,0,0.237,3.21,Low
+CASE-000657,0,Non-serious,3,40.0,10,44,Other HCP,0.812,Middle East,0.5,Blood Disorders,1,0.7,3.37,Low
+CASE-000658,0,Non-serious,1,100.0,20,5,Other HCP,0.709,Africa,0.5,Skin Disorders,0,0.447,2.31,Low
+CASE-000659,0,Non-serious,1,50.0,55,43,Pharmacist,0.888,Middle East,0.5,Skin Disorders,0,0.696,2.81,Low
+CASE-000660,1,Death,10,80.0,67,32,Healthcare Professional,0.907,Middle East,0.5,Hepatic Disorders,2,0.499,5.52,Medium
+CASE-000661,0,Non-serious,4,20.0,30,24,Pharmacist,0.915,Africa,0.5,Nervous System Disorders,1,0.534,4.45,Medium
+CASE-000662,0,Non-serious,4,30.0,78,34,Other HCP,0.834,Middle East,0.5,Nervous System Disorders,4,0.725,4.45,Medium
+CASE-000663,0,Non-serious,2,50.0,30,43,Pharmacist,0.901,North America,0.9,Gastrointestinal Disorders,4,0.551,2.11,Low
+CASE-000664,0,Non-serious,1,40.0,60,18,Healthcare Professional,0.78,Middle East,0.5,Blood Disorders,3,0.617,3.53,Low
+CASE-000665,0,Non-serious,3,30.0,74,2,Patient,0.694,Asia-Pacific,0.7,Nervous System Disorders,2,0.663,5.1,Medium
+CASE-000666,0,Non-serious,2,40.0,79,24,Consumer,0.398,Europe,0.95,Blood Disorders,0,0.311,3.17,Low
+CASE-000667,0,Non-serious,3,70.0,77,4,Healthcare Professional,0.829,North America,0.9,Gastrointestinal Disorders,1,0.753,3.84,Low
+CASE-000668,1,Hospitalization,7,80.0,44,16,Consumer,0.326,Asia-Pacific,0.7,Blood Disorders,0,0.205,4.3,Medium
+CASE-000669,1,Hospitalization,7,50.0,30,16,Pharmacist,0.777,Europe,0.95,Gastrointestinal Disorders,0,0.285,5.0,Medium
+CASE-000670,0,Non-serious,3,70.0,41,22,Patient,0.488,Africa,0.5,Gastrointestinal Disorders,1,0.758,3.58,Low
+CASE-000671,0,Non-serious,2,50.0,67,19,Patient,0.58,Middle East,0.5,Respiratory Disorders,4,0.614,2.79,Low
+CASE-000672,0,Non-serious,1,80.0,28,1,Pharmacist,0.792,Latin America,0.6,Other,1,0.313,1.38,Low
+CASE-000673,1,Congenital Anomaly,8,20.0,57,15,Pharmacist,0.804,Middle East,0.5,Respiratory Disorders,1,0.354,6.82,High
+CASE-000674,1,Other Medically Important,6,40.0,86,42,Other HCP,0.845,Middle East,0.5,Gastrointestinal Disorders,0,0.717,4.11,Medium
+CASE-000675,1,Hospitalization,7,50.0,87,33,Patient,0.489,Latin America,0.6,Gastrointestinal Disorders,2,0.219,4.35,Medium
+CASE-000676,0,Non-serious,2,10.0,48,8,Patient,0.622,Middle East,0.5,Nervous System Disorders,3,0.264,5.01,Medium
+CASE-000677,0,Non-serious,1,50.0,11,10,Pharmacist,0.87,Latin America,0.6,Skin Disorders,1,0.515,3.12,Low
+CASE-000678,0,Non-serious,1,60.0,27,40,Other HCP,0.828,Europe,0.95,Gastrointestinal Disorders,0,0.601,1.78,Low
+CASE-000679,0,Non-serious,4,70.0,31,38,Other HCP,0.737,North America,0.9,Blood Disorders,1,0.731,3.07,Low
+CASE-000680,1,Life-threatening,9,20.0,53,12,Consumer,0.403,North America,0.9,Nervous System Disorders,3,0.66,7.62,High
+CASE-000681,0,Non-serious,1,60.0,18,40,Other HCP,0.74,North America,0.9,Nervous System Disorders,0,0.385,1.99,Low
+CASE-000682,0,Non-serious,3,30.0,64,15,Other HCP,0.731,Africa,0.5,Blood Disorders,1,0.315,4.32,Medium
+CASE-000683,0,Non-serious,3,80.0,36,40,Pharmacist,0.75,Middle East,0.5,Gastrointestinal Disorders,1,0.38,2.96,Low
+CASE-000684,0,Non-serious,1,40.0,67,37,Pharmacist,0.857,North America,0.9,Respiratory Disorders,3,0.486,2.54,Low
+CASE-000685,1,Life-threatening,9,60.0,45,20,Other HCP,0.822,Asia-Pacific,0.7,Skin Disorders,0,0.727,6.14,High
+CASE-000686,1,Death,10,60.0,66,22,Healthcare Professional,0.855,Middle East,0.5,Gastrointestinal Disorders,3,0.384,6.07,High
+CASE-000687,0,Non-serious,3,50.0,6,42,Patient,0.505,Latin America,0.6,Gastrointestinal Disorders,2,0.563,2.05,Low
+CASE-000688,0,Non-serious,4,80.0,29,38,Other HCP,0.631,Latin America,0.6,Other,2,0.795,3.1,Low
+CASE-000689,0,Non-serious,1,80.0,51,7,Pharmacist,0.878,Middle East,0.5,Blood Disorders,2,0.627,3.52,Low
+CASE-000690,0,Non-serious,1,90.0,37,40,Other HCP,0.657,Asia-Pacific,0.7,Gastrointestinal Disorders,0,0.414,1.0,Low
+CASE-000691,0,Non-serious,1,70.0,49,44,Patient,0.62,Asia-Pacific,0.7,Psychiatric Disorders,2,0.486,1.8,Low
+CASE-000692,0,Non-serious,2,80.0,76,31,Consumer,0.572,Middle East,0.5,Hepatic Disorders,2,0.234,3.26,Low
+CASE-000693,0,Non-serious,2,40.0,35,26,Pharmacist,0.808,North America,0.9,Skin Disorders,2,0.575,3.97,Low
+CASE-000694,0,Non-serious,2,60.0,76,35,Consumer,0.415,Middle East,0.5,Psychiatric Disorders,3,0.412,2.71,Low
+CASE-000695,0,Non-serious,1,80.0,4,36,Healthcare Professional,0.751,Europe,0.95,Nervous System Disorders,1,0.766,1.27,Low
+CASE-000696,0,Non-serious,1,90.0,30,1,Consumer,0.533,Europe,0.95,Other,1,0.252,2.42,Low
+CASE-000697,1,Disability,8,40.0,21,41,Healthcare Professional,0.882,Africa,0.5,Hepatic Disorders,1,0.325,5.83,Medium
+CASE-000698,0,Non-serious,4,80.0,21,22,Patient,0.657,North America,0.9,Blood Disorders,0,0.646,2.97,Low
+CASE-000699,0,Non-serious,1,20.0,55,44,Other HCP,0.718,Asia-Pacific,0.7,Blood Disorders,2,0.205,2.23,Low
+CASE-000700,0,Non-serious,2,40.0,52,15,Consumer,0.515,Latin America,0.6,Other,0,0.211,3.91,Low
+CASE-000701,1,Disability,8,100.0,20,18,Patient,0.501,Asia-Pacific,0.7,Other,2,0.422,3.28,Low
+CASE-000702,0,Non-serious,2,70.0,22,4,Pharmacist,0.937,Latin America,0.6,Hepatic Disorders,1,0.606,2.62,Low
+CASE-000703,1,Other Medically Important,6,60.0,67,3,Patient,0.504,Africa,0.5,Psychiatric Disorders,3,0.352,5.02,Medium
+CASE-000704,0,Non-serious,3,70.0,63,25,Other HCP,0.755,Africa,0.5,Respiratory Disorders,3,0.495,3.5,Low
+CASE-000705,0,Non-serious,4,80.0,6,40,Pharmacist,0.75,Middle East,0.5,Other,0,0.616,1.73,Low
+CASE-000706,1,Death,10,20.0,21,5,Patient,0.56,Asia-Pacific,0.7,Nervous System Disorders,0,0.548,7.69,High
+CASE-000707,0,Non-serious,1,60.0,9,12,Other HCP,0.674,North America,0.9,Gastrointestinal Disorders,2,0.577,2.81,Low
+CASE-000708,0,Non-serious,2,50.0,78,24,Patient,0.524,Africa,0.5,Respiratory Disorders,2,0.344,2.39,Low
+CASE-000709,0,Non-serious,2,30.0,30,13,Healthcare Professional,0.836,Middle East,0.5,Blood Disorders,2,0.762,4.31,Medium
+CASE-000710,1,Other Medically Important,6,80.0,24,8,Pharmacist,0.781,Latin America,0.6,Other,1,0.721,4.39,Medium
+CASE-000711,0,Non-serious,1,30.0,44,21,Patient,0.537,Latin America,0.6,Blood Disorders,0,0.413,4.05,Medium
+CASE-000712,0,Non-serious,4,60.0,46,20,Consumer,0.384,Africa,0.5,Skin Disorders,1,0.585,3.49,Low
+CASE-000713,0,Non-serious,4,70.0,42,25,Other HCP,0.75,Africa,0.5,Cardiac Disorders,0,0.569,3.48,Low
+CASE-000714,0,Non-serious,4,60.0,8,13,Healthcare Professional,0.907,Latin America,0.6,Respiratory Disorders,1,0.258,3.75,Low
+CASE-000715,0,Non-serious,1,40.0,89,42,Patient,0.626,Latin America,0.6,Psychiatric Disorders,4,0.278,2.31,Low
+CASE-000716,0,Non-serious,1,70.0,17,30,Consumer,0.592,North America,0.9,Respiratory Disorders,5,0.475,1.52,Low
+CASE-000717,1,Death,10,60.0,71,18,Healthcare Professional,0.712,Middle East,0.5,Gastrointestinal Disorders,2,0.713,5.26,Medium
+CASE-000718,1,Death,10,100.0,9,3,Healthcare Professional,0.84,Africa,0.5,Skin Disorders,1,0.307,4.65,Medium
+CASE-000719,1,Disability,8,80.0,29,10,Other HCP,0.669,Asia-Pacific,0.7,Blood Disorders,0,0.655,4.44,Medium
+CASE-000720,0,Non-serious,4,30.0,7,39,Other HCP,0.769,Europe,0.95,Respiratory Disorders,3,0.629,3.66,Low
+CASE-000721,0,Non-serious,4,30.0,83,34,Healthcare Professional,0.875,Middle East,0.5,Renal Disorders,2,0.569,3.83,Low
+CASE-000722,0,Non-serious,1,80.0,10,37,Patient,0.575,Latin America,0.6,Gastrointestinal Disorders,2,0.658,1.54,Low
+CASE-000723,0,Non-serious,1,60.0,60,27,Healthcare Professional,0.925,Latin America,0.6,Skin Disorders,0,0.727,3.04,Low
+CASE-000724,0,Non-serious,3,70.0,28,1,Healthcare Professional,0.861,Middle East,0.5,Skin Disorders,1,0.358,3.72,Low
+CASE-000725,0,Non-serious,4,70.0,19,38,Patient,0.441,Asia-Pacific,0.7,Gastrointestinal Disorders,3,0.466,3.1,Low
+CASE-000726,1,Disability,8,70.0,33,25,Healthcare Professional,0.77,Latin America,0.6,Respiratory Disorders,0,0.692,5.16,Medium
+CASE-000727,0,Non-serious,3,60.0,71,17,Healthcare Professional,0.919,Middle East,0.5,Gastrointestinal Disorders,2,0.21,3.36,Low
+CASE-000728,1,Congenital Anomaly,8,80.0,68,39,Healthcare Professional,0.74,Latin America,0.6,Respiratory Disorders,2,0.449,4.35,Medium
+CASE-000729,1,Disability,8,70.0,33,22,Pharmacist,0.816,Latin America,0.6,Blood Disorders,0,0.594,5.57,Medium
+CASE-000730,0,Non-serious,2,40.0,22,19,Patient,0.696,Asia-Pacific,0.7,Nervous System Disorders,1,0.619,3.68,Low
+CASE-000731,1,Congenital Anomaly,8,60.0,27,10,Consumer,0.461,Middle East,0.5,Renal Disorders,1,0.574,4.93,Medium
+CASE-000732,0,Non-serious,4,40.0,10,2,Other HCP,0.716,North America,0.9,Gastrointestinal Disorders,1,0.519,3.76,Low
+CASE-000733,0,Non-serious,1,90.0,27,11,Consumer,0.474,Latin America,0.6,Other,3,0.618,2.28,Low
+CASE-000734,0,Non-serious,3,70.0,80,1,Patient,0.646,Latin America,0.6,Gastrointestinal Disorders,0,0.346,4.09,Medium
+CASE-000735,1,Disability,8,60.0,8,13,Pharmacist,0.921,Africa,0.5,Other,1,0.321,5.64,Medium
+CASE-000736,1,Other Medically Important,6,60.0,46,40,Healthcare Professional,0.829,Asia-Pacific,0.7,Other,0,0.792,4.61,Medium
+CASE-000737,1,Other Medically Important,6,60.0,13,4,Healthcare Professional,0.949,Latin America,0.6,Hepatic Disorders,3,0.389,4.29,Medium
+CASE-000738,1,Life-threatening,9,60.0,14,34,Other HCP,0.686,Latin America,0.6,Blood Disorders,1,0.234,4.29,Medium
+CASE-000739,0,Non-serious,2,80.0,70,18,Patient,0.516,Middle East,0.5,Renal Disorders,2,0.775,2.49,Low
+CASE-000740,0,Non-serious,1,70.0,20,38,Patient,0.475,Asia-Pacific,0.7,Renal Disorders,2,0.517,2.03,Low
+CASE-000741,0,Non-serious,2,10.0,62,43,Healthcare Professional,0.755,Asia-Pacific,0.7,Renal Disorders,1,0.412,3.02,Low
+CASE-000742,1,Other Medically Important,6,50.0,22,4,Patient,0.586,Asia-Pacific,0.7,Renal Disorders,0,0.715,5.8,Medium
+CASE-000743,0,Non-serious,1,80.0,65,37,Pharmacist,0.896,Latin America,0.6,Other,3,0.414,1.6,Low
+CASE-000744,1,Disability,8,30.0,65,41,Pharmacist,0.893,Africa,0.5,Psychiatric Disorders,2,0.406,5.82,Medium
+CASE-000745,0,Non-serious,2,40.0,21,8,Patient,0.412,Europe,0.95,Respiratory Disorders,2,0.794,3.53,Low
+CASE-000746,0,Non-serious,1,50.0,39,7,Pharmacist,0.809,Latin America,0.6,Psychiatric Disorders,4,0.556,2.88,Low
+CASE-000747,0,Non-serious,3,20.0,52,44,Other HCP,0.782,Africa,0.5,Other,2,0.427,3.83,Low
+CASE-000748,0,Non-serious,3,40.0,52,13,Patient,0.406,Middle East,0.5,Skin Disorders,2,0.617,4.54,Medium
+CASE-000749,0,Non-serious,4,30.0,29,3,Healthcare Professional,0.704,Middle East,0.5,Blood Disorders,3,0.39,4.54,Medium
+CASE-000750,1,Life-threatening,9,50.0,89,8,Patient,0.45,Latin America,0.6,Other,2,0.238,7.02,High
+CASE-000751,0,Non-serious,2,80.0,78,33,Patient,0.674,Africa,0.5,Renal Disorders,3,0.5,1.67,Low
+CASE-000752,1,Congenital Anomaly,8,40.0,46,35,Other HCP,0.738,Europe,0.95,Renal Disorders,1,0.734,5.72,Medium
+CASE-000753,0,Non-serious,2,50.0,84,16,Healthcare Professional,0.852,Middle East,0.5,Cardiac Disorders,0,0.209,4.3,Medium
+CASE-000754,1,Congenital Anomaly,8,70.0,42,38,Pharmacist,0.941,Africa,0.5,Psychiatric Disorders,2,0.759,4.62,Medium
+CASE-000755,1,Death,10,70.0,34,1,Healthcare Professional,0.706,Asia-Pacific,0.7,Cardiac Disorders,0,0.401,6.18,High
+CASE-000756,1,Other Medically Important,6,60.0,10,26,Patient,0.667,Africa,0.5,Renal Disorders,1,0.416,4.03,Medium
+CASE-000757,1,Hospitalization,7,20.0,49,21,Other HCP,0.761,Asia-Pacific,0.7,Hepatic Disorders,2,0.456,5.88,Medium
+CASE-000758,0,Non-serious,4,40.0,77,16,Pharmacist,0.923,Asia-Pacific,0.7,Respiratory Disorders,1,0.667,4.61,Medium
+CASE-000759,1,Disability,8,20.0,9,20,Consumer,0.476,Latin America,0.6,Gastrointestinal Disorders,2,0.767,5.47,Medium
+CASE-000760,1,Death,10,50.0,34,38,Patient,0.6,Middle East,0.5,Hepatic Disorders,1,0.282,4.95,Medium
+CASE-000761,0,Non-serious,4,70.0,22,32,Patient,0.437,North America,0.9,Skin Disorders,0,0.519,2.73,Low
+CASE-000762,1,Death,10,90.0,66,36,Pharmacist,0.886,Middle East,0.5,Other,1,0.483,4.55,Medium
+CASE-000763,0,Non-serious,4,70.0,6,38,Patient,0.523,Middle East,0.5,Other,3,0.782,3.05,Low
+CASE-000764,0,Non-serious,3,80.0,61,15,Consumer,0.565,North America,0.9,Hepatic Disorders,1,0.515,3.9,Low
+CASE-000765,0,Non-serious,1,90.0,65,11,Consumer,0.477,Middle East,0.5,Nervous System Disorders,2,0.634,1.78,Low
+CASE-000766,1,Hospitalization,7,80.0,2,37,Patient,0.491,Africa,0.5,Nervous System Disorders,1,0.416,3.25,Low
+CASE-000767,0,Non-serious,3,40.0,36,31,Healthcare Professional,0.873,Asia-Pacific,0.7,Nervous System Disorders,3,0.343,3.35,Low
+CASE-000768,1,Death,10,90.0,80,28,Other HCP,0.735,Europe,0.95,Psychiatric Disorders,1,0.616,5.35,Medium
+CASE-000769,0,Non-serious,3,60.0,55,5,Healthcare Professional,0.791,Africa,0.5,Gastrointestinal Disorders,1,0.426,4.7,Medium
+CASE-000770,0,Non-serious,2,10.0,61,36,Patient,0.48,Middle East,0.5,Nervous System Disorders,1,0.392,4.28,Medium
+CASE-000771,1,Disability,8,100.0,61,17,Patient,0.694,Latin America,0.6,Nervous System Disorders,7,0.507,4.59,Medium
+CASE-000772,0,Non-serious,4,30.0,29,20,Healthcare Professional,0.792,North America,0.9,Skin Disorders,1,0.591,5.2,Medium
+CASE-000773,0,Non-serious,4,100.0,52,42,Patient,0.603,Asia-Pacific,0.7,Hepatic Disorders,2,0.515,2.98,Low
+CASE-000774,1,Congenital Anomaly,8,70.0,84,37,Pharmacist,0.811,Latin America,0.6,Gastrointestinal Disorders,0,0.25,3.71,Low
+CASE-000775,0,Non-serious,1,50.0,66,38,Patient,0.6,Africa,0.5,Cardiac Disorders,1,0.551,2.71,Low
+CASE-000776,1,Other Medically Important,6,60.0,13,34,Other HCP,0.716,Europe,0.95,Blood Disorders,1,0.741,3.95,Low
+CASE-000777,1,Other Medically Important,6,80.0,51,42,Healthcare Professional,0.791,Africa,0.5,Psychiatric Disorders,4,0.217,3.22,Low
+CASE-000778,0,Non-serious,1,70.0,73,34,Other HCP,0.846,Middle East,0.5,Skin Disorders,4,0.469,2.08,Low
+CASE-000779,0,Non-serious,2,50.0,22,17,Healthcare Professional,0.709,Asia-Pacific,0.7,Respiratory Disorders,3,0.367,2.92,Low
+CASE-000780,0,Non-serious,4,20.0,27,16,Healthcare Professional,0.765,Middle East,0.5,Respiratory Disorders,2,0.556,5.31,Medium
+CASE-000781,0,Non-serious,4,30.0,54,38,Pharmacist,0.776,Europe,0.95,Renal Disorders,1,0.416,4.46,Medium
+CASE-000782,0,Non-serious,2,50.0,36,30,Healthcare Professional,0.865,Europe,0.95,Nervous System Disorders,0,0.705,2.34,Low
+CASE-000783,0,Non-serious,3,80.0,89,31,Patient,0.409,Europe,0.95,Gastrointestinal Disorders,1,0.681,2.91,Low
+CASE-000784,1,Disability,8,60.0,65,7,Patient,0.609,Middle East,0.5,Other,2,0.6,4.33,Medium
+CASE-000785,0,Non-serious,1,80.0,39,23,Healthcare Professional,0.712,North America,0.9,Skin Disorders,2,0.461,1.97,Low
+CASE-000786,1,Disability,8,80.0,3,17,Other HCP,0.756,Latin America,0.6,Skin Disorders,2,0.594,4.56,Medium
+CASE-000787,0,Non-serious,3,40.0,69,9,Pharmacist,0.834,Latin America,0.6,Blood Disorders,1,0.47,4.26,Medium
+CASE-000788,0,Non-serious,2,70.0,77,13,Other HCP,0.71,Europe,0.95,Renal Disorders,2,0.672,3.7,Low
+CASE-000789,1,Other Medically Important,6,60.0,54,36,Healthcare Professional,0.928,Africa,0.5,Cardiac Disorders,4,0.28,3.72,Low
+CASE-000790,0,Non-serious,1,80.0,87,27,Other HCP,0.849,Asia-Pacific,0.7,Respiratory Disorders,2,0.697,1.93,Low
+CASE-000791,0,Non-serious,3,50.0,22,44,Other HCP,0.771,Europe,0.95,Nervous System Disorders,1,0.345,2.72,Low
+CASE-000792,1,Congenital Anomaly,8,50.0,49,4,Consumer,0.412,Africa,0.5,Hepatic Disorders,0,0.373,5.52,Medium
+CASE-000793,0,Non-serious,3,30.0,31,9,Patient,0.559,Europe,0.95,Cardiac Disorders,3,0.418,4.98,Medium
+CASE-000794,1,Disability,8,80.0,34,17,Consumer,0.454,Europe,0.95,Cardiac Disorders,4,0.619,5.17,Medium
+CASE-000795,0,Non-serious,2,10.0,55,1,Other HCP,0.774,Latin America,0.6,Psychiatric Disorders,1,0.772,5.68,Medium
+CASE-000796,0,Non-serious,4,50.0,66,13,Consumer,0.327,North America,0.9,Blood Disorders,0,0.228,3.94,Low
+CASE-000797,1,Congenital Anomaly,8,80.0,80,35,Patient,0.582,Middle East,0.5,Cardiac Disorders,0,0.71,4.32,Medium
+CASE-000798,1,Other Medically Important,6,70.0,25,22,Patient,0.626,Africa,0.5,Gastrointestinal Disorders,2,0.521,3.93,Low
+CASE-000799,0,Non-serious,3,50.0,68,27,Patient,0.443,Latin America,0.6,Psychiatric Disorders,3,0.609,3.84,Low
+CASE-000800,0,Non-serious,2,60.0,89,29,Pharmacist,0.78,Asia-Pacific,0.7,Cardiac Disorders,5,0.359,3.08,Low
+CASE-000801,1,Congenital Anomaly,8,10.0,28,35,Pharmacist,0.818,Asia-Pacific,0.7,Blood Disorders,2,0.636,6.16,High
+CASE-000802,1,Congenital Anomaly,8,60.0,15,29,Pharmacist,0.788,Middle East,0.5,Gastrointestinal Disorders,1,0.343,4.62,Medium
+CASE-000803,1,Death,10,100.0,66,40,Pharmacist,0.88,Middle East,0.5,Respiratory Disorders,0,0.304,4.65,Medium
+CASE-000804,0,Non-serious,2,60.0,37,19,Consumer,0.546,Latin America,0.6,Gastrointestinal Disorders,0,0.241,3.1,Low
+CASE-000805,1,Life-threatening,9,80.0,85,9,Other HCP,0.691,Middle East,0.5,Cardiac Disorders,3,0.535,6.44,High
+CASE-000806,0,Non-serious,2,50.0,80,14,Consumer,0.564,Middle East,0.5,Renal Disorders,2,0.388,4.03,Medium
+CASE-000807,1,Hospitalization,7,50.0,76,30,Healthcare Professional,0.774,Middle East,0.5,Other,1,0.414,5.01,Medium
+CASE-000808,1,Other Medically Important,6,90.0,83,39,Other HCP,0.772,Africa,0.5,Cardiac Disorders,3,0.348,3.69,Low
+CASE-000809,0,Non-serious,2,30.0,1,33,Healthcare Professional,0.771,Europe,0.95,Blood Disorders,3,0.508,2.53,Low
+CASE-000810,0,Non-serious,4,60.0,29,34,Pharmacist,0.935,Europe,0.95,Gastrointestinal Disorders,2,0.369,4.08,Medium
+CASE-000811,0,Non-serious,4,50.0,22,8,Other HCP,0.771,Middle East,0.5,Nervous System Disorders,1,0.726,4.7,Medium
+CASE-000812,0,Non-serious,2,50.0,26,13,Other HCP,0.663,Europe,0.95,Gastrointestinal Disorders,2,0.619,3.41,Low
+CASE-000813,0,Non-serious,2,60.0,46,36,Healthcare Professional,0.825,Latin America,0.6,Hepatic Disorders,0,0.603,2.02,Low
+CASE-000814,1,Other Medically Important,6,30.0,29,31,Patient,0.478,North America,0.9,Cardiac Disorders,2,0.512,4.98,Medium
+CASE-000815,0,Non-serious,4,20.0,80,23,Patient,0.625,Europe,0.95,Psychiatric Disorders,1,0.219,6.07,High
+CASE-000816,0,Non-serious,3,60.0,29,37,Pharmacist,0.923,Latin America,0.6,Gastrointestinal Disorders,2,0.653,2.01,Low
+CASE-000817,0,Non-serious,3,60.0,25,12,Patient,0.632,Middle East,0.5,Skin Disorders,1,0.718,3.62,Low
+CASE-000818,0,Non-serious,4,80.0,10,9,Consumer,0.524,North America,0.9,Renal Disorders,1,0.625,3.71,Low
+CASE-000819,0,Non-serious,4,70.0,87,31,Other HCP,0.762,Asia-Pacific,0.7,Cardiac Disorders,3,0.542,3.82,Low
+CASE-000820,0,Non-serious,3,80.0,51,5,Pharmacist,0.765,Middle East,0.5,Blood Disorders,4,0.7,3.64,Low
+CASE-000821,0,Non-serious,1,10.0,32,16,Consumer,0.501,Latin America,0.6,Renal Disorders,1,0.573,4.78,Medium
+CASE-000822,0,Non-serious,3,80.0,26,43,Pharmacist,0.947,Middle East,0.5,Nervous System Disorders,3,0.639,2.09,Low
+CASE-000823,1,Death,10,70.0,5,8,Consumer,0.555,Africa,0.5,Other,0,0.421,5.93,Medium
+CASE-000824,0,Non-serious,1,60.0,5,15,Patient,0.518,Middle East,0.5,Blood Disorders,2,0.269,2.06,Low
+CASE-000825,0,Non-serious,2,80.0,77,2,Patient,0.652,Latin America,0.6,Other,1,0.675,3.46,Low
+CASE-000826,0,Non-serious,4,70.0,35,31,Consumer,0.469,North America,0.9,Psychiatric Disorders,1,0.269,3.28,Low
+CASE-000827,1,Death,10,60.0,80,16,Pharmacist,0.8,Europe,0.95,Gastrointestinal Disorders,0,0.562,6.62,High
+CASE-000828,1,Disability,8,40.0,5,28,Pharmacist,0.929,Latin America,0.6,Gastrointestinal Disorders,2,0.345,4.15,Medium
+CASE-000829,0,Non-serious,4,90.0,23,39,Consumer,0.302,Middle East,0.5,Nervous System Disorders,0,0.681,2.83,Low
+CASE-000830,0,Non-serious,2,30.0,32,40,Pharmacist,0.794,Africa,0.5,Cardiac Disorders,3,0.643,3.1,Low
+CASE-000831,1,Life-threatening,9,60.0,39,37,Healthcare Professional,0.705,Latin America,0.6,Gastrointestinal Disorders,0,0.397,5.35,Medium
+CASE-000832,1,Other Medically Important,6,90.0,12,4,Healthcare Professional,0.902,Asia-Pacific,0.7,Hepatic Disorders,0,0.359,3.99,Low
+CASE-000833,0,Non-serious,4,40.0,31,11,Patient,0.484,Middle East,0.5,Cardiac Disorders,4,0.57,4.65,Medium
+CASE-000834,0,Non-serious,2,70.0,46,20,Other HCP,0.648,Asia-Pacific,0.7,Nervous System Disorders,0,0.287,2.02,Low
+CASE-000835,0,Non-serious,2,90.0,2,41,Patient,0.611,North America,0.9,Cardiac Disorders,3,0.321,2.0,Low
+CASE-000836,0,Non-serious,2,60.0,25,13,Consumer,0.405,Europe,0.95,Hepatic Disorders,1,0.23,4.51,Medium
+CASE-000837,0,Non-serious,1,100.0,13,9,Patient,0.561,Middle East,0.5,Blood Disorders,3,0.442,1.93,Low
+CASE-000838,1,Life-threatening,9,50.0,50,42,Other HCP,0.725,Europe,0.95,Renal Disorders,3,0.36,7.0,High
+CASE-000839,1,Congenital Anomaly,8,60.0,29,11,Consumer,0.375,Africa,0.5,Respiratory Disorders,2,0.435,5.03,Medium
+CASE-000840,0,Non-serious,4,50.0,88,9,Pharmacist,0.865,Europe,0.95,Respiratory Disorders,1,0.627,5.49,Medium
+CASE-000841,0,Non-serious,2,30.0,49,36,Healthcare Professional,0.763,Latin America,0.6,Psychiatric Disorders,4,0.596,4.02,Medium
+CASE-000842,1,Life-threatening,9,70.0,8,29,Patient,0.541,Latin America,0.6,Gastrointestinal Disorders,1,0.611,5.09,Medium
+CASE-000843,0,Non-serious,4,40.0,64,24,Patient,0.67,North America,0.9,Nervous System Disorders,3,0.247,3.39,Low
+CASE-000844,1,Life-threatening,9,20.0,82,27,Patient,0.502,Europe,0.95,Psychiatric Disorders,3,0.616,7.01,High
+CASE-000845,1,Death,10,60.0,32,33,Pharmacist,0.788,Europe,0.95,Skin Disorders,0,0.586,5.12,Medium
+CASE-000846,0,Non-serious,3,30.0,63,12,Other HCP,0.811,Latin America,0.6,Nervous System Disorders,2,0.606,4.52,Medium
+CASE-000847,0,Non-serious,2,50.0,11,44,Pharmacist,0.779,North America,0.9,Nervous System Disorders,2,0.333,2.01,Low
+CASE-000848,0,Non-serious,1,80.0,14,14,Healthcare Professional,0.851,Middle East,0.5,Nervous System Disorders,4,0.509,2.56,Low
+CASE-000849,0,Non-serious,2,70.0,69,20,Consumer,0.311,Middle East,0.5,Cardiac Disorders,1,0.471,2.64,Low
+CASE-000850,0,Non-serious,4,90.0,12,24,Other HCP,0.734,North America,0.9,Blood Disorders,1,0.224,2.19,Low
+CASE-000851,0,Non-serious,1,20.0,84,44,Healthcare Professional,0.924,Africa,0.5,Skin Disorders,1,0.765,3.03,Low
+CASE-000852,0,Non-serious,3,40.0,55,21,Healthcare Professional,0.836,Europe,0.95,Nervous System Disorders,0,0.715,4.12,Medium
+CASE-000853,0,Non-serious,1,100.0,7,40,Other HCP,0.789,Latin America,0.6,Blood Disorders,1,0.552,1.0,Low
+CASE-000854,0,Non-serious,1,90.0,12,44,Consumer,0.595,Africa,0.5,Nervous System Disorders,0,0.23,1.0,Low
+CASE-000855,1,Hospitalization,7,30.0,43,7,Healthcare Professional,0.912,Asia-Pacific,0.7,Hepatic Disorders,2,0.522,5.93,Medium
+CASE-000856,0,Non-serious,3,70.0,38,20,Pharmacist,0.914,Latin America,0.6,Psychiatric Disorders,0,0.444,4.31,Medium
+CASE-000857,1,Life-threatening,9,30.0,31,43,Healthcare Professional,0.92,North America,0.9,Respiratory Disorders,0,0.715,4.79,Medium
+CASE-000858,0,Non-serious,3,60.0,40,31,Patient,0.447,Asia-Pacific,0.7,Gastrointestinal Disorders,1,0.505,3.19,Low
+CASE-000859,0,Non-serious,1,40.0,66,14,Pharmacist,0.837,Latin America,0.6,Other,1,0.323,3.6,Low
+CASE-000860,0,Non-serious,1,80.0,67,33,Pharmacist,0.844,Asia-Pacific,0.7,Blood Disorders,1,0.411,2.5,Low
+CASE-000861,0,Non-serious,4,70.0,72,3,Other HCP,0.678,Africa,0.5,Skin Disorders,0,0.465,4.02,Medium
+CASE-000862,1,Disability,8,90.0,63,38,Consumer,0.474,Europe,0.95,Blood Disorders,1,0.756,3.65,Low
+CASE-000863,0,Non-serious,3,70.0,29,21,Pharmacist,0.838,Europe,0.95,Hepatic Disorders,3,0.798,3.54,Low
+CASE-000864,0,Non-serious,1,80.0,8,27,Consumer,0.454,North America,0.9,Respiratory Disorders,2,0.423,1.21,Low
+CASE-000865,0,Non-serious,1,80.0,73,10,Consumer,0.359,Europe,0.95,Renal Disorders,1,0.397,3.18,Low
+CASE-000866,0,Non-serious,1,80.0,58,11,Healthcare Professional,0.881,Asia-Pacific,0.7,Renal Disorders,1,0.784,3.22,Low
+CASE-000867,0,Non-serious,4,30.0,43,26,Other HCP,0.643,Latin America,0.6,Respiratory Disorders,1,0.799,4.75,Medium
+CASE-000868,1,Life-threatening,9,50.0,8,31,Patient,0.625,Africa,0.5,Hepatic Disorders,1,0.349,4.6,Medium
+CASE-000869,0,Non-serious,3,40.0,30,33,Consumer,0.507,Latin America,0.6,Nervous System Disorders,1,0.568,3.08,Low
+CASE-000870,0,Non-serious,1,50.0,80,20,Consumer,0.492,Europe,0.95,Blood Disorders,1,0.409,3.42,Low
+CASE-000871,1,Death,10,100.0,85,8,Other HCP,0.85,Asia-Pacific,0.7,Renal Disorders,2,0.435,5.98,Medium
+CASE-000872,0,Non-serious,4,90.0,83,22,Pharmacist,0.92,Africa,0.5,Renal Disorders,2,0.566,3.06,Low
+CASE-000873,0,Non-serious,2,40.0,26,10,Patient,0.539,Latin America,0.6,Psychiatric Disorders,4,0.332,4.14,Medium
+CASE-000874,1,Congenital Anomaly,8,40.0,54,3,Other HCP,0.817,Middle East,0.5,Gastrointestinal Disorders,1,0.569,6.51,High
+CASE-000875,0,Non-serious,4,40.0,66,37,Healthcare Professional,0.903,Latin America,0.6,Hepatic Disorders,0,0.459,4.89,Medium
+CASE-000876,1,Hospitalization,7,20.0,49,23,Consumer,0.596,Europe,0.95,Nervous System Disorders,0,0.717,5.13,Medium
+CASE-000877,1,Death,10,40.0,61,39,Consumer,0.433,Middle East,0.5,Hepatic Disorders,0,0.275,6.54,High
+CASE-000878,1,Disability,8,60.0,56,8,Other HCP,0.631,Latin America,0.6,Cardiac Disorders,2,0.419,5.29,Medium
+CASE-000879,1,Death,10,90.0,56,6,Healthcare Professional,0.722,Latin America,0.6,Psychiatric Disorders,2,0.568,5.98,Medium
+CASE-000880,0,Non-serious,1,50.0,45,16,Other HCP,0.629,North America,0.9,Skin Disorders,2,0.59,4.24,Medium
+CASE-000881,0,Non-serious,4,70.0,76,13,Consumer,0.532,North America,0.9,Other,0,0.717,3.67,Low
+CASE-000882,0,Non-serious,1,80.0,70,26,Consumer,0.512,Middle East,0.5,Other,0,0.599,2.64,Low
+CASE-000883,0,Non-serious,4,70.0,43,4,Pharmacist,0.892,Middle East,0.5,Respiratory Disorders,2,0.766,3.79,Low
+CASE-000884,0,Non-serious,1,40.0,23,9,Other HCP,0.607,Asia-Pacific,0.7,Other,0,0.669,2.73,Low
+CASE-000885,0,Non-serious,4,70.0,7,7,Healthcare Professional,0.926,North America,0.9,Cardiac Disorders,1,0.435,3.15,Low
+CASE-000886,1,Death,10,70.0,28,21,Healthcare Professional,0.769,Middle East,0.5,Other,0,0.696,5.61,Medium
+CASE-000887,0,Non-serious,1,40.0,54,9,Consumer,0.302,Asia-Pacific,0.7,Nervous System Disorders,2,0.237,4.42,Medium
+CASE-000888,0,Non-serious,1,20.0,4,28,Pharmacist,0.861,Africa,0.5,Blood Disorders,2,0.724,3.46,Low
+CASE-000889,1,Life-threatening,9,70.0,10,30,Pharmacist,0.775,Latin America,0.6,Gastrointestinal Disorders,1,0.774,3.92,Low
+CASE-000890,0,Non-serious,3,70.0,80,31,Other HCP,0.697,Africa,0.5,Skin Disorders,2,0.247,4.08,Medium
+CASE-000891,0,Non-serious,3,30.0,2,20,Patient,0.542,Africa,0.5,Other,3,0.38,3.22,Low
+CASE-000892,0,Non-serious,2,100.0,72,15,Consumer,0.458,North America,0.9,Gastrointestinal Disorders,0,0.502,2.13,Low
+CASE-000893,0,Non-serious,1,70.0,63,27,Healthcare Professional,0.777,Middle East,0.5,Skin Disorders,3,0.696,1.76,Low
+CASE-000894,0,Non-serious,3,70.0,46,1,Other HCP,0.778,Africa,0.5,Gastrointestinal Disorders,4,0.209,3.09,Low
+CASE-000895,1,Congenital Anomaly,8,90.0,21,22,Other HCP,0.665,Middle East,0.5,Other,2,0.599,4.03,Medium
+CASE-000896,0,Non-serious,1,50.0,37,30,Pharmacist,0.773,North America,0.9,Gastrointestinal Disorders,1,0.761,2.97,Low
+CASE-000897,1,Disability,8,40.0,66,4,Pharmacist,0.919,Africa,0.5,Skin Disorders,4,0.482,6.12,High
+CASE-000898,1,Other Medically Important,6,70.0,38,3,Healthcare Professional,0.793,Latin America,0.6,Gastrointestinal Disorders,3,0.602,4.63,Medium
+CASE-000899,0,Non-serious,1,30.0,15,8,Patient,0.686,Europe,0.95,Gastrointestinal Disorders,0,0.565,3.81,Low
+CASE-000900,0,Non-serious,1,30.0,1,43,Patient,0.434,North America,0.9,Cardiac Disorders,2,0.764,2.38,Low
+CASE-000901,0,Non-serious,2,60.0,67,32,Consumer,0.469,Middle East,0.5,Other,1,0.424,3.02,Low
+CASE-000902,0,Non-serious,3,80.0,84,33,Healthcare Professional,0.775,North America,0.9,Hepatic Disorders,1,0.701,2.39,Low
+CASE-000903,0,Non-serious,4,50.0,11,37,Healthcare Professional,0.944,Europe,0.95,Gastrointestinal Disorders,2,0.439,2.9,Low
+CASE-000904,1,Life-threatening,9,90.0,46,21,Patient,0.559,Latin America,0.6,Psychiatric Disorders,0,0.579,4.95,Medium
+CASE-000905,0,Non-serious,1,50.0,46,15,Patient,0.699,Middle East,0.5,Gastrointestinal Disorders,0,0.646,3.19,Low
+CASE-000906,0,Non-serious,1,20.0,71,6,Healthcare Professional,0.846,Latin America,0.6,Renal Disorders,4,0.695,4.12,Medium
+CASE-000907,0,Non-serious,4,70.0,81,34,Consumer,0.474,Asia-Pacific,0.7,Other,0,0.737,3.07,Low
+CASE-000908,0,Non-serious,2,50.0,45,10,Other HCP,0.613,Africa,0.5,Blood Disorders,1,0.371,3.89,Low
+CASE-000909,1,Disability,8,50.0,12,40,Pharmacist,0.75,Middle East,0.5,Nervous System Disorders,3,0.462,5.15,Medium
+CASE-000910,0,Non-serious,4,50.0,76,33,Healthcare Professional,0.865,Middle East,0.5,Other,2,0.416,4.48,Medium
+CASE-000911,1,Disability,8,30.0,46,30,Other HCP,0.762,Europe,0.95,Gastrointestinal Disorders,3,0.627,5.87,Medium
+CASE-000912,0,Non-serious,2,70.0,36,1,Healthcare Professional,0.927,Latin America,0.6,Nervous System Disorders,5,0.401,3.36,Low
+CASE-000913,1,Congenital Anomaly,8,70.0,88,34,Pharmacist,0.922,North America,0.9,Renal Disorders,3,0.5,4.64,Medium
+CASE-000914,0,Non-serious,4,50.0,20,28,Pharmacist,0.806,Europe,0.95,Cardiac Disorders,3,0.237,4.05,Medium
+CASE-000915,1,Disability,8,70.0,51,7,Consumer,0.507,Middle East,0.5,Nervous System Disorders,1,0.33,5.89,Medium
+CASE-000916,1,Disability,8,30.0,63,27,Consumer,0.518,Latin America,0.6,Renal Disorders,1,0.241,6.1,High
+CASE-000917,1,Hospitalization,7,90.0,68,28,Healthcare Professional,0.763,Middle East,0.5,Other,3,0.209,4.51,Medium
+CASE-000918,0,Non-serious,1,40.0,44,40,Healthcare Professional,0.855,Asia-Pacific,0.7,Skin Disorders,1,0.532,2.71,Low
+CASE-000919,0,Non-serious,2,80.0,59,28,Patient,0.643,Africa,0.5,Nervous System Disorders,3,0.246,2.44,Low
+CASE-000920,1,Disability,8,70.0,77,22,Consumer,0.506,North America,0.9,Nervous System Disorders,0,0.432,5.29,Medium
+CASE-000921,0,Non-serious,1,60.0,42,30,Pharmacist,0.78,Europe,0.95,Skin Disorders,1,0.746,3.41,Low
+CASE-000922,0,Non-serious,1,80.0,11,11,Healthcare Professional,0.854,Asia-Pacific,0.7,Nervous System Disorders,2,0.792,1.93,Low
+CASE-000923,0,Non-serious,1,30.0,46,5,Healthcare Professional,0.762,Asia-Pacific,0.7,Other,2,0.338,4.45,Medium
+CASE-000924,0,Non-serious,2,40.0,38,1,Pharmacist,0.918,Asia-Pacific,0.7,Gastrointestinal Disorders,2,0.396,3.42,Low
+CASE-000925,1,Other Medically Important,6,40.0,54,32,Patient,0.446,Europe,0.95,Blood Disorders,1,0.349,4.91,Medium
+CASE-000926,0,Non-serious,1,40.0,68,22,Patient,0.523,Africa,0.5,Nervous System Disorders,3,0.74,3.48,Low
+CASE-000927,1,Death,10,90.0,48,43,Pharmacist,0.781,Middle East,0.5,Psychiatric Disorders,2,0.624,4.53,Medium
+CASE-000928,1,Hospitalization,7,30.0,84,2,Healthcare Professional,0.874,Europe,0.95,Hepatic Disorders,0,0.596,6.87,High
+CASE-000929,0,Non-serious,2,80.0,20,31,Other HCP,0.76,Latin America,0.6,Blood Disorders,1,0.247,2.3,Low
+CASE-000930,1,Congenital Anomaly,8,70.0,87,31,Other HCP,0.623,Latin America,0.6,Renal Disorders,2,0.296,4.91,Medium
+CASE-000931,0,Non-serious,4,40.0,31,12,Patient,0.698,Middle East,0.5,Other,2,0.742,4.13,Medium
+CASE-000932,0,Non-serious,4,80.0,73,37,Patient,0.622,Europe,0.95,Other,2,0.375,2.57,Low
+CASE-000933,1,Life-threatening,9,80.0,25,30,Consumer,0.328,North America,0.9,Other,3,0.63,4.67,Medium
+CASE-000934,0,Non-serious,1,70.0,55,32,Consumer,0.491,Middle East,0.5,Gastrointestinal Disorders,2,0.306,3.26,Low
+CASE-000935,0,Non-serious,1,60.0,61,36,Consumer,0.399,Asia-Pacific,0.7,Hepatic Disorders,1,0.28,2.33,Low
+CASE-000936,0,Non-serious,1,40.0,80,19,Consumer,0.421,Middle East,0.5,Blood Disorders,2,0.649,3.16,Low
+CASE-000937,0,Non-serious,2,70.0,0,13,Consumer,0.568,Asia-Pacific,0.7,Cardiac Disorders,2,0.224,3.92,Low
+CASE-000938,0,Non-serious,4,100.0,36,19,Consumer,0.356,North America,0.9,Nervous System Disorders,1,0.528,2.57,Low
+CASE-000939,1,Hospitalization,7,10.0,50,3,Other HCP,0.689,Asia-Pacific,0.7,Renal Disorders,1,0.249,7.18,High
+CASE-000940,0,Non-serious,1,80.0,56,2,Other HCP,0.71,Middle East,0.5,Respiratory Disorders,0,0.331,2.79,Low
+CASE-000941,0,Non-serious,1,60.0,13,44,Consumer,0.468,Middle East,0.5,Cardiac Disorders,4,0.318,1.37,Low
+CASE-000942,1,Disability,8,90.0,39,24,Healthcare Professional,0.734,North America,0.9,Blood Disorders,2,0.238,4.07,Medium
+CASE-000943,0,Non-serious,1,70.0,17,16,Pharmacist,0.908,North America,0.9,Cardiac Disorders,2,0.253,2.76,Low
+CASE-000944,1,Disability,8,50.0,4,21,Other HCP,0.702,North America,0.9,Renal Disorders,2,0.628,5.17,Medium
+CASE-000945,0,Non-serious,1,70.0,65,15,Healthcare Professional,0.911,North America,0.9,Nervous System Disorders,2,0.354,1.46,Low
+CASE-000946,0,Non-serious,4,30.0,75,39,Consumer,0.324,Middle East,0.5,Renal Disorders,4,0.712,4.12,Medium
+CASE-000947,1,Life-threatening,9,90.0,78,4,Consumer,0.443,Asia-Pacific,0.7,Gastrointestinal Disorders,1,0.377,4.97,Medium
+CASE-000948,0,Non-serious,4,70.0,35,16,Healthcare Professional,0.775,North America,0.9,Hepatic Disorders,2,0.637,4.07,Medium
+CASE-000949,0,Non-serious,3,40.0,41,15,Consumer,0.527,Asia-Pacific,0.7,Hepatic Disorders,0,0.438,4.39,Medium
+CASE-000950,1,Other Medically Important,6,50.0,0,43,Consumer,0.434,Africa,0.5,Respiratory Disorders,0,0.706,3.84,Low
+CASE-000951,0,Non-serious,1,40.0,60,20,Pharmacist,0.816,North America,0.9,Other,1,0.665,3.46,Low
+CASE-000952,0,Non-serious,2,80.0,61,10,Consumer,0.472,Asia-Pacific,0.7,Blood Disorders,2,0.447,2.74,Low
+CASE-000953,0,Non-serious,2,50.0,81,25,Pharmacist,0.934,Europe,0.95,Skin Disorders,3,0.713,3.29,Low
+CASE-000954,0,Non-serious,2,50.0,87,2,Patient,0.441,Middle East,0.5,Hepatic Disorders,0,0.546,4.21,Medium
+CASE-000955,0,Non-serious,4,90.0,33,20,Consumer,0.541,North America,0.9,Cardiac Disorders,2,0.698,3.45,Low
+CASE-000956,0,Non-serious,2,60.0,61,35,Patient,0.417,Middle East,0.5,Blood Disorders,5,0.281,2.03,Low
+CASE-000957,0,Non-serious,3,70.0,82,31,Healthcare Professional,0.794,Asia-Pacific,0.7,Cardiac Disorders,2,0.384,2.75,Low
+CASE-000958,0,Non-serious,4,20.0,68,26,Other HCP,0.829,Europe,0.95,Nervous System Disorders,1,0.468,4.76,Medium
+CASE-000959,0,Non-serious,4,90.0,31,34,Other HCP,0.79,North America,0.9,Renal Disorders,1,0.506,2.15,Low
+CASE-000960,0,Non-serious,1,40.0,21,33,Healthcare Professional,0.943,Middle East,0.5,Gastrointestinal Disorders,4,0.486,2.2,Low
+CASE-000961,1,Death,10,20.0,52,6,Patient,0.642,Middle East,0.5,Renal Disorders,3,0.449,7.84,High
+CASE-000962,0,Non-serious,4,80.0,3,42,Pharmacist,0.911,Latin America,0.6,Gastrointestinal Disorders,0,0.536,2.87,Low
+CASE-000963,1,Other Medically Important,6,80.0,64,41,Pharmacist,0.801,North America,0.9,Hepatic Disorders,3,0.272,3.92,Low
+CASE-000964,0,Non-serious,3,50.0,47,13,Healthcare Professional,0.834,Latin America,0.6,Blood Disorders,1,0.277,4.61,Medium
+CASE-000965,1,Hospitalization,7,70.0,19,41,Consumer,0.521,Europe,0.95,Psychiatric Disorders,1,0.277,2.62,Low
+CASE-000966,0,Non-serious,2,70.0,43,13,Other HCP,0.824,Latin America,0.6,Renal Disorders,3,0.716,3.07,Low
+CASE-000967,0,Non-serious,4,70.0,41,42,Other HCP,0.69,North America,0.9,Cardiac Disorders,2,0.453,2.79,Low
+CASE-000968,0,Non-serious,2,70.0,70,18,Consumer,0.479,Asia-Pacific,0.7,Renal Disorders,0,0.724,3.7,Low
+CASE-000969,1,Death,10,50.0,62,10,Healthcare Professional,0.751,Latin America,0.6,Psychiatric Disorders,1,0.66,6.38,High
+CASE-000970,0,Non-serious,2,70.0,68,30,Healthcare Professional,0.862,Middle East,0.5,Skin Disorders,2,0.326,2.41,Low
+CASE-000971,0,Non-serious,2,30.0,77,36,Other HCP,0.652,Asia-Pacific,0.7,Gastrointestinal Disorders,3,0.353,3.77,Low
+CASE-000972,0,Non-serious,4,40.0,43,35,Consumer,0.59,Europe,0.95,Skin Disorders,2,0.655,4.54,Medium
+CASE-000973,0,Non-serious,4,60.0,87,13,Consumer,0.524,Europe,0.95,Other,0,0.581,4.73,Medium
+CASE-000974,0,Non-serious,3,50.0,65,38,Pharmacist,0.918,Europe,0.95,Other,2,0.64,3.18,Low
+CASE-000975,0,Non-serious,2,30.0,85,34,Patient,0.513,North America,0.9,Nervous System Disorders,1,0.469,3.88,Low
+CASE-000976,1,Other Medically Important,6,40.0,51,17,Pharmacist,0.944,Latin America,0.6,Blood Disorders,1,0.486,5.36,Medium
+CASE-000977,0,Non-serious,2,50.0,25,40,Healthcare Professional,0.949,Europe,0.95,Psychiatric Disorders,1,0.236,2.8,Low
+CASE-000978,0,Non-serious,4,80.0,18,4,Consumer,0.312,North America,0.9,Renal Disorders,0,0.78,3.24,Low
+CASE-000979,0,Non-serious,1,90.0,9,40,Healthcare Professional,0.716,Latin America,0.6,Respiratory Disorders,2,0.508,1.0,Low
+CASE-000980,0,Non-serious,3,40.0,75,6,Healthcare Professional,0.789,North America,0.9,Psychiatric Disorders,1,0.458,3.77,Low
+CASE-000981,0,Non-serious,4,70.0,55,11,Consumer,0.4,Middle East,0.5,Hepatic Disorders,0,0.214,4.71,Medium
+CASE-000982,0,Non-serious,4,40.0,47,37,Healthcare Professional,0.791,Asia-Pacific,0.7,Skin Disorders,2,0.695,3.66,Low
+CASE-000983,1,Hospitalization,7,70.0,57,28,Pharmacist,0.947,Middle East,0.5,Nervous System Disorders,2,0.24,4.92,Medium
+CASE-000984,1,Disability,8,90.0,14,8,Pharmacist,0.83,Europe,0.95,Hepatic Disorders,1,0.761,5.08,Medium
+CASE-000985,0,Non-serious,4,40.0,31,3,Pharmacist,0.759,Middle East,0.5,Other,2,0.787,4.25,Medium
+CASE-000986,0,Non-serious,2,40.0,73,36,Patient,0.697,Africa,0.5,Skin Disorders,3,0.412,4.08,Medium
+CASE-000987,0,Non-serious,4,80.0,86,43,Consumer,0.454,Asia-Pacific,0.7,Cardiac Disorders,3,0.662,2.84,Low
+CASE-000988,1,Death,10,100.0,19,20,Patient,0.689,Africa,0.5,Gastrointestinal Disorders,2,0.25,4.47,Medium
+CASE-000989,1,Congenital Anomaly,8,70.0,64,4,Pharmacist,0.757,Europe,0.95,Renal Disorders,2,0.786,6.03,High
+CASE-000990,0,Non-serious,4,60.0,86,5,Patient,0.674,Europe,0.95,Renal Disorders,2,0.699,5.16,Medium
+CASE-000991,1,Death,10,60.0,12,38,Pharmacist,0.911,Middle East,0.5,Psychiatric Disorders,1,0.233,4.46,Medium
+CASE-000992,0,Non-serious,4,50.0,68,43,Pharmacist,0.914,North America,0.9,Renal Disorders,0,0.669,2.84,Low
+CASE-000993,1,Disability,8,20.0,31,10,Other HCP,0.81,Asia-Pacific,0.7,Other,2,0.651,6.75,High
+CASE-000994,1,Death,10,60.0,67,7,Healthcare Professional,0.769,Latin America,0.6,Renal Disorders,0,0.762,6.46,High
+CASE-000995,1,Congenital Anomaly,8,50.0,11,19,Other HCP,0.657,Middle East,0.5,Hepatic Disorders,0,0.316,5.19,Medium
+CASE-000996,1,Congenital Anomaly,8,60.0,24,38,Consumer,0.348,North America,0.9,Skin Disorders,2,0.499,5.29,Medium
+CASE-000997,1,Congenital Anomaly,8,80.0,46,8,Patient,0.669,Latin America,0.6,Blood Disorders,1,0.789,4.47,Medium
+CASE-000998,1,Death,10,50.0,3,18,Patient,0.421,Europe,0.95,Cardiac Disorders,1,0.706,5.93,Medium
+CASE-000999,1,Hospitalization,7,50.0,72,44,Consumer,0.306,Latin America,0.6,Nervous System Disorders,0,0.327,4.14,Medium
+CASE-001000,0,Non-serious,2,80.0,6,14,Healthcare Professional,0.858,Asia-Pacific,0.7,Cardiac Disorders,2,0.736,1.68,Low
